@@ -1,0 +1,29 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-etc_customer_img {
+    width: 92px;
+    height: 94px;
+    background-position: -5px -5px;
+}
+
+.sprite-etc_news_img {
+    width: 125px;
+    height: 142px;
+    background-position: -107px -5px;
+}
+
+.sprite-etc_purchase_emart_btn {
+    width: 70px;
+    height: 70px;
+    background-position: -242px -5px;
+}
+
+.sprite-etc_purchase_lotte_btn {
+    width: 70px;
+    height: 70px;
+    background-position: -322px -5px;
+}

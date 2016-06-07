@@ -1,0 +1,17 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-item_off_btn {
+    width: 18px;
+    height: 14px;
+    background-position: -5px -5px;
+}
+
+.sprite-item_on_btn {
+    width: 18px;
+    height: 14px;
+    background-position: -33px -5px;
+}
