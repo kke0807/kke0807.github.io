@@ -1,58 +1,145 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=960" />
-    <link rel="stylesheet" href="../portfolio/personal_01/css/reset.css" />
-    <title>Mina의 웹페이지입니다.</title>
-    <style type = "text/css">
-        #warp {
-            width: 100%;height: 900px;margin: 0 auto;background-color: #ccc;padding-top: 60px;}
-        #header_wrap{width: 930px;height: 50px;margin: 0 auto;background-color: #fac;padding: 20px;}
-        #header_wrap>h1{font-size: 2rem;text-align: center;font-weight: bolder;}
-         .now_page{font-size: 1rem; font-weight: normal;}
-        .list_d{width: 950px;height: 200px;margin: 0 auto;background-color: #fff;padding: 10px;}
-        .list_d>header{width: 950px;height: 20px;margin: 0 auto;background-color: #dce;padding: 10px 0;margin-bottom: 10px;}
-        .list_d>header>ul{width: 100%;height: 100%;margin-left: 80px;}
-        .list_d>header>ul>li{width: 25%;height: 100%;float: left}
-        .list_d>header>ul>li a{color: #444;}
-       
-    </style>   
-    <script type="text/javascript"></script>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=960">
+	
+	<link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/flower.css">
+	<script src="./js/jquery/jquery-1.12.3.min.js"></script>
+	<script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+	<script src="./js/jquery/jquery-ui.min.js"></script>
+	<script src="./js/index.js"></script>
+	<title>Mina</title>
+	<style>
+
+    </style>
+	<script>
+    $(function(){
+    
+    var popupBtn = $('#Awesome');
+    var close= $('.close');
+    var popup = $('.popup')
+             
+    popupBtn.on('click',function(){
+
+        popup.fadeIn(300).find('.popupBox');
+        
+    });
+    close.on('click',function(){
+         popup.fadeOut(300);
+    });
+    popup.on('click',function(){
+        popup.fadeOut(100);
+    });
+      
+        
+    });
+	</script>
 </head>
 <body>
-    <div id="warp">
-       <header id="header_wrap">
-        <h1><a href="../index.html">Mina's 웹페이지</a></h1>
-        <p class="now_page"> 현재페이지는 Mina's 학습페이지입니다.</p>
-        </header> 
-     <!--   <p>Mina's Web Main page</p>-->
-        <article class="list_d">
-           <header>
-            <ul>
-                <li><a href="../resume/index.html" target="_blank">개인 이력서</a></li>
-                <li><a href="../portfolio/index.html" target="_blank">포트폴리오</a></li>
-                <li><a href="./index.html" target="_blank">학습 페이지</a></li>
-                <li><a href="../etc/index.html" target="_blank">기타</a></li>
-            </ul> 
-           </header>
+	<div id="wrap">
+       
+        
+        <div id="menu">
+        <div class="mina_logo"><a href="./index.html"><span class="me_hidden">MINA</span></a></div>
+        <ul>
+            <li><a href="#section1">ABOUT</a></li>
+            <li><a href="#section2">PORTFOLIO</a></li>
+            <li><a href="#section3">WOTK GALLERY</a></li>
            
-           <section>
-            <h2>학습내용 익히기</h2>
-            <dl>
-                <dt>step_01</dt>
-                <dd>
-                    <ol>
-                        <li><a href="./step_01_html_basic/atom_01.html">기본웹 구조 익히기</a></li>
-                        <li><a href="./step_01_html_basic/day_02.html">h1~6, p, 기타 기초 코드</a></li>
-                        <li><a href="./step_01_html_basic/day_2_02.html">image 코드</a></li>
-                        <li><a href="./step_01_html_basic/setting.html">list 응용</a></li>
-                    </ol>
-                </dd>
-             </dl>
-             </section>
-        </article>
-    </div><!-- #warp -->
+        </ul>
+        <button class="top_btn"><span class="me_hidden">Top</span></button>
+        </div>
+	    <div id="main_page">
+	       <div class="main_txt">
+               <h1><span>Mina</span><span>web</span><span>Portfolio</span></h1></div>
+	       
+	       <div class="parent">
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+        </div>
+	    </div><!--main-->
+	    
+	    <div id="section1">
+	    <h2 class="about_text">ABOUT</h2>
+	    <div id="Awesome" class="anim750">
+	
+          <div class="reveal circle_wrapper">
+                <div class="circle">click!</div>
+            </div>
+
+            <div class="sticky anim750">
+                <div class="front circle_wrapper anim750">
+                    <div class="circle anim750"></div>
+              </div>
+            </div>
+
+          <h4>Resume</h4>
+
+          <div class="sticky anim750">
+                <div class="back circle_wrapper anim750">
+                    <div class="circle anim750"></div>
+                </div>
+            </div>
+
+        </div>
+	    
+	    <div class="popup">
+            <div class="popupBox">
+              <!--  <img src="#" alt="" />-->
+                <ul>
+	            <li class="resume1"><span class="me_hidden">resume1</span></li>
+	            <li class="resume2"><span class="me_hidden">resume2</span></li>
+	            </ul>
+            </div>
+            <button class="close" aria-label="팝업닫기">X</button>
+        </div>
+	    </div><!--//resume-->
+	    <div id="section2">
+	    <h2 class="portfolio_text">PORTFOLIO</h2>
+         <div class="portfolio_box">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <div class="gallery-item-image">
+                       <a href="./portfolio/personal_01/cw_index2.html" target="_blank"><img src="./img/portfolio/cw.png" /></a></div>
+                    <div class="gallery-item-description">
+                       <h3>청우사이트</h3><span>청우 제과업체 회사 이동</span></div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-item-image">
+                        <a href="./portfolio/team2/layout.html" target="_blank"><img src="./img/portfolio/apieu.png" /></a></div>
+                    <div class="gallery-item-description">
+                       <h3>어퓨사이트</h3><span>어퓨 화장품업체 회사 이동</span></div>
+                </div>
+          </div>
+             
+         </div> 
+        <video autoplay="autoplay" muted controls><!--loop-->
+        <source src="./img/video.mp4" type="video/mp4"  />
+        </video>
+	    </div>
+	    <div id="section3">
+	    <h2 class="work_text">WORK GALLERY</h2>
+	    
+      
+    
+
+	    </div>
+	   
+	</div>
 </body>
 </html>
