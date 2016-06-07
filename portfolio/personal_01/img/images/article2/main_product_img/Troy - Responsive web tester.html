@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://troy.labs.daum.net/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Troy - Responsive web tester</title><meta http-equiv="X-UA-Compatible" content="IE-Edge"><meta property="og:title" content="Troy - Responsive web tester"><meta property="og:url" content="http://troy.labs.daum.net"><meta property="og:description" content="Troy was built to help you to test responsive websites on the various device-widths."><meta property="og:image" content="http://i1.daumcdn.net/uf/original/U01/oven/54238E584552FE0015"><meta property="og:type" content="website"><meta property="og:site_name" content="TROY - Responsive web tester"><meta name="author" content="Kakao corp."><meta name="description" content="Troy was built to help you to test responsive websites on the various device-widths."><link href="./Troy - Responsive web tester_files/troy.min.css" rel="stylesheet"><script async="" src="./Troy - Responsive web tester_files/analytics.js"></script><script src="./Troy - Responsive web tester_files/troy-resource.min.js"></script><script src="./Troy - Responsive web tester_files/troy-package.min.js"></script><script>document.domain = "daum.net";</script></head><body><div id="wrapper"><nav style="margin-bottom:0" class="navbar navbar-default navbar-static-top"><div class="navbar-header"><a href="http://troy.labs.daum.net/" class="navbar-brand">Troy</a></div><div class="url-wrapper"><form id="urlForm" novalidate=""><a href="javascript:;" title="Refresh page" class="reload disabled"><span class="glyphicon glyphicon-refresh"></span></a><input id="url" type="url" placeholder="URL을 입력하세요" value="" autocomplete="off" class="form-control"><div class="url-list"><a href="javascript:;"><span class="glyphicon glyphicon-time"></span> &nbsp;<span class="urltext">http://127.0.0.1:64008/portfolio/team2/layout.html</span></a><a href="javascript:;"><span class="glyphicon glyphicon-time"></span> &nbsp;<span class="urltext">http://127.0.0.1:58512/portfolio/team2/layout.html</span></a><a href="javascript:;"><span class="glyphicon glyphicon-time"></span> &nbsp;<span class="urltext">http://127.0.0.1:49825/portfolio/team2/layout.html</span></a><a href="javascript:;"><span class="glyphicon glyphicon-time"></span> &nbsp;<span class="urltext">http://kke0807.dothome.co.kr/portfolio/team2/layout.html</span></a></div></form></div><ul class="nav navbar-top-links navbar-right"><li class="dropdown"><a href="javascript:;" data-toggle="dropdown" class="dropdown-toggle"><span class="glyphicon glyphicon-search"></span></a><div class="dropdown-menu dropdown-tasks"><div class="menu-cell zoom"><span class="glyphicon glyphicon-zoom-in"></span><div class="input-wrapper"><input type="range" value="100" min="50" max="100" step="1"></div><span class="glyphicon glyphicon-zoom-out"></span></div></div></li><li class="dropdown menu-share"><a href="javascript:;" data-toggle="dropdown" class="get-share dropdown-toggle"><span class="glyphicon glyphicon-share-alt"></span></a><div class="dropdown-menu dropdown-tasks"><div class="menu-cell share"><h5><span class="glyphicon glyphicon-share-alt"></span>&nbsp;테스트 환경 공유하기..</h5><input id="shareURL" readonly="" class="form-control input-lg"><p class="or">또는</p><textarea id="shareURLTextarea" rows="5" readonly="" class="form-control"></textarea></div></div></li><li class="dropdown menu-setting"><a href="javascript:;" data-toggle="dropdown" class="dropdown-toggle"><span class="glyphicon glyphicon-cog"></span><!--span.glyphicon.glyphicon-exclamation-sign.new-feature-icon--></a><div class="dropdown-menu dropdown-tasks"><div class="menu-cell splash-screen"><h5><span class="glyphicon glyphicon-phone"></span>&nbsp;시작 디바이스 설정</h5><select name="splashDevice" class="form-control"><option>디바이스를 선택하세요..</option><option value="N910">Samsung Galaxy Note4</option><option value="G900">Samsung Galaxy S5, Note3</option><option value="E210">Samsung Galaxy S3, Note2</option><option value="E160">Samsung Galaxy Note1</option><option value="M250">Samsung Galaxy S2, S1</option><option value="T700">Samsung Galaxy Tab S</option><option value="A1549">Apple iPhone 6</option><option value="A1522">Apple iPhone 6 Plus</option><option value="A1429">Apple iPhone 5</option><option value="A1349">Apple iPhone 4</option><option value="A1303">Apple iPhone 3GS</option><option value="A1474">Apple iPad Retina</option><option value="D850">LG G3</option><option value="D800">LG G2</option><option value="F240">LG Optimus G Pro</option><option value="F180">LG Optimus G</option><option value="F100">LG Optimus View</option><option value="V500">LG G Pad 8.3</option><option value="D821">Google Nexus 5</option><option value="E960">Google Nexus 4</option><option value="I9250">Google Galaxy Nexus</option><option value="I9020">Google Nexus S</option><option value="P8110">Google Nexus 10</option><option value="NEXUS7">Google Nexus 7 (2013)</option><option value="A860">Pantech Vega No.6</option><option value="A850">Pantech Vega R3</option><option value="HTCONE">HTC One</option><option value="HTCONEMINI">HTC One mini</option><option value="HTCEVO">HTC Evo</option><option value="XPERIAZ">Sony Xperia Z</option><option value="MI3">Xiaomi Mi 3</option><option value="MI2">Xiaomi Mi 2</option><option value="ASCENDMATE2">Huawei Ascend Mate2</option><option value="ASCENDG6">Huawei Ascend G6</option><option value="K900">Lenovo K900</option><option value="A390">Lenovo A390</option><option value="GRANDS">ZTE Grand S</option><option value="GRANDX">ZTE Grand X</option><option value="PC00">PC Screen 800px</option><option value="PC01">PC Screen 970px</option><option value="PC02">PC Screen 1024px</option><option value="PC03">PC Screen 1280px</option><option value="PC04">PC Screen 1366px</option><option value="PC05">PC Screen 1440px</option><option value="PC06">PC Screen 1600px</option><option value="PC07">PC Screen 1920px</option></select></div><div class="divider"></div><div class="menu-cell set-addressbar"><h5><span class="glyphicon glyphicon-phone"></span>&nbsp;디바이스별 주소창 기본설정 <!--span.glyphicon.glyphicon-exclamation-sign.new-feature-icon--></h5><select name="toggle_addressbar" class="form-control"><option value="true" selected="">주소창 숨기기</option><option value="false">주소창 보이기</option></select></div><div class="divider"></div><div class="menu-cell language"><h5><span class="glyphicon glyphicon-globe"></span>&nbsp;언어</h5><select name="locale" class="form-control"><option value="en">International, English</option><option value="ko" selected="">대한민국, 한국어</option><option value="ja">日本 - 日本語</option></select></div><div class="divider"></div><div class="menu-cell adjust-scrollbar"><div class="checkbox disabled"><label><input id="adjustScrollbar" type="checkbox" disabled=""><span>감지된 스크롤바 너비 : <strong id="scrollbarWidth">없음</strong></span></label><p class="help-block"><small>이 옵션을 체크하면 스크롤바 너비만큼 프레임 너비가 자동으로 증가합니다. (윈도에서의 IE, 파이어폭스에서 지원)</small></p></div></div><div class="divider"></div><a href="javascript:;" class="link-block show-issues"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;
+흔히 발생하는 이슈</a><a href="javascript:;" class="link-block show-about"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;
+Troy 정보</a></div></li></ul><div style="height: 694px;" class="navbar-default sidebar"><div class="sidebar-nav"><ul id="side-menu" class="nav"><li class="sidebar-search clearfix"><span class="toggle-text on"><span class="glyphicon glyphicon-th-large"></span>&nbsp;
+멀티스크린 모드</span><label data-form-control="toggle" class="pull-right"><input type="checkbox" name="multiscreen" checked=""><span data-form-decorator="before"><span data-form-decorator="after"></span></span></label></li><li data-brand="Samsung" class="active">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; Samsung
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse in"><li class="highlight"><a href="javascript:;" class="device">
+	<span class="selected" style=""></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542390C9435FE4001B)"></span>
+	<span class="detail">
+		<strong class="name">Galaxy Note4</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			1440 x 2560<br>
+			CSS Pixel-Ratio : 4
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542390DD414CEA0011)"></span>
+	<span class="detail">
+		<strong class="name">Galaxy S5, Note3</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			1080 x 1920<br>
+			CSS Pixel-Ratio : 3
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542390E9421BA7002C)"></span>
+	<span class="detail">
+		<strong class="name">Galaxy S3, Note2</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			720 x 1280<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542390F5435D880020)"></span>
+	<span class="detail">
+		<strong class="name">Galaxy Note1</strong>
+		<small class="dimension">400 x 640</small>
+		<small class="more">
+			800 x 1280<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542391014560D8000D)"></span>
+	<span class="detail">
+		<strong class="name">Galaxy S2, S1</strong>
+		<small class="dimension">320 x 533</small>
+		<small class="more">
+			480 x 800<br>
+			CSS Pixel-Ratio : 1.5
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423910D4645310013)"></span>
+	<span class="detail">
+		<strong class="name">Galaxy Tab S</strong>
+		<small class="dimension">800 x 1280</small>
+		<small class="more">
+			1600 x 2560<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li></ul>
+</li><li data-brand="Apple">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; Apple
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse"><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542391183E6D2B002E)"></span>
+	<span class="detail">
+		<strong class="name">iPhone 6</strong>
+		<small class="dimension">375 x 667</small>
+		<small class="more">
+			750 x 1334<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542391224551D7001F)"></span>
+	<span class="detail">
+		<strong class="name">iPhone 6 Plus</strong>
+		<small class="dimension">414 x 736</small>
+		<small class="more">
+			1242 x 2208<br>
+			CSS Pixel-Ratio : 3
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423912E4146620017)"></span>
+	<span class="detail">
+		<strong class="name">iPhone 5</strong>
+		<small class="dimension">320 x 568</small>
+		<small class="more">
+			640 x 1136<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542391384356950028)"></span>
+	<span class="detail">
+		<strong class="name">iPhone 4</strong>
+		<small class="dimension">320 x 480</small>
+		<small class="more">
+			640 x 960<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542391433D69E6002A)"></span>
+	<span class="detail">
+		<strong class="name">iPhone 3GS</strong>
+		<small class="dimension">320 x 480</small>
+		<small class="more">
+			320 x 480<br>
+			CSS Pixel-Ratio : 1
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542391434145420018)"></span>
+	<span class="detail">
+		<strong class="name">iPad Retina</strong>
+		<small class="dimension">768 x 1024</small>
+		<small class="more">
+			1536 x 2048<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li></ul>
+</li><li data-brand="LG">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; LG
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse"><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/54239156455C360015)"></span>
+	<span class="detail">
+		<strong class="name">G3</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			1440 x 2560<br>
+			CSS Pixel-Ratio : 4
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542391564645200014)"></span>
+	<span class="detail">
+		<strong class="name">G2</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			1080 x 1920<br>
+			CSS Pixel-Ratio : 3
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423916B441CB80024)"></span>
+	<span class="detail">
+		<strong class="name">Optimus G Pro</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			1080 x 1920<br>
+			CSS Pixel-Ratio : 3
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542391784435470006)"></span>
+	<span class="detail">
+		<strong class="name">Optimus G</strong>
+		<small class="dimension">384 x 640</small>
+		<small class="more">
+			768 x 1280<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542391813E0253001F)"></span>
+	<span class="detail">
+		<strong class="name">Optimus View</strong>
+		<small class="dimension">384 x 512</small>
+		<small class="more">
+			768 x 1024<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423918B3F79260029)"></span>
+	<span class="detail">
+		<strong class="name">G Pad 8.3</strong>
+		<small class="dimension">600 x 960</small>
+		<small class="more">
+			1200 x 1920<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li></ul>
+</li><li data-brand="Google">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; Google
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse"><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423919A4239030008)"></span>
+	<span class="detail">
+		<strong class="name">Nexus 5</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			1080 x 1920<br>
+			CSS Pixel-Ratio : 3
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423919A4225C40020)"></span>
+	<span class="detail">
+		<strong class="name">Nexus 4</strong>
+		<small class="dimension">384 x 640</small>
+		<small class="more">
+			768 x 1280<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542391B9464B33000D)"></span>
+	<span class="detail">
+		<strong class="name">Galaxy Nexus</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			720 x 1280<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423919C4221070025)"></span>
+	<span class="detail">
+		<strong class="name">Nexus S</strong>
+		<small class="dimension">320 x 533</small>
+		<small class="more">
+			480 x 800<br>
+			CSS Pixel-Ratio : 1.5
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423919B454AA5002A)"></span>
+	<span class="detail">
+		<strong class="name">Nexus 10</strong>
+		<small class="dimension">800 x 1280</small>
+		<small class="more">
+			1600 x 2560<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423919B3F7C5B0022)"></span>
+	<span class="detail">
+		<strong class="name">Nexus 7 (2013)</strong>
+		<small class="dimension">600 x 960</small>
+		<small class="more">
+			1200 x 1920<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li></ul>
+</li><li data-brand="Pantech">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; Pantech
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse"><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542391E83E75CF0029)"></span>
+	<span class="detail">
+		<strong class="name">Vega No.6</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			1080 x 1920<br>
+			CSS Pixel-Ratio : 3
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542391E84225C40021)"></span>
+	<span class="detail">
+		<strong class="name">Vega R3</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			720 x 1280<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li></ul>
+</li><li data-brand="HTC">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; HTC
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse"><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542392053E73AF002C)"></span>
+	<span class="detail">
+		<strong class="name">One</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			1080 x 1920<br>
+			CSS Pixel-Ratio : 3
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542392054225440022)"></span>
+	<span class="detail">
+		<strong class="name">One mini</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			720 x 1280<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542392044224A30023)"></span>
+	<span class="detail">
+		<strong class="name">Evo</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			540 x 960<br>
+			CSS Pixel-Ratio : 1.5
+		</small>
+	</span>
+</a></li></ul>
+</li><li data-brand="Sony">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; Sony
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse"><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423922C4229FE001D)"></span>
+	<span class="detail">
+		<strong class="name">Xperia Z</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			1080 x 1920<br>
+			CSS Pixel-Ratio : 3
+		</small>
+	</span>
+</a></li></ul>
+</li><li data-brand="Xiaomi">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; Xiaomi
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse"><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542392383D753B0025)"></span>
+	<span class="detail">
+		<strong class="name">Mi 3</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			1080 x 1920<br>
+			CSS Pixel-Ratio : 3
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/54239238403E79002C)"></span>
+	<span class="detail">
+		<strong class="name">Mi 2</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			720 x 1280<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li></ul>
+</li><li data-brand="Huawei">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; Huawei
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse"><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423924D3E766A002A)"></span>
+	<span class="detail">
+		<strong class="name">Ascend Mate2</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			720 x 1280<br>
+			CSS Pixel-Ratio : 2
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423924D4554660021)"></span>
+	<span class="detail">
+		<strong class="name">Ascend G6</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			540 x 960<br>
+			CSS Pixel-Ratio : 1.5
+		</small>
+	</span>
+</a></li></ul>
+</li><li data-brand="Lenovo">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; Lenovo
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse"><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542392634041190029)"></span>
+	<span class="detail">
+		<strong class="name">K900</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			1080 x 1920<br>
+			CSS Pixel-Ratio : 3
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/542392623F7AF4002C)"></span>
+	<span class="detail">
+		<strong class="name">A390</strong>
+		<small class="dimension">320 x 533</small>
+		<small class="more">
+			480 x 800<br>
+			CSS Pixel-Ratio : 1.5
+		</small>
+	</span>
+</a></li></ul>
+</li><li data-brand="ZTE">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; ZTE
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse"><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423927A3D6E9F002C)"></span>
+	<span class="detail">
+		<strong class="name">Grand S</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			1080 x 1920<br>
+			CSS Pixel-Ratio : 3
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5423927A4421980022)"></span>
+	<span class="detail">
+		<strong class="name">Grand X</strong>
+		<small class="dimension">360 x 640</small>
+		<small class="more">
+			540 x 960<br>
+			CSS Pixel-Ratio : 1.5
+		</small>
+	</span>
+</a></li></ul>
+</li><li data-brand="PC Screen">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; PC Screen
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse"><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5424A7AD4127050039)"></span>
+	<span class="detail">
+		<strong class="name">800px</strong>
+		<small class="dimension">800 x 600</small>
+		<small class="more">
+			800 x 600<br>
+			CSS Pixel-Ratio : 1
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5424A7AD4127050039)"></span>
+	<span class="detail">
+		<strong class="name">970px</strong>
+		<small class="dimension">970 x 600</small>
+		<small class="more">
+			970 x 600<br>
+			CSS Pixel-Ratio : 1
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5424A7AD4127050039)"></span>
+	<span class="detail">
+		<strong class="name">1024px</strong>
+		<small class="dimension">1024 x 768</small>
+		<small class="more">
+			1024 x 768<br>
+			CSS Pixel-Ratio : 1
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5424A7AD4127050039)"></span>
+	<span class="detail">
+		<strong class="name">1280px</strong>
+		<small class="dimension">1280 x 800</small>
+		<small class="more">
+			1280 x 800<br>
+			CSS Pixel-Ratio : 1
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5424A7AD4127050039)"></span>
+	<span class="detail">
+		<strong class="name">1366px</strong>
+		<small class="dimension">1366 x 768</small>
+		<small class="more">
+			1366 x 768<br>
+			CSS Pixel-Ratio : 1
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5424A7AD4127050039)"></span>
+	<span class="detail">
+		<strong class="name">1440px</strong>
+		<small class="dimension">1440 x 900</small>
+		<small class="more">
+			1440 x 900<br>
+			CSS Pixel-Ratio : 1
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5424A7AD4127050039)"></span>
+	<span class="detail">
+		<strong class="name">1600px</strong>
+		<small class="dimension">1600 x 900</small>
+		<small class="more">
+			1600 x 900<br>
+			CSS Pixel-Ratio : 1
+		</small>
+	</span>
+</a></li><li><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(http://i1.daumcdn.net/uf/original/U01/oven/5424A7AD4127050039)"></span>
+	<span class="detail">
+		<strong class="name">1920px</strong>
+		<small class="dimension">1920 x 1080</small>
+		<small class="more">
+			1920 x 1080<br>
+			CSS Pixel-Ratio : 1
+		</small>
+	</span>
+</a></li></ul>
+</li></ul></div></div></nav><div id="page-wrapper" style="height: 694px;"><div id="view-wrapper" class="ui-sortable" style="transform: scale(1); width: 1035px;"><div data-rotation="portrait" class="device-view-wrapper highlight" data-hide-address="true"><div class="speaker"></div>
+<div class="device-view" data-device-id="N910" data-device-name="Galaxy Note4" style="width:360px;height:640px">
+	<div class="device-screen">
+		
+		<div class="status-bar" style="height:25px">
+			<span>Galaxy Note4</span>
+		</div>
+		
+		<div class="browser-area" style="top:25px;">
+			<div class="browser-address">
+				<div class="url-wrapper">
+					<form class="browser-address-form" novalidate="">
+						<a href="javascript:;" title="Refresh URL" class="disabled reload">
+							<span class="glyphicon glyphicon-refresh"></span>
+						</a>
+						<input type="url" class="form-control" placeholder="URL을 입력하세요" value="" autocomplete="off">
+					</form>
+				</div>
+				<a href="javascript:;" class="hide-address" title="주소창 숨기기">
+					<span class="glyphicon glyphicon-collapse-up"></span>
+				</a>
+			</div>
+			<div class="browser-content">
+			
+				<iframe src="./Troy - Responsive web tester_files/blank.html" frameborder="0"></iframe>
+			
+			</div>
+		</div>
+		
+	</div>
+</div>
+<button type="button" class="close" title="Hide device">×</button>
+<a href="javascript:;" class="rotate" title="디바이스 회전"><span class="glyphicon glyphicon-repeat"></span></a>
+<a href="javascript:;" class="show-address" title="주소창 보이기 (옵션 메뉴에서 기본값을 설정할 수 있습니다.)"><span class="glyphicon glyphicon-collapse-down"></span></a>
+</div></div><a href="javascript:;" class="scrollbar-indicator" style="display: none;">스크롤바가 감지되어 디바이스 너비가 조정되었습니다</a></div></div><script>$(function(){ app = new Troy.App({ $el: $("body"), locale: "ko" }); })</script><script id="deviceItemTemplate" type="text/template"><a href="javascript:;" class="device">
+	<span class="selected" style="display:none"></span>
+	<span class="image" style="background-image:url(<%= image %>)"></span>
+	<span class="detail">
+		<strong class="name"><%= model %></strong>
+		<small class="dimension"><%= Math.floor(displayWidth / dpi) %> x <%= Math.floor(displayHeight / dpi) %></small>
+		<small class="more">
+			<%= displayWidth %> x <%= displayHeight %><br>
+			CSS Pixel-Ratio : <%= dpi %>
+		</small>
+	</span>
+</a></script><script id="deviceBrandTemplate" type="text/template"><li data-brand="<%= brand %>">
+	<a href="javascript:;">
+		<span class="glyphicon glyphicon-phone"></span>
+		&nbsp; <%= brand %>
+		<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+	</a>
+	<ul class="device-list nav nav-second-level collapse"></ul>
+</li></script><script id="portraitViewTemplate" type="text/template"><div class="speaker"></div>
+<div class="device-view" data-device-id="<%= deviceId %>" data-device-name="<%= model %>" style="width:<%= Math.floor(displayWidth / dpi) + _scrollbarWidth %>px;height:<%= Math.floor(displayHeight / dpi) %>px">
+	<div class="device-screen">
+		<% if(statusBarHeight > 0){ %>
+		<div class="status-bar" style="height:<%= Math.floor(statusBarHeight / dpi) %>px">
+			<span><%= model %></span>
+		</div>
+		<% } %>
+		<div class="browser-area" style="<%= statusBarHeight > 0 ? "top:" + Math.floor(statusBarHeight / dpi) + "px;" : null %><%= hasNavigationBar ? "bottom:" + Math.floor(navigationBarHeight / dpi) + "px;" : null %>">
+			<div class="browser-address">
+				<div class="url-wrapper">
+					<form class="browser-address-form" novalidate>
+						<a href="javascript:;" title="Refresh URL" class="<%= (_url == "/blank") ? "disabled " : "" %>reload">
+							<span class="glyphicon glyphicon-refresh"></span>
+						</a>
+						<input type="url" class="form-control" placeholder="URL을 입력하세요" value="<%= (_url == "/blank") ? "" : _url %>" autocomplete="off">
+					</form>
+				</div>
+				<a href="javascript:;" class="hide-address" title="주소창 숨기기">
+					<span class="glyphicon glyphicon-collapse-up"></span>
+				</a>
+			</div>
+			<div class="browser-content">
+			<% if(_isXframeEnabled === true){ %>
+				<div class="text-center col-md-12 notice_xframe">
+					<img src="http://i1.daumcdn.net/uf/original/U01/oven/547421873707B60009" alt="">
+					<h2>로드할 수 없는 URL입니다</h2>
+					<p>요청하신 URL의 서비스가 외부사이트(Troy 포함)에서의 페이지 로드를 거부하고 있습니다. (기술적으로는 응답 서버의 'X-FRAME-OPTIONS' 헤더 설정으로 인해 발생합니다)</p>
+				</div>
+			<% }else{ %>
+				<iframe src="<%= _url %>" frameborder="0"></iframe>
+			<% } %>
+			</div>
+		</div>
+		<% if(hasNavigationBar){ %>
+		<div class="navigation-bar" style="height:<%= Math.floor(navigationBarHeight / dpi) %>px"></div>
+		<% } %>
+	</div>
+</div>
+<button type="button" class="close" title="Hide device">×</button>
+<a href="javascript:;" class="rotate" title="디바이스 회전"><span class="glyphicon glyphicon-repeat"></span></a>
+<a href="javascript:;" class="show-address" title="주소창 보이기 (옵션 메뉴에서 기본값을 설정할 수 있습니다.)"><span class="glyphicon glyphicon-collapse-down"></span></a>
+</script><script id="landscapeViewTemplate" type="text/template"><div class="speaker"></div>
+<div class="device-view" data-device-id="<%= deviceId %>" data-device-name="<%= model %>" style="width:<%= Math.floor(displayHeight / dpi) + _scrollbarWidth %>px;height:<%= Math.floor(displayWidth / dpi) %>px">
+	<div class="device-screen">
+		<% if(statusBarHeight > 0){ %>
+		<div class="status-bar" style="height:<%= Math.floor(statusBarHeight / dpi) %>px;<%= hasNavigationBar ? "right:" + Math.floor(navigationBarHeight / dpi) + "px" : null %>">
+			<span><%= model %></span>
+		</div>
+		<% } %>
+		<div class="browser-area" style="<%= statusBarHeight > 0 ? "top:" + Math.floor(statusBarHeight / dpi) + "px;" : null %><%= hasNavigationBar ? "right:" + Math.floor(navigationBarHeight / dpi) + "px;" : null %>">
+			<div class="browser-address">
+				<div class="url-wrapper">
+					<form class="browser-address-form" novalidate>
+						<a href="javascript:;" title="Refresh URL" class="<%= (_url == "/blank") ? "disabled " : "" %>reload">
+							<span class="glyphicon glyphicon-refresh"></span>
+						</a>
+						<input type="url" class="form-control" placeholder="URL을 입력하세요" value="<%= (_url == "/blank") ? "" : _url %>" autocomplete="off">
+					</form>
+				</div>
+				<a href="javascript:;" class="hide-address" title="주소창 숨기기">
+					<span class="glyphicon glyphicon-collapse-up"></span>
+				</a>
+			</div>
+			<div class="browser-content">
+			<% if(_isXframeEnabled === true){ %>
+				<div class="text-center col-md-12 notice_xframe">
+					<img src="http://i1.daumcdn.net/uf/original/U01/oven/547421873707B60009" alt="">
+					<h2>로드할 수 없는 URL입니다</h2>
+					<p>요청하신 URL의 서비스가 외부사이트(Troy 포함)에서의 페이지 로드를 거부하고 있습니다. (기술적으로는 응답 서버의 'X-FRAME-OPTIONS' 헤더 설정으로 인해 발생합니다)</p>
+				</div>
+			<% }else{ %>
+				<iframe src="<%= _url %>" frameborder="0"></iframe>
+			<% } %>
+			</div>
+		</div>
+		<% if(hasNavigationBar){ %>
+		<div class="navigation-bar" style="width:<%= Math.floor(navigationBarHeight / dpi) %>px"></div>
+		<% } %>
+	</div>
+</div>
+<button type="button" class="close" title="Hide device">×</button>
+<a href="javascript:;" class="rotate" title="디바이스 회전"><span class="glyphicon glyphicon-repeat"></span></a>
+<a href="javascript:;" class="show-address" title="주소창 보이기 (옵션 메뉴에서 기본값을 설정할 수 있습니다.)"><span class="glyphicon glyphicon-collapse-down"></span></a>
+</script><div id="aboutTroy" role="dialog" aria-labelledby="aboutTroyModal" aria-hidden="true" class="modal fade"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><h1 id="aboutTroyModal">Troy</h1><p class="lead">이 애플리케이션은 반응형 웹사이트 개발 시<br> 다양한 디바이스 환경에서의 테스트를 돕고자 개발되었습니다.</p><p class="from"><small><strong>Kakao corp.</strong></small></p><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button></div><div class="modal-footer"><p class="notice text-left">일부 X-FRAME-OPTIONS 헤더가 적용된 웹사이트는 프레임에 표시되지 않습니다.<br>테스트 결과 화면은 실제 디바이스에서의 화면과 다를 수 있으며, 실제 디바이스에서의 렌더링 이슈를 포함하지 않습니다.</p><p class="text-right"><a href="https://chrome.google.com/webstore/detail/troy/hflapaedaljpdhhdcdgkmhgmcncdchca/reviews" target="_blank" class="feedback">의견을 보내주세요. &nbsp;<span class="glyphicon glyphicon-share"></span></a></p></div></div></div></div><div id="commonIssues" role="dialog" aria-labelledby="commonIssuesModal" aria-hidden="true" class="modal fade"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><h2 id="commonIssuesModal">흔히 발생하는 이슈</h2><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><dl><dt><span class="glyphicon glyphicon-ok"></span>어떤 사이트는 아무것도 표시가 되지 않습니다.</dt><dd>URL로 입력한 서버의 응답헤더(Response Headers)에 'X-FRAME-OPTIONS' 라는 외부 프레임 로드를 거부하는 옵션이 적용되어 있을 경우에 이와 같은 문제가 발생하게 되며, 프레임 방식으로 페이지를 로드하는 모든 반응형 테스트 툴에서 나타나는 현상입니다. 또한 일부 프레임워크에서는 세팅 초기에 X-FRAME-OPTIONS가 기본으로 설정되어 있으므로, 만일 개발중인 서버에서 이와 같은 문제가 생긴다면 해당 옵션을 확인해보셔야 합니다.</dd></dl><dl><dt><span class="glyphicon glyphicon-ok"></span>URL을 입력했는데 왜 모바일버전으로 넘어가지 않고 PC버전 그대로 표시되는 겁니까?</dt><dd>트로이는 CSS 미디어쿼리 기술에 기반한 반응형 웹, 즉 하나의 페이지 소스로 N스크린을 대응하는 웹페이지를 체크하는 툴입니다.
+하지만 질문 내용과 같은 모바일/PC 페이지 분기는 엄밀히 말해 '반응형 웹'이 아니라 'User-Agent 헤더에 따른 페이지 분기' 방식 입니다. 그리고 브라우저의 보안 정책 상 웹페이지에서 User-Agent 헤더를 변조하여 프레임 요청을 할 수가 없습니다.
+때문에 이런 경우에는 반응형 웹이 적용되어 있는 모바일 버전의 URL을 직접 입력하여 로드해야 합니다.</dd></dl><dl><dt><span class="glyphicon glyphicon-ok"></span>제 폰에서 보는 것과 차이가 있습니다.</dt><dd>Troy의 결과 화면은 접속한 브라우저를 기반으로 로드됩니다. 따라서 실제 디바이스에서의 폰트, 렌더링 이슈, 기기별 특성등은 반영되지 않을 수 있습니다. 개발 시 '참고'만 하시고, 반드시 실제 디바이스에서 확인해주세요.</dd></dl><dl><dt><span class="glyphicon glyphicon-ok"></span>혹시 입력한 URL에 대한 정보가 따로 수집되나요?</dt><dd>아니요, URL 정보를 데이터베이스화 하거나 따로 수집하지 않습니다. 걱정하지 않으셔도 됩니다.</dd></dl><p></p></div></div></div></div><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-42661264-1', 'daum.net');ga('send', 'pageview');</script></body></html>
