@@ -1,0 +1,25 @@
+/*sideNavi.css*/
+
+/*---sideNavi----*/
+#sideNavi{width: 898px;height: 60px;margin: 0 auto; }
+
+#sideNavi>ul>li{width:33.3333%;height: 58px;margin-left: -1px;float: left;}
+#sideNavi>ul>li>a{width: 100%;height: 100%;text-decoration: none;background-color: #fff;border-top: 2px solid #ddd;border-bottom: 2px solid #ddd;  text-align: left;line-height: 58px;color: #5f5c5b;font-weight:500;font-size: 1rem;text-align: center;margin-bottom: 20px 0 20px; }
+
+#sideNavi>ul>li>a:hover{color: #c0392b;transition: all .6s ease;}
+
+
+/*-------------nv_sub-------------------*/
+.sideNavi_1>.nv_submenu{width: 112px;height: 0;overflow: hidden;position: absolute;z-index: 100;margin-left: 95px;}
+.nv_submenu>li{width: 100%;text-indent: 5px;}
+.nv_sub1{width:80px;margin-top: 20px;}
+.nv_sub2{width:70px;}
+.nv_sub3{width:110px;}
+.nv_sub4{width:40px;}
+.nv_sub5{width:50px;}
+.nv_submenu>li a{color: #5f5c5b; font-weight:500; font-size:0.825rem;text-decoration: none;line-height: 30px;}
+.nv_submenu>li>a:hover{color:#c0392b;}
+
+.sideNavi_1:hover > .nv_submenu{width: 112px;height: 173px;display: block;background-image: url(../img/images/sub_brand/sub1/sub_navbg.png);background-repeat: no-repeat;margin-top: -10px;transition:  height 1s ease;}
+
+

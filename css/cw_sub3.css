@@ -1,0 +1,27 @@
+/* cw_sub3.css */
+
+@import url("./cwHeadWrap2.css");
+@import url("./sub1_sideNavi.css");
+@import url("./cwFootWrap.css");
+
+
+/*sub3Content.css*/
+
+/*----------------section_-----------------------*/
+#section_bg{width: 100%;height: auto;background-image: url(../img/images/sub_brand/sub1/section_bg.png);}
+#section{width: 890px;height: 100%; margin: 0 auto;background-color: #fff;}
+
+.sideNavi_header{width: 100%;height: 46px; margin-bottom: 25px; background-image: url(../img/images/sub_brand/sub3/sub_navhead3.png);background-repeat: no-repeat;}
+
+
+/*---sectionContent---*/
+#sectionContent{width: 100%;height: auto;border: 1px solid #eef;box-shadow: 0 1px 5px; background-color: #fff;margin-top: 100px;}
+#sectionCon_header{width:inherit;height: 233px;background-image: url(../img/images/sub_brand/sub3/sub3_head.png);background-repeat: no-repeat;background-position:center;}
+
+#sectionCon_img{width:inherit;height: 240px;margin-top: 15px;background-image: url(../img/images/sub_brand/sub3/sub3_img.png);background-repeat: no-repeat;background-position:center; }
+
+#sectionCon_body{width:inherit;height: auto;margin-top: 20px;margin-bottom: 100px;}
+
+#sectionCon_body>ul>li:nth-child(1){width: inherit;height: 41px; background-image: url(../img/images/sub_brand/sub3/sub3.png);background-repeat: no-repeat;background-position: center;margin-top: 30px;}
+
+#sectionCon_body>ul>li:nth-child(2){width: 772px;height: 434px;background-image: url(../img/images/sub_brand/sub3/sub3_box.png);background-repeat: no-repeat;padding: 39px;margin: 30px 60px;}
