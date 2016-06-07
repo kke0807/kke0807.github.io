@@ -1,0 +1,47 @@
+/* cw_sub1_4.css */
+
+@import url("./cwHeadWrap2.css");
+@import url("./sub1_sideNavi.css");
+@import url("./cwFootWrap.css");
+
+
+/*sub1_4Content.css*/
+
+/*----------------section_-----------------------*/
+#section_bg{width: 100%;height: auto;background-image: url(../img/images/sub_brand/sub1/section_bg.png);}
+#section{width: 890px;height: 100%; margin: 0 auto;background-color: #fff;}
+
+
+.sideNavi_header{width: 100%;height: 46px; margin-bottom: 25px; background-image: url(../img/images/sub_brand/sub1/sub1_4/sub_navhead1_4.png);background-repeat: no-repeat;}
+
+/*---sectionContent---*/
+#sectionContent{width: 100%;height: auto;border: 1px solid #eef;box-shadow: 0 1px 5px; background-color: #fff;;margin-top: 100px;padding-bottom: 3rem;}
+#sectionCon_header{width:inherit;height: 233px;background-image: url(../img/images/sub_brand/sub1/sub1_4/sub1_4head.png);background-repeat: no-repeat;background-position:center;}
+#sectionCon_img{width:inherit;height: 240px;margin-top: 15px;background-image: url(../img/images/sub_brand/sub1/sub1_img.png);background-repeat: no-repeat;background-position:center; }
+#sectionCon_body{width:inherit;height: auto;}
+.histroy_bodytxt{width: inherit;height: 41px;margin-left: 90px;background-image: url(../img/images/sub_brand/sub1/sub1_4/sub1_4.png);background-repeat: no-repeat;background-position: center;}
+
+
+#sectionCon_body>ol{width: 580px; height:40px;background-color: #eee;border-radius: 16px;background-color:  #c0392b;margin: 0 auto; margin-top: 30px;}
+#sectionCon_body>ol>li{height: 40px;line-height: 40px;text-align: center;float: left;margin-left: 20px;}
+#sectionCon_body>ol>li:first-child{margin-left: 40px;}
+#sectionCon_body>ol>li>a{text-decoration:none;font-size: 1.125rem;color: inherit;}
+#sectionCon_body>ol>li>a:hover{color:  #fff;border-bottom: 1px;transition: all .7s;}
+#sectionCon_body>ul{width: 100%;height: 410px;}
+#sectionCon_body>ul>li{width: 11.11%;height: 100%;float: left;transition: all 0.7s;}
+#history_2013{background-image: url(../img/images/sub_brand/sub1/sub1_4/history_2013.png);background-repeat: no-repeat;background-position: center;background-size:100%;}
+#history_2010{background-image: url(../img/images/sub_brand/sub1/sub1_4/history_2010.png);background-repeat: no-repeat;width: inherit;background-position: center;background-size:100%;}
+#history_2009{background-image: url(../img/images/sub_brand/sub1/sub1_4/history_2009.png);background-repeat: no-repeat;width: inherit;background-position: center;background-size:100%;}
+#history_2007{background-image: url(../img/images/sub_brand/sub1/sub1_4/history_2007.png);background-repeat: no-repeat;background-position: center;background-size:100%;}
+#history_2006{background-image: url(../img/images/sub_brand/sub1/sub1_4/history_2006.png);background-repeat: no-repeat;background-position: center;background-size:100%;}
+#history_2003{background-image: url(../img/images/sub_brand/sub1/sub1_4/history_2003.png);background-repeat: no-repeat;background-position: center;background-size:100%;}
+#history_1994{background-image: url(../img/images/sub_brand/sub1/sub1_4/history_1994.png);background-repeat: no-repeat;background-position: center;background-size:100%;}
+#history_1990{background-image: url(../img/images/sub_brand/sub1/sub1_4/history_1990.png);background-repeat: no-repeat;background-position: center;background-size:100%;}
+#history_1986{background-image: url(../img/images/sub_brand/sub1/sub1_4/history_1986.png);background-repeat: no-repeat;background-position: center;background-size:100%;}
+
+
+.addColor{color: #fff !important;transition: all 0.7s; }
+
+.boxWidth{width: 60% !important; transition: all 0.7s;}
+
+

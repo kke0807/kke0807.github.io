@@ -1,0 +1,28 @@
+/* cw_sub1_5.css */
+
+@import url("./cwHeadWrap2.css");
+@import url("./sub1_sideNavi.css");
+@import url("./cwFootWrap.css");
+
+
+/*sub1_5Content.css*/
+
+/*----------------section_-----------------------*/
+#section_bg{width: 100%;height: auto;background-image: url(../img/images/sub_brand/sub1/section_bg.png);}
+#section{width: 890px;height: 100%; margin: 0 auto;background-color: #fff;}
+
+.sideNavi_header{width: 100%;height: 46px; margin-bottom: 25px; background-image: url(../img/images/sub_brand/sub1/sub1_5/sub_navhead1_5.png);background-repeat: no-repeat;}
+
+
+/*---sectionContent---*/
+#sectionContent{width: 100%;height: auto;border: 1px solid #eef;box-shadow: 0 1px 5px; background-color: #fff;margin-top: 100px;}
+#sectionCon_header{width:inherit;height: 233px;background-image: url(../img/images/sub_brand/sub1/sub1_5/sub1_5head.png);background-repeat: no-repeat;background-position:center;}
+#sectionCon_img{width:inherit;height: 240px;margin-top: 15px;background-image: url(../img/images/sub_brand/sub1/sub1_img.png);background-repeat: no-repeat;background-position:center; }
+#sectionCon_body{width:inherit;height:auto;}
+.sectionCon_body_head{width: 100%;height: 18px; margin-left: 90px;background-image: url(../img/images/sub_brand/sub1/sub1_5/sub1_5.png);background-repeat: no-repeat;background-position: center;}
+#sectionCon_body>ul>li{margin: 90px 0;}
+#sectionCon_body>ul>.cw_design{width: inherit;height: 480px; background-image: url(../img/images/sub_brand/sub1/sub1_5/cibi_img1.gif);background-repeat: no-repeat;background-position: center;margin-top: 40px;}
+.cw_logo_type{width: inherit;height: 160px; background-image: url(../img/images/sub_brand/sub1/sub1_5/cibi_img2.gif);background-repeat: no-repeat;background-position: center;}
+.cw_symbolmark{width: inherit;height: 225px; background-image: url(../img/images/sub_brand/sub1/sub1_5/cibi_img3.gif);background-repeat: no-repeat;background-position: center;}
+.cw_signature{width: inherit;height: 250px; background-image: url(../img/images/sub_brand/sub1/sub1_5/cibi_img4.gif);background-repeat: no-repeat;background-position: center;}
+
