@@ -1,0 +1,29 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-header_site {
+    width: 188px;
+    height: 28px;
+    background-position: -5px -5px;
+}
+
+.sprite-header_site_cwbrand_on {
+    width: 110px;
+    height: 35px;
+    background-position: -203px -5px;
+}
+
+.sprite-header_site_join_on {
+    width: 94px;
+    height: 35px;
+    background-position: -323px -5px;
+}
+
+.sprite-header_site_login_on {
+    width: 57px;
+    height: 35px;
+    background-position: -427px -5px;
+}

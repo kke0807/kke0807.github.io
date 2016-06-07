@@ -1,0 +1,59 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-footer_br {
+    width: 1px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+
+.sprite-footer_employment {
+    width: 55px;
+    height: 18px;
+    background-position: -16px -5px;
+}
+
+.sprite-footer_moral_management {
+    width: 102px;
+    height: 18px;
+    background-position: -81px -5px;
+}
+
+.sprite-footer_privacy {
+    width: 110px;
+    height: 18px;
+    background-position: -193px -5px;
+}
+
+.sprite-footer_sitemap {
+    width: 65px;
+    height: 18px;
+    background-position: -313px -5px;
+}
+
+.sprite-footer_top {
+    width: 66px;
+    height: 18px;
+    background-position: -388px -5px;
+}
+
+.sprite-header_site_cwbrand {
+    width: 66px;
+    height: 18px;
+    background-position: -464px -5px;
+}
+
+.sprite-header_site_join {
+    width: 52px;
+    height: 18px;
+    background-position: -540px -5px;
+}
+
+.sprite-header_site_login {
+    width: 40px;
+    height: 18px;
+    background-position: -602px -5px;
+}

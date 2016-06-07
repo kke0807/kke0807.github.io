@@ -1,0 +1,29 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-footer_youtube {
+    width: 46px;
+    height: 44px;
+    background-position: -5px -5px;
+}
+
+.sprite-footer_youtube_on {
+    width: 46px;
+    height: 44px;
+    background-position: -61px -5px;
+}
+
+.sprite-naver_blog_bt {
+    width: 46px;
+    height: 44px;
+    background-position: -117px -5px;
+}
+
+.sprite-naver_blog_bt_on {
+    width: 46px;
+    height: 44px;
+    background-position: -173px -5px;
+}
