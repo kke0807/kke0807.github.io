@@ -112,6 +112,6 @@ function productbox(productbox){
 		imgbox.find('div').stop().animate({'bottom': '-100px'},500, function(){
 			imgspan.html(a_el).animate({'bottom':0},500);
 		});
-
+         $('html, body').animate({'scrollTop':700},200);
 	}); // gallerybtn.click
 }
