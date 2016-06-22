@@ -21,14 +21,20 @@
     </style>
 	<script>
     $(function(){
-    var portfolio_1 = $('.portfolio_1'),
-        portfolio_2 = $('.portfolio_2');
+     var portfolio_1 = $('.portfolio_box').find('.portfolio_1'),
+         portfolio_2 = $('.portfolio_box').find('.portfolio_2');
         
+        portfolio_2.on('mouseover',function(){
+        portfolio_1.addClass('on2');  
+        });
+        portfolio_2.on('mouseout',function(){
+        portfolio_1.removeClass('on2');  
+        });
         portfolio_1.on('mouseover',function(){
-        portfolio_2.stop().animate({'background-color':'rgba(200,200,200,0.9)'},1500);
+        portfolio_2.addClass('on1');  
         });
         portfolio_1.on('mouseout',function(){
-        portfolio_2.stop().animate({'background-color':'rgba(50,50,50,0.9)'},1500);    
+        portfolio_2.removeClass('on1');  
         });
         gallery();
     });
