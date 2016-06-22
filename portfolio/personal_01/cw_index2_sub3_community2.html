@@ -16,6 +16,7 @@
     <style type="text/css"></style>
     <script type="text/javascript">
         $(function(){
+            
         var acc = $('.accodion_width'),
             acc_btn = acc.find('dl');                                       
         
@@ -26,6 +27,34 @@
             $this.find('dd').addClass('widthView');
 
             });
+            
+            
+            /*------ 더보기 버튼-------------*/
+             var review_morebtn = $('.plus_btn'),
+             review_li4= $('.review').find('.review_content4'),
+             review_li5= $('.review').find('.review_content5'),
+             review_li6= $('.review').find('.review_content6');
+             review_li4.hide();
+             review_li5.hide();
+             review_li6.hide();
+            
+            review_morebtn.on('click',function(){
+               $('.review').animate({'height':'700px'},1000);
+                review_li4.fadeIn(2000);
+                review_li5.fadeIn(2000);
+                review_li6.fadeIn(2000);
+                review_morebtn.fadeOut();
+            });
+            /*-----------------top_Btn----------------*/
+            function top_btn(e){
+            var top_btn = $('.foo_nv04');
+            e.preventDefault();
+            top_btn.on('click',function(){
+            $('html, body').animate({'scrollTop':0},200);
+                }); //button
+            };
+            
+            
         });
     </script>
 </head>
@@ -38,7 +67,7 @@
         <h3>cw 전체확인요소</h3>
         <ul class="me_link">
             <li class="site_01"><a href="./cw_index2_login.html" title="로그인"><span>로그인</span></a></li>
-            <li class="site_02"><a href="#" title="회원가입"><span>회원가입</span></a></li>
+            <li class="site_02"><a href="./cw_index2_join.html" title="회원가입"><span>회원가입</span></a></li>
             <li class="site_03"><a href="http://www.cwfood.co.kr/Brand/html/Brand_Nong.asp" title="청우브랜드"><span>청우브랜드</span></a></li>
         </ul>
         </li>
@@ -66,16 +95,14 @@
                        <li class="gnb_03_sub2"><a href="#">제품후기</a></li>
                     </ul>
                     </li>
-                    <li class="gnb_04 gnb_main"><a href="#"><span>홍보센터</span></a>
+                     <li class="gnb_04 gnb_main"><a href="./cw_index2_sub4_promoction.html"><span>홍보센터</span></a>
                     <ul class="gnb_4_sub gnb_sub">
-                       <li class="gnb_04_sub1"><a href="#">뉴스 및 공지사항</a></li>
-                       <li class="gnb_04_sub3"><a href="#">광고갤러리</a></li>
+                       <li class="gnb_04_sub1"><a href="./cw_index2_sub4_promoction.html">홍보센터</a></li> 
                     </ul>
                     </li>
-                    <li class="gnb_05 gnb_main"><a href="#"><span>고객센터</span></a>
+                    <li class="gnb_05 gnb_main"><a href="./cw_index2_sub5_customer.html"><span>고객센터</span></a>
                     <ul class="gnb_5_sub gnb_sub">
-                       <li class="gnb_05_sub1"><a href="#">고객문의</a></li>
-                       <li class="gnb_05_sub2"><a href="#">아이디어 제안</a></li>
+                       <li class="gnb_05_sub1"><a href="./cw_index2_sub5_customer.html">고객문의</a></li>
                     </ul>
                     </li>
                 </ul>
@@ -126,154 +153,32 @@
                            </dl>
                         </div>
                     </div>
-                <ul>
-                   
-                    <li class="review_box1">
-                    <span>리뷰1</span>
-                    <div class="review_img1">
-                        <!--이미지삽입-->
-                    </div>
-                    <div  class="review_txt1">
-                       <dl>
-                           <dt><strong>참깨스틱과 함께!!</strong><br/><br/>
-                            <span><!--이미지삽입--></span>두** 님
-                           </dt>
-                           <dd>제가 참깨스틱을 처음 접한 건, 가족과 함께 시골 가는 길에 잠깐 들린 휴게소에서 였어요!
-    오랫동안 차 안에 있으니깐 배도 고프고, 입도 심심하고. 그래서 휴게소에 도착하자 마자, 바로 차에서 내려 마트로 갔죠.
-    무슨 과자를 먹을까 고민하다가, 평소에 고소한 맛을 워낙 좋아해서 '참깨스틱'을 골랐죠.
-    어쩐지 고소할 것 같더라구요. 참깨가 들어있다고 하니깐. 그리고 과자의 포장을 보고, 차 안에서 먹기가 편할 거 같았어요. 
-    뚜껑 닫아놓고 보관하고 있다가 나중에 다시 꺼내서 먹고.
-    차 안 같이, 음식을 먹기가 불편한 곳에서, 편하게 즐길 수 있는 과자 같아요^^
-    한동안 가방에 한 통씩 넣어갖고 다니면서,  출출할 때 마다 먹었어요.
-    그리고 영화나 티비 볼 때, 뭔가 괜히 먹고 싶어지잖아요.
-    저희 엄마, 아빠도 참 좋아하세요!달지않고, 담백하고 고소하다구요!앞으로도 이렇게 맛있는 과자 많이 만들어주세요 :)</dd>
-                       </dl>
-                    </div>
-                   </li>
-                    <li class="review_box2">
-                    <span>리뷰2</span>
-                    <div class="review_img2">
-                        <!--이미지삽입-->
-                    </div>
-                    <div  class="review_txt2">
-                      <dl>
-                       <dt><strong>찰떡쿠키 오리지널~</strong><br/><br/>
-                        <span><!--이미지삽입--></span>김** 님
-                        </dt>
-                        <dd>
-저는 4년전에 처음으로 찰떡 쿠키를 먹어보고 정말 맛있다고 생각했었어요!
-그때가 고등학생이었는데 수업 사이사이에나 자율학습 하면서 출출해질 때면 
-찰떡이 두툼히 들어 한 두개만 먹어도 속이 든든한 찰떡 쿠키를 사먹곤 했거든요 
-오리지널도 맛있고 그 땐 초코맛도 있었는데 지금은 잘 보이지 않네요.
-그래서 항상 기억하고 있었고 저한테는 추억속의 과자로 자리잡았네요 ^^
-쿠키의 맛도 그대로고 찰떡도 부드럽고 쫀득한 맛 그대로 였는데 
-뭔가 달라진것 같았답니다.쿠키자체도 예전에 훨씬 도톰했고 속에 들어있는 찰떡도 가득 차있어서 훨씬 풍부하고만족스러운 식감을 주는 쿠키였는데 지금은 속도 많이 비어있고 가벼워졌더군요..얼마나 아쉬웠으면 이렇게 처음으로 홈페이지까지 방문했겠어요 ^^;
-언제나 변함없는 품질이어야 어느날 그 제품을 찾았을 때 변함없는 사랑을 받을 수 있는것 같아요. 앞으로는 더 좋은 모습 기대할게요 ^-^
-                        </dd>
-                       </dl>
-                    </div>
-                   </li>
                     
-                   <li class="review_box3">
-                    <span>리뷰3</span>
-                    <div class="review_img3">
-                        <!--이미지삽입-->
+                    <div class="best_review">
+                       <h3><span class="me_hidden">청우 베스트 리뷰 타이틀</span>
+                       </h3>
+                       <ul class="me_link">
+                           <li class="best_content1"><a href="#"><span>best_content1</span></a></li>
+                           <li class="best_content2"><a href="#"><span>best_content2</span></a></li>
+                           <li class="best_content3"><a href="#"><span>best_content3</span></a></li>
+                       </ul>
                     </div>
-                    <div  class="review_txt3">
-                        <dl>
-                        <dt><strong>정말 맛있는 그랑쉘</strong><br/><br/>
-                        <span><!--이미지삽입--></span>장** 님
-                        </dt>
-                        <dd>
-마트에 커피랑 마시면 괜찮을 만한 과자를 사려고 갔습니다.과자종류보단 쿠키를 
-보려구 가보니 그랑쉘을 보게 됐습니다.일단 샀죠. 
-첫 맛에 반했습니다.넘 맛있어서요. 사과맛, 포도맛. 맛이 알차다란 생각이 들더군요.
-어느 회사 제품인가 보구 청우식품이란걸 알았죠.담에 또 마트가서 그랑쉘이랑 찰떡쿠키를 샀어요.
-찰떡쿠키 또한 맛있더군요.
-이런 맛있는제품은 꼭 칭찬해주고 싶어서 일부러 사이트를 찾아 이렇게 글을 남깁니다.
-앞으로도 잘 먹겠습니다.
-                        </dd>
-                        </dl>
+                <div class="review">
+                       <button type="button" class="registered_btn"></button>
+                       <h3><span class="me_hidden">청우 전체리뷰 타이틀</span>
+                       </h3>
+                      
+                       <ul class="me_link">
+                           <li class="review_content1"><a href="#"><span>best_content1</span></a></li>
+                           <li class="review_content2"><a href="#"><span>best_content2</span></a></li>
+                           <li class="review_content3"><a href="#"><span>best_content3</span></a></li>
+                           <li class="review_content4"><a href="#"><span>best_content4</span></a></li>
+                           <li class="review_content5"><a href="#"><span>best_content5</span></a></li>
+                           <li class="review_content6"><a href="#"><span>best_content6</span></a></li>
+                       </ul>
+                       <button type="button" class="plus_btn"><span class="me_hidden">더보기버튼</span></button>
                     </div>
-                   </li>
-                    
-                   <li class="review_box4">
-                    <span>리뷰4</span>
-                    <div class="review_img4">
-                        <!--이미지삽입-->
-                    </div>
-                    <div  class="review_txt4">
-                       <dl>
-                        <dt><strong>입에서 살살녹는 찹쌀전병!^^*</strong><br/><br/>
-                        <span><!--이미지삽입--></span>조** 님
-                        </dt>
-                        <dd>
-마트에  커피랑 마시면 괜찮을 만한 과자를 사려고 갔습니다.과자종류보단 쿠키를 
-보려구 가보니 그랑쉘을 보게 됐습니다.일단 샀죠. 첫 맛에 반했습니다.
-넘 맛있어서요. 사과맛, 포도맛. 맛이 알차다란 생각이 들더군요.어느 회사 제품인
-가 보구 청우식품이란걸 알았죠.담에 또 마트가서 그랑쉘이랑 찰떡쿠키를 샀어요.
-찰떡쿠키 또한 맛있더군요.이런 맛있는제품은 꼭 칭찬해주고 싶어서
-일부러 사이트를 찾아 이렇게 글을 남깁니다.
-앞으로도 잘 먹겠습니다.^^
-                        </dd>
-                        </dl>
-                    </div>
-                   </li>
-                    
-                   <li class="review_box5">
-                    <span>리뷰5</span>
-                    <div class="review_img5">
-                        <!--이미지삽입-->
-                    </div>
-                    <div  class="review_txt5">
-                       <dl>
-                        <dt><strong>꽈배기 정말 맛있네요</strong><br/><br/>
-                        <span><!--이미지삽입--></span>정** 님
-                        </dt>
-                        <dd>
-
-안녕하세요..저는 학교 행정실에서 근무하고 있는 직장인 입니다.
-사무실에서 일하다 보면 오후쯤에 항상 뭔가가 먹고 싶을때가 있어요...
-그럴때 마다 계산대 앞에 항상 있는 모나카를 한두개씩 사서 먹었어요
-어떤 회사인지는 잘몰라도 먹고나면 피로가 풀리는듯 달달한 맛과 쫄깃함
-너무 고소하고 저도 그렇지만 돌아가신 저희어머니도 너무 좋아하셨답니다.
-그런데 좀전에..사무실 막내 여직원이 과자를 두봉지 사왔는데...
-언니 이거 맛이있을지 모르겠다고 하는겁니다. 그래서 보니 "춤추는 꽈배기"란 과자였어요
-반신반의해서...하나를 먹어보는 순간..
-부드럽고 그리 달지도 않고 아삭아삭 씹히는 감촉이 너무 좋았어요
-어떻게 이렇게 만드셨는지.. 넘 부드럽고 달콤해서  맥주 안주로도ㅋㅋ좋아할거 같아요...
-건강하고 맛있는 제품만 만들어 주세요 청우 화이팅 입니다 
-(참고로 찰떡쿠키 완전 맛있어요) 수고하세요~^^
-                           </dd>
-                        </dl>
-                    </div>
-                   </li>
-                    <li class="review_box6">
-                    <span>리뷰6</span>
-                    <div class="review_img6">
-                        <!--이미지삽입-->
-                    </div>
-                    <div  class="review_txt6">
-                       <dl>
-                        <dt><strong>너무 맛있어요 ㅠㅠ</strong><br/><br/>
-                        <span><!--이미지삽입--></span>추** 님
-                        </dt>
-                        <dd>        
-안그래도 평소에 찰떡쿠키 반해서 자주 사먹고 있었거든요.
-근데 청우 브랜드 모르고 살다가 어느날엔가 그랑쉘을 사먹었는데 너무 부드럽고 맛있는거예요.
-흔히 겉모양이 마가렛트같은데 촉감이 전혀 달라요 퐁신퐁신 부드럽고 촉촉하고 적당히 달고..
-포도맛보다는 저는 사과파인데 파는 곳이 별로 없어서 좀 속상해요.
-팔아도 작은상자만 팔고 가격은좀 부담되지만 그래도 애용하겠습니다.더 맛난거 많이 만들어주시구요~
-보니까 옛날 종합캔디라던지 오래전부터 알고있던 과자들이 많더라구요.
-제가 일본친구에게 과자를 보내려고 하는데 일본은 워낙 다양한게 많아서 그랑쉘같은 식감의 과자가 있는진 잘 모르겠지만 분명히 좋아할 것 같아요.
-타회사제품중에서 일본이랑 똑같은게 많은데 청우제품은 왠지 없을 것 같은 기분이 드네요.
-암튼 오늘 과자먹고 반해서 썼습니당~
-                        </dd>
-                        </dl>
-                    </div>
-                   </li>
-                </ul>
-                    
+                
              </div>
          </div>
          </div><!--//#section-->
@@ -285,10 +190,9 @@
             <h3>footer 네비게이션 메뉴</h3>
             <ul class="me_link">
                 <li class="foo_nv01"><a href="./cw_index2_sub1_3.html"><span>경영윤리 및 방침</span></a><span></span></li>
-                <li class="foo_nv02"><a href="#"><span>개인정보취급방침</span></a><span></span></li>
+                <li class="foo_nv02"><a href="./cw_index2_sub5_customer.html"><span>개인정보취급방침</span></a><span></span></li>
                 <li class="foo_nv03"><a href="./cw_index2_sub2.html"><span>인재채용</span></a><span></span></li>
-                <li class="foo_nv04"><a href="#"><span>SITEMAP</span></a></li>
-                <li class="foo_nv05"><a href="#"><span>TOP</span></a></li>
+                <li class="foo_nv04"><a href="#"><span>TOP</span></a></li>
             </ul>
         </div><!--//#footer_nv-->
     <div id="footerbox">
@@ -304,9 +208,9 @@
         </div><!--//#addBox-->
         <div id="cw_icon">
             <h3>청우 블로그와 유투브아이콘</h3>
-            <ul class="me_link">
-                <li class="ficon_01"><a href="#"><span>청우 네이버블로그</span></a></li>
-                <li class="ficon_02"><a href="#"><span>청우 유투브</span></a></li>
+           <ul class="me_link">
+                <li class="ficon_01"><a href="http://blog.naver.com/contegno" target="_blank"><span>청우 네이버블로그</span></a></li>
+                <li class="ficon_02"><a href="https://www.youtube.com/channel/UCfVZepz3kdziWipZsdb32hA" target="_blank"><span>청우 유투브</span></a></li>
             </ul>
         </div><!--//#cw_icon-->
         </div>

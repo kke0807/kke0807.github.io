@@ -22,6 +22,7 @@
     <script src="./js/jquery/jquery.bxslider.min.js"></script>
     <script src="./js/index_banner.js"></script>
     <script src="./js/index_article.js"></script>
+    <script src="./js/topAdd.js"></script>
     <title>청우식품</title>
     <style type="text/css"></style>
     <script type="text/javascript">
@@ -30,8 +31,9 @@
        slidebanner(($('#bannerWrap')));
        articlenew(($('.new_product_box'))); 
        articlemain(($('.main_product_box')));
+       topAdd($('#topAdd'));
             function top_btn(e){
-            var top_btn = $('.foo_nv05');
+            var top_btn = $('.foo_nv04');
             e.preventDefault();
             top_btn.on('click',function(){
             $('html, body').animate({'scrollTop':0},200);
@@ -43,6 +45,17 @@
 </head>
 <body>
 <div id="wrap">
+   <div id="topAdd">
+    <p>본 페이지는 영리를 목적으로 하지 않고, 개인 포트폴리오 제작을 위한 학습사이트 입니다.</p>
+    <div class="addbox">
+        이미지 출처 : http://www.cwfood.co.kr/<br/>
+        이미지 출처 : http://morguefile.com/search/morguefile/1/city/pop<br/>
+        이미지 출처 : http://www.flaticon.com/
+        
+    </div>
+    <button type="button" aria-label="팝업닫기"></button>
+</div><!--//#topAdd-->
+   
     <div id="header">
     <h2>cw 전체메뉴 영역</h2>
     <ul>
@@ -50,7 +63,7 @@
         <h3>cw 전체확인요소</h3>
         <ul class="me_link">
             <li class="site_01"><a href="./cw_index2_login.html" title="로그인"><span>로그인</span></a></li>
-            <li class="site_02"><a href="#" title="회원가입"><span>회원가입</span></a></li>
+            <li class="site_02"><a href="./cw_index2_join.html" title="회원가입"><span>회원가입</span></a></li>
             <li class="site_03"><a href="http://www.cwfood.co.kr/Brand/html/Brand_Nong.asp" title="청우브랜드"><span>청우브랜드</span></a></li>
         </ul>
         </li>
@@ -60,40 +73,36 @@
                 <h3>cw 종합네비게이션 메뉴</h3>
                 <ul class="me_link">
                     <li class="gnb_01 gnb_main"><a href="./cw_index2_sub1.html"><span>회사소개</span></a>
-                    <ul class="gnb_01_sub gnb_sub">
-                       <li class="gnb_01_sub1"><a href="./cw_index2_sub1.html">회사소개</a></li>
-                       <li class="gnb_01_sub2"><a href="./cw_index2_sub2.html">인재채용</a></li>
-                       <li class="gnb_01_sub3"><a href="./cw_index2_sub3.html">찾아오시는 길</a></li>
-                    </ul>
+                        <ul class="gnb_01_sub gnb_sub">
+                           <li class="gnb_01_sub1"><a href="./cw_index2_sub1.html">회사소개</a></li>
+                           <li class="gnb_01_sub2"><a href="./cw_index2_sub2.html">인재채용</a></li>
+                           <li class="gnb_01_sub3"><a href="./cw_index2_sub3.html">찾아오시는 길</a></li>
+                        </ul>
                     </li>
                     <li class="gnb_02 gnb_main"><a href="./cw_index2_sub2_product.html"><span>제품</span></a>
-                    <ul class="gnb_2_sub gnb_sub">
-                    <li class="gnb_2_sub1"><a href="./cw_index2_sub2_product.html">제품소개</a></li> 
-                    </ul>
+                        <ul class="gnb_2_sub gnb_sub">
+                            <li class="gnb_2_sub1"><a href="./cw_index2_sub2_product.html">제품소개</a></li> 
+                        </ul>
                     </li>
-                    
                     <li class="gnb_03 gnb_main"><a href="./cw_index2_sub3_community1.html"><span>커뮤니티</span></a>
-                    <ul class="gnb_3_sub gnb_sub">
-                       <li class="gnb_03_sub1"><a href="./cw_index2_sub3_community1.html">생활의 지혜</a></li>
-                       <li class="gnb_03_sub2"><a href="./cw_index2_sub3_community2.html">제품후기</a></li>
-                    </ul>
+                        <ul class="gnb_3_sub gnb_sub">
+                           <li class="gnb_03_sub1"><a href="./cw_index2_sub3_community1.html">생활의 지혜</a></li>
+                           <li class="gnb_03_sub2"><a href="./cw_index2_sub3_community2.html">제품후기</a></li>
+                        </ul>
                     </li>
-                    <li class="gnb_04 gnb_main"><a href="#"><span>홍보센터</span></a>
-                    <ul class="gnb_4_sub gnb_sub">
-                       <li class="gnb_04_sub1"><a href="#">뉴스 및 공지사항</a></li>
-                      
-                       <li class="gnb_04_sub3"><a href="#">광고갤러리</a></li>
-                    </ul>
+                    <li class="gnb_04 gnb_main"><a href="./cw_index2_sub4_promoction.html"><span>홍보센터</span></a>
+                        <ul class="gnb_4_sub gnb_sub">
+                           <li class="gnb_04_sub1"><a href="./cw_index2_sub4_promoction.html">홍보센터</a></li> 
+                        </ul>
                     </li>
-                    <li class="gnb_05 gnb_main"><a href="#"><span>고객센터</span></a>
-                    <ul class="gnb_5_sub gnb_sub">
-                       <li class="gnb_05_sub1"><a href="#">고객문의</a></li>
-                       <li class="gnb_05_sub2"><a href="#">아이디어 제안</a></li>
-                    </ul>
+                    <li class="gnb_05 gnb_main"><a href="./cw_index2_sub5_customer.html"><span>고객센터</span></a>
+                        <ul class="gnb_5_sub gnb_sub">
+                           <li class="gnb_05_sub1"><a href="./cw_index2_sub5_customer.html">고객문의</a></li>
+                        </ul>
                     </li>
                 </ul>
-                </div>
-            </li>
+            </div>
+        </li>
             
     </ul>
     </div><!--//#header-->
@@ -101,23 +110,22 @@
     <div id="banner_bg">
      <div id="bannerWrap">
      <h2>청우 배너영역</h2>
-     
-         <h3>청우배너 버튼</h3>
-         <div id="prevBtn" class="index_btn_1 index_btn">
+        <h3>청우배너 버튼</h3>
+        <div id="prevBtn" class="index_btn_1 index_btn">
              <button type="button"><span class="me_hidden">왼쪽버튼</span></button>
         </div>
         <div id="nextBtn" class="index_btn_2 index_btn">
             <button type="button"><span class="me_hidden">오른쪽버튼</span></button>
-      </div>
-       <ul>
+        </div>
+        <ul>
            <li class="banner_01"><span class="me_hidden">banner_01</span></li>
            <li class="banner_02"><span class="me_hidden">banner_02</span></li>
            <li class="banner_03"><span class="me_hidden">banner_03</span></li>
            <li class="banner_04"><span class="me_hidden">banner_04</span></li>
            <li class="banner_05"><span class="me_hidden">banner_05</span></li>
-       </ul>
-   </div><!--#bannerWrap-->
-   </div><!--//#banner_bg-->
+        </ul>
+     </div><!--#bannerWrap-->
+    </div><!--//#banner_bg-->
    
 
    
@@ -174,7 +182,7 @@
                          <ul>
                              <li clsss="news">
                              <div class="news_title"><span class="me_hidden">news_title</span></div>
-                              <div class="news_img"><a href="#"><span class="me_hidden">news_img</span></a></div>
+                              <div class="news_img"><a href="./cw_index2_sub4_promoction.html"><span class="me_hidden">news_img</span></a></div>
                              </li>
                              <li class="customer">
                              <div class="customer_title"><span class="me_hidden">customer_title</span></div>
@@ -185,8 +193,8 @@
                      <li class="purchase">
                           <div class="purchase_title"><span class="me_hidden">purchase_title</span></div>
                           <ul class="me_link">
-                                    <li class="purchase_1"><a href="#"><span>이마트 이동</span></a></li>
-                                    <li class="purchase_2"><a href="#"><span>롯데마트 이동</span></a></li>
+                                    <li class="purchase_1"><a href="http://www.lottemart.com/search/search.do?searchField=&searchTerm=%EC%B2%AD%EC%9A%B0%EC%8B%9D%ED%92%88" target="_blank"><span>이마트 이동</span></a></li>
+                                    <li class="purchase_2"><a href="http://emart.ssg.com/search.ssg?target=all&query=%EC%B2%AD%EC%9A%B0%EC%8B%9D%ED%92%88" target="_blank"><span>롯데마트 이동</span></a></li>
                                 </ul>
                      </li>
                  </ul>
@@ -204,10 +212,9 @@
             <h3>footer 네비게이션 메뉴</h3>
             <ul class="me_link">
                 <li class="foo_nv01"><a href="./cw_index2_sub1_3.html"><span>경영윤리 및 방침</span></a><span></span></li>
-                <li class="foo_nv02"><a href="#"><span>개인정보취급방침</span></a><span></span></li>
+                <li class="foo_nv02"><a href="./cw_index2_sub5_customer.html"><span>개인정보취급방침</span></a><span></span></li>
                 <li class="foo_nv03"><a href="./cw_index2_sub2.html"><span>인재채용</span></a><span></span></li>
-                <li class="foo_nv04"><a href="#"><span>SITEMAP</span></a></li>
-                <li class="foo_nv05"><a href="#"><span>TOP</span></a></li>
+                <li class="foo_nv04"><a href="#"><span>TOP</span></a></li>
             </ul>
         </div><!--//#footer_nv-->
     <div id="footerbox">
@@ -224,8 +231,8 @@
         <div id="cw_icon">
             <h3>청우 블로그와 유투브아이콘</h3>
             <ul class="me_link">
-                <li class="ficon_01"><a href="#"><span>청우 네이버블로그</span></a></li>
-                <li class="ficon_02"><a href="#"><span>청우 유투브</span></a></li>
+                <li class="ficon_01"><a href="http://blog.naver.com/contegno" target="_blank"><span>청우 네이버블로그</span></a></li>
+                <li class="ficon_02"><a href="https://www.youtube.com/channel/UCfVZepz3kdziWipZsdb32hA" target="_blank"><span>청우 유투브</span></a></li>
             </ul>
         </div><!--//#cw_icon-->
         </div>
