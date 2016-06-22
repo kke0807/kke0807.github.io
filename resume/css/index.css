@@ -1,0 +1,71 @@
+html,body{height: 100%;position: relative;}
+#wrap{width: 100%;height: 100%;}
+
+#menu{width: 100%;height: 60px;background-color: rgba(50,50,50,0.8);position: fixed;top: 0;left: 0; z-index: 1000;padding-left: 3rem;padding-top: 0.825rem;}
+#wrap>#menu>.mina_logo{width: 60px;height: 40px;float: left;margin-top:0.225rem; background-image: url(../img/logo.png);background-repeat: no-repeat;background-size: 100%;cursor: pointer;}
+#wrap>#menu>.mina_logo>a{width: 100%;height: 100%;display: block;}
+
+#menu>ul{width: 80%;padding-left: 30px; padding-top: 1rem;padding-left: 15rem;}
+#menu>ul>li{float: left;width: 35%;height: 100%;margin-left: 5px;}
+#menu>ul>li>a{color: #fff;text-decoration: none;line-height: inherit;transition: all .5s;}
+
+#menu>ul>li>a:hover{background-color: #999;color: #f01;border-radius: 0.8rem;padding: 5px;}
+
+#main_page{width:100%;height:calc(100% - 400px);padding-top: 400px;background-image: url(../img/1page_main.png);background-repeat: no-repeat;background-size:cover;background-position: center;}
+#main_page>p{float: right;font-weight: 500; font-size: 2rem;margin-top: 180px;text-align: right;margin-right: 70px;font-family: "NanumGothic"}
+#main_page>p>strong{font-weight: bold; font-size: 2.6rem;font-family: "NanumGothic"}
+/*-----------------기타--------------------*/
+#section1{width:100%;height: calc(100% - 73px);overflow: hidden;background-image: url(../img/img_bg.jpg); background-attachment: fixed;background-position: right bottom;background-repeat: no-repeat;background-size: 100%;}
+#section1>h2{width: 100%;height: 108px;background-image: url(../img/title_1.png);background-repeat: no-repeat;background-size: 100%;background-position: center;}
+.content1{width: 100%;height: calc(100% - 108px);}
+.content1>ul{width: 100%;height: 100%;margin-top: 306px;}
+.content1>ul>li{float: left;}
+
+.box_1{width: 33.3333%;height: 60%;background-color: #eee;}
+.box_1>div{width: 100%;height: 100%; background-image: url(../img/edcation_content_1.png);background-repeat: no-repeat;}
+.box_2{width: 33.3333%;height: 60%;background-color:#fff;}
+.box_2>div{width: 100%;height: 100%; background-image: url(../img/character_content_1.png);background-repeat: no-repeat;}
+.box_3{width: 33.3333%;height: 60%;background-color: #eee;}
+.box_3>div{width: 100%;height: 100%; background-image: url(../img/hobby_cotent_1.png);background-repeat: no-repeat;}
+
+/*-----------------Skil Set/License--------------------*/
+
+#section2{width:100%;height: calc(100% - 73px);background-color: rgba(240,240,240,0.8);}
+#section2>h2{width: 100%;height: 106px;background-image: url(../img/skill_set_license_title_title.png);background-repeat: no-repeat;background-size: 100%;background-position: bottom;}
+
+.content2_1{text-align: center; padding: 10px 50px;background-color: rgba(50,50,50,0.5);margin: 0 auto;}
+
+.chart {
+  position: relative;
+  display: inline-block;
+  margin: 20px 10px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content2_2{width: 900px;height: 430px;text-align: center; overflow: hidden;position: relative;margin: 3% auto;}
+
+ .content2_2>button{width: 45px;height:100%;background-color:transparent; position: absolute;bottom: 0;}
+.content2_2>.btn_01{height: 100%; background-image:  url("../img/left_btn.png");background-position: center;float: left;cursor: pointer;left: 0;}
+.content2_2>.btn_02{height: 100%; background-image:  url(../img/right_btn.png);background-position: center;cursor: pointer;right: 0;}
+
+.content2_2>ul{width: 500%;height: 100%;margin-left: -100%;}
+.content2_2>ul>li{width: calc(100% / 5);height:100%;float: left;background-repeat: no-repeat;background-position: center;}
+.License_1{background-image:url("../img/license_1.png");background-size: 100%;}
+.License_2{background-image:url("../img/license_2.png");background-size: 100%;}
+.License_3{background-image:url("../img/license_3.png");background-size: 100%;}
+.License_4{background-image:url("../img/license_4.png");background-size: 100%;}
+.License_5{background-image:url("../img/license_5.png");background-size: 100%;}
+
+
+/*-----------------top_btn--------------------*/
+.top_btn{width: 3.125rem;height: 3rem;position: fixed;left: 90%;margin-top: -1rem;margin-left: -0.5rem;cursor: pointer;transition: all .4s ease;background-image: url(../img/top_btn.png);background-repeat: no-repeat;background-size: 90%;background-color: transparent;}
+.top_btn:hover{background-image: url(../img/top_btn_hover.png);background-repeat: no-repeat;background-size: 96%; }       
+       

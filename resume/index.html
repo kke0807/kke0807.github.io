@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=960">
+	<link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/flower.css">
+	<script src="./js/jquery/jquery-1.12.3.min.js"></script>
+	<script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+	<script src="./js/jquery/jquery-ui.min.js"></script>
+	<script src="http://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js"></script>
+	<script src="./js/index.js"></script>
+	<title>Mina</title>
+	<style>
+
+    </style>
+	<script>
+    $(function(){
+        var b_box =$('.content2_2'),
+            b_box_ul = b_box.find('ul'),
+            b_box_li = b_box.find('li'),
+            b_box_li_width = b_box.find('li').width(),
+            l_btn = $('.btn_01'),
+            r_btn = $('.btn_02');
+            b_box_li.last().prependTo(b_box_ul);
+
+            l_btn.on('click',function(){ 
+            var b_li= b_box.find('li');
+             b_li.first().stop().animate({'margin-left' : b_box_li_width },700,function(){
+                b_li.css({'margin-left':0});
+                b_li.last().prependTo(b_box_ul);
+                });
+             });  
+            r_btn.on('click',function(){
+            var b_li= b_box.find('li')
+             .first().stop().animate({'margin-left' : -b_box_li_width },700,function(){
+                b_li.css({'margin-left':0}).
+                first().appendTo(b_box_ul);
+                });
+            }); 
+             
+            // 자동움직임
+          // var timer;
+          // 일정한 시간간격을 두고 움직이는기능 : setInterval
+          function startBtn(){ settingTime = setInterval('$(".btn_02").click()', 3000) };
+          //setInterval 취소시키는 기능: clearInterval
+          function stopBtn(){	clearInterval( settingTime )};
+          startBtn();
+          $('.content2_2').on({mouseenter:stopBtn ,mouseleave:startBtn});
+             
+          /*---------------skill_set-----------------*/
+         $('.chart').easyPieChart({
+            scaleColor: "#ededeb",
+            lineWidth: 20,
+            lineCap: 'butt',
+            barColor: '#126c80',
+            trackColor:	"#ecf0f1",
+            size: 160,
+            animate: 7000
+            });
+    });
+	</script>
+</head>
+<body>
+	<div id="wrap">
+        <div id="menu">
+        <div class="mina_logo"><a href="../index.html" target="_blank"><span class="me_hidden">MINA</span></a></div>
+        <ul>
+            <li><a href="#section1">Education &amp; Experience / Character / Hobby</a></li>
+            <li><a href="#section2">Skil Set / License</a></li>
+<!--            <li><a href="#section3">Character</a></li>
+            <li><a href="#section4">Hobby</a></li>-->
+           
+        </ul>
+        <button class="top_btn"><span class="me_hidden">Top</span></button>
+        </div>
+	    <div id="main_page" class="window_h">
+            <h1 class="me_hidden">mina resume page</h1>
+	       <div class="parent">
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>    
+            </div>
+            <p>
+            <strong>Name |</strong> 김미나<br/>
+            <strong>Phone |</strong> 010.8501.0397<br/>
+            <strong>Date of Birth |</strong> 1992.11.12<br/>
+            <strong>E-Mail |</strong> kke0807@gmail.com<br/>
+            <strong>Place of Birth |</strong> 서울시 동작구 사당1동<br/>
+            <strong>Website |</strong> http://kke0807.dothome.co.kr<br/>
+            </p>
+        </div><!--//#main_page-->
+          <div id="section1" class="window_h"> 
+	    <h2><span class="me_hidden">Hobby</span></h2>
+	       <div class="content1">
+	           <ul>
+	             
+	               <li class="box_1">
+	                        <div></div>
+	               </li>
+	               <li class="box_2">
+	                  <div></div>
+
+	               </li>
+	               <li class="box_3">
+	                    <div></div>
+	               </li>
+	           </ul>
+	       </div>
+	    </div><!--//#section1-->
+	    
+       <div id="section2" class="window_h"> 
+	    <h2><span class="me_hidden">Skil Set/License</span></h2>
+	    
+	   <div class="content2_1">
+          <div class="chart" data-percent="70">AI</div>
+          <div class="chart" data-percent="70">PS</div>
+          <div class="chart" data-percent="75">HTML/CSS</div>
+          <div class="chart" data-percent="65">SASS(SCSS)</div>
+          <div class="chart" data-percent="55">Javascript</div>
+          <div class="chart" data-percent="70">GIT</div>
+          <div class="chart" data-percent="60">JAVA</div>
+          <div class="chart" data-percent="90">OFFICE</div>
+	   </div>
+	   <div class="content2_2">
+         <h3>License</h3>
+            <button class="btn_01"><span class="me_hidden">left_btn</span></button>
+            <button class="btn_02"><span class="me_hidden">right_btn</span></button>
+            <ul>
+                <li class="License_1"><span class="me_hidden">License_1</span></li>
+                <li class="License_2"><span class="me_hidden">License_2</span></li>
+                <li class="License_3"><span class="me_hidden">License_3</span></li>
+                <li class="License_4"><span class="me_hidden">License_4</span></li>
+                <li class="License_5"><span class="me_hidden">License_5</span></li>
+            </ul>
+	   </div>
+	    </div>
+	    
+	</div>
+</body>
+</html>
