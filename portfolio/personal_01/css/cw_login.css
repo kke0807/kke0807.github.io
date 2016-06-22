@@ -7,7 +7,7 @@
 /*login.css*/
 
 
-#section_bg{width: 100%;height: auto;background-image: url(../img/images/sub_brand/sub1/section_bg.png);}
+#section_bg{width: 100%;height: auto;background-image: url(../img/images/article2/article_bg.png);}
 #section{width: 890px;height: 100%; margin: 0 auto;background-color: #fff;}
 
 
@@ -33,16 +33,16 @@
 .pw{width: 84px;height: 24px;background-image: url(../img/images/login/login_pw.png);background-repeat: no-repeat;background-size: 100%;float: left;margin-left: 50px;margin-right:52px;}
 #login_pw{height: 20px;border: 1px solid #eee; box-sizing: border-box;font-size: 0.825rem;text-indent: 5px;margin-bottom: 5px;}
 
-.login_btn{width: 100px;height: 86px;background-image: url(../img/images/login/login_btn.png);background-repeat: no-repeat;background-size: 100%;float: right;margin-top: -65px;}
+.login_btn{width: 100px;height: 86px;background-image: url(../img/images/login/login_btn.png);background-repeat: no-repeat;background-size: 100%;float: right;margin-top: -65px;transition: all .5s;cursor: pointer;}
+.login_btn:hover{background-image: url(../img/images/login/login_btn_on.png);background-repeat: no-repeat;background-size: 100%;}
+
 
 #login_id_check{margin: 5px 20px 20px 190px;}
 label{font-size: 0.875rem;}
 
 .login_help{width: 400px;height: 58px;float: right;margin-top: 10px;border-top: 1px dotted #ddd;}
 .login_help>p{width: 60%;height: 30px; background-image: url(../img/images/login/login_txt.png);background-repeat: no-repeat;background-size: 100%;margin-top: 15px;float: left;margin-right: 10px;}
-.login_help_btn{width:36%;height: 30px; background-image: url(../img/images/login/login_btn2.png);background-repeat: no-repeat;background-size: 100%;float: left;margin-top: 10px;}
-
-
+.login_help_btn{width:36%;height: 30px; background-image: url(../img/images/login/login_btn2.png);background-repeat: no-repeat;background-size: 100%;float: left;margin-top: 10px;cursor: pointer;}
 
 
 

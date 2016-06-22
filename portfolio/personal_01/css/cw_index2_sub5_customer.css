@@ -1,0 +1,76 @@
+/* cw_sub2.css */
+
+@import url("./cwHeadWrap2.css");
+@import url("./cwFootWrap.css");
+
+
+/*promotion.css*/
+
+/*----------------section_-----------------------*/
+#section_bg{width: 100%;height: auto;background-image: url(../img/images/sub_brand/sub1/section_bg.png);}
+#section{width:  890px;height: 100%; margin: 0 auto;background-color: #fff;}
+
+.sideNavi_header{width: 100%;height: 46px; background-image: url(../img/images/sub_customer/sub_navhead1.png);background-repeat: no-repeat;}
+
+/*---sectionContent---*/
+#sectionContent{width: 100%;height: auto;border: 1px solid #eef;box-shadow: 0 1px 5px; background-color: #fff;margin-top: 20px;}
+#sectionCon_header{width:inherit;height: 233px;background-image: url(../img/images/sub_customer/sub1_head.png);background-repeat: no-repeat;background-position:center;}
+#sectionCon_img{width:inherit;height: 240px;margin-top: 15px;background-image: url(../img/images/sub_customer/sub1_img.png);background-repeat: no-repeat;background-position:center; }
+
+#sectionCon_body{width:inherit;height:auto;margin-top: 25px;}
+
+/*--------------customer_center-------------------*/
+#customer_center{width: 816px;height: 240px;margin: 0 auto;margin-top: 40px;}
+#customer_center>h3{width: inherit;height: 32px;background-image: url(../img/images/sub_customer/content1_title.png);background-repeat: no-repeat;margin-bottom:36px; }
+        
+.customer_box{width:551px;height: 157px;margin: 0 auto;background-image: url(../img/images/sub_customer/customer_box.png);background-repeat: no-repeat;box-shadow: 1px 1px 1px #555;}
+
+/*--------------customer_question-------------------*/
+#customer_question{width: 816px;height: 1660px;margin: 0 auto;margin-top: 50px;}
+#customer_question>h3{width: inherit;height: 32px;background-image: url(../img/images/sub_customer/content2_title.png);background-repeat: no-repeat;margin-bottom:36px; }
+
+.privacy_box{width: 100%;height: auto;}
+.privacy_box>h4{width: 100%;height: 19px;background-image: url(../img/images/sub_customer/customer_txt.png);background-repeat: no-repeat;margin-bottom: 15px;margin-left: 10px;}
+.privacy_txt{width: 90%;height: 260px;background-color: #eee;border: 2px solid #555;padding: 3% 5%;font-size: 0.9rem;line-height: 1.2rem;}
+
+.privacy_txt>strong{font-weight: 600;}
+
+#privacy_form{width: 100%;height: 580px;margin: 0 auto;margin-top: 10px;}
+#privacy_form>form{width: 100%;height: 100%;}
+#privacy_form>form>.privacy_formtxt{width: 100%;height: 300px;}
+#privacy_form>form>fieldset>legend{width: 0;height: 0;display: block;overflow: hidden;}
+
+#privacy_form>form>.privacy_formtxt>textarea{width: 94%;height: 98%;border: 2px solid #555;padding: 1% 3%;font-size: 0.9rem;line-height: 1.2rem; }
+
+/*--------------고객문의 입력양식------------------------*/
+
+#privacy_form>form>.question_form{width: 90%;height: 600px;margin-top: 50px;padding: 5%;background-color: #eee;}
+
+
+#formBox>form>.question_form>ul>li>input,#formBox>form>.question_form>ul>li>select{margin-left:16px; box-shadow: 1px 1px 1px #777;outline: 1px solid #ccc;}
+.inputBox li:nth-child(3)>input,select,.inputBox li:nth-child(4)>input{width: 100px;}
+.inputBox li:nth-child(2)>#question_02_2{width: 200px;}
+.inputBox li:nth-child(5)>input{width: 90%;}
+.inputBox li:nth-child(6)>input{height:30px;}
+.inputBox li:nth-child(7)>input{width: 90%;height: 360px;}
+#formBox>form>.question_form>ul>li,#formBox>form>.question_form>ol>li{padding-bottom: 10px;}
+.infoBox{width: 100px;height: 100%;float: left;background-color: #eee;margin-right: 10px;}
+.infoBox>li{width: 86px;height: 40px;text-align: center;line-height: 1rem;font-weight: bold;font-size: 0.9rem;text-indent: 10px;}
+.infoBox>li:last-child{line-height: 350px;}
+.inputBox{width: calc(100% - 120px); height: 100%;float: left;margin-bottom: 90px;}
+.inputBox p{display: inline-block;font-size: 0.775rem;color:#c0392b;}
+.inputBox>li{height: 40px;}
+.inputBox>li>input,.inputBox>li>select{font-size: 0.875rem;text-indent: 5px;height: 20px;}
+#formBox>form>fieldset>ul>li>#tel_02,
+#formBox>form>fieldset>ul>li>#tel_03{margin-left: 0;}
+
+
+.form_question_btn{margin-left: 160px;}
+.form_question_btn>button{width: 140px;height: 40px;cursor: pointer;}
+.form_question_btn>button:nth-child(1){background-color: #c0392b;margin-right:100px;color: #fff; }
+.form_question_btn>button:nth-child(2){background-color: #555;color: #fff; }
+
+
+
+
+

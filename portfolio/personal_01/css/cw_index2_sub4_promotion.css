@@ -1,0 +1,64 @@
+/* cw_sub2.css */
+
+@import url("./cwHeadWrap2.css");
+@import url("./cwFootWrap.css");
+
+
+/*promotion.css*/
+
+/*----------------section_-----------------------*/
+#section_bg{width: 100%;height: auto;background-image: url(../img/images/sub_brand/sub1/section_bg.png);}
+#section{width:  890px;height: 100%; margin: 0 auto;background-color: #fff;}
+
+.sideNavi_header{width: 100%;height: 46px; background-image: url(../img/images/sub_product/sub_navhead3.png);background-repeat: no-repeat;}
+
+/*---sectionContent---*/
+#sectionContent{width: 100%;height: auto;border: 1px solid #eef;box-shadow: 0 1px 5px; background-color: #fff;margin-top: 20px;}
+#sectionCon_header{width:inherit;height: 233px;background-image: url(../img/images/sub_promotion/sub1_head.png);background-repeat: no-repeat;background-position:center;}
+#sectionCon_img{width:inherit;height: 240px;margin-top: 15px;background-image: url(../img/images/sub_promotion/sub1_img.png);background-repeat: no-repeat;background-position:center; }
+
+#sectionCon_body{width:inherit;height:auto;margin-top: 25px;}
+
+/*--------------ad_content-------------------*/
+#ad{width: 816px;height: 515px;margin: 0 auto;margin-top: 40px;}
+#ad>h3{width: inherit;height: 32px;background-image: url(../img/images/sub_promotion/content2/content2_title.png);background-repeat: no-repeat;margin-bottom:36px; }
+        
+.ad_box{width:550px;height: 310px;margin: 0 auto;background-color: #c0392b;}
+#ad>ul{width: 100%;height: 90px;margin-top: 30px;}
+#ad>ul>li{width: 246px;float: left;margin-left: 26px;}
+#ad>ul>li>a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;background-position: center;transition: all .6s ease-in-out;border: 2px solid #c0392b; box-sizing: border-box;}
+#ad>ul>li>a:hover{transform: scale(0.9);}
+.ad_content1{width: 100%;height: 85px; margin-left: 0;}
+.ad_content2{width: 100%;height: 85px;}
+.ad_content3{width: 100%;height: 85px;}
+.ad_content1>a{background-image: url(../img/images/sub_promotion/content2/content2_con1.png);}
+.ad_content2>a{background-image: url(../img/images/sub_promotion/content2/content2_con2.png);}
+.ad_content3>a{background-image: url(../img/images/sub_promotion/content2/content2_con3.png);}
+
+/*--------------news_content-------------------*/
+#news{width: 816px;height: 560px;margin: 0 auto;margin-top: 50px;}
+#news>h3{width: inherit;height: 32px;background-image: url(../img/images/sub_promotion/content1/content1_title.png);background-repeat: no-repeat;margin-bottom:36px; }
+        
+.tableBox{width:768px;height: 100%;margin: 0 auto;}
+.tableList01{width: 100%;height: auto;margin: 0 auto;border: 3px solid #eee;}
+/*.tableList01>thead{background-color: #eee;}*/
+.tableList01>thead>tr{height: 38px;border: 1px solid #fff;}
+.tableList01>thead>tr>th{border-style: none;border-top: 3px solid #c0392b;border-bottom: 2px solid #bbb;box-sizing: border-box;border-right: 1px dotted #eee;}
+
+.tableList01>tbody{text-align: center;}
+.tableList01>tbody>tr>.tit{text-align: left;text-indent: 25px;}
+.tableList01>tbody>tr{height: 40px;border: 1px solid #fff;font-size: 0.875rem;}
+.tableList01>tbody>tr>td{border-style: none;border-bottom: 1px solid #eee;color:#555;border-right: 1px dotted #eee;font-size: 0.875rem;}
+.tableList01>tbody>tr>td>a{width: 100%;height: 100%;display: block; text-decoration: none;}
+.tableList01>tbody>tr>td>a>strong{font-weight: 500;color:#666;font-size: 0.875rem;transition: all .5s;}
+.tableList01>tbody>tr>td>a:hover strong{color: #c0392b;border-bottom: 1px solid #c0392b; }
+
+.tableList01>tbody>.news_data{height: 40px;border: 1px solid #fff;font-size: 0.875rem;background-color: #fdf7f1;}
+
+.tableList01>tbody>.news_data>td>a{width: 100%;height: 100%;display: block; text-decoration: none;}
+.tableList01>tbody>.news_data>td>a>strong{font-weight: bold;color:#444;font-size: 0.875rem;transition: all .5s;}
+.tableList01>tbody>.news_data>td>a:hover strong{color: #c0392b;border-bottom: 1px solid #c0392b; }
+
+.page_num{padding: 20px 0; width: 5px;height: 5px;margin: 0 auto;}
+.page_num>a{text-decoration: none;color:#c0392b;font-weight: bold;}
+               

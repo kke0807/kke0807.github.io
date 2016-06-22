@@ -16,7 +16,7 @@
 
 /*banner*/
         #bannerWrap>ul{width: 500%;height: 100%;margin-left: -100%;}
-        #bannerWrap>ul>li{width: calc(100% / 5);height: 100%;float: left;/*transition: margin-left 2s ease-out;*/}
+        #bannerWrap>ul>li{width: calc(100% / 5);height: 100%;float: left;}
              .banner_01{background-image: url(../img/images/banner/banner1.png);background-repeat: no-repeat;}
              .banner_02{background-image: url(../img/images/banner/banner2.png);background-repeat: no-repeat;}
              .banner_03{background-image: url(../img/images/banner/banner3.png);background-repeat: no-repeat;}

@@ -46,7 +46,7 @@
 .product1>ul{width:700px;height: 100%;overflow: hidden;margin: 0 auto;}
 .product1>ul>li{width: 33.3333%;height: 100%;float: left;}
 .product1>ul>li>a{width: 100%;height: 100%;display: block;}
-.product1>ul>li>a:hover{background-image: url(../img/images/sub_product/product_on.png);background-repeat: no-repeat;opacity: .2;transform: scale(1);transition: all 1s ease;}
+.product1>ul>li>a:hover{background-image: url(../img/images/sub_product/product_on.png);background-repeat: no-repeat;opacity: .5;transform: scale(1);transition: all 1s ease;}
 .product1_1{background-image: url(../img/images/sub_product/content1/content1_1.png);background-repeat: no-repeat;}
 .product1_2{background-image: url(../img/images/sub_product/content1/content1_2.png);background-repeat: no-repeat;}
 .product1_3{background-image: url(../img/images/sub_product/content1/content1_3.png);background-repeat: no-repeat;}
@@ -67,7 +67,7 @@
 .product2>ul{width:700px;height: 100%;overflow: hidden;margin: 0 auto;}
 .product2>ul>li{width: 33.3333%;height: 100%;float: left;}
 .product2>ul>li>a{width: 100%;height: 100%;display: block;}
-.product2>ul>li>a:hover{background-image: url(../img/images/sub_product/product_on.png);background-repeat: no-repeat;opacity: .2;transform: scale(1);transition: all 1s ease;}
+.product2>ul>li>a:hover{background-image: url(../img/images/sub_product/product_on.png);background-repeat: no-repeat;opacity: .5;transform: scale(1);transition: all 1s ease;}
 .product2_1{background-image: url(../img/images/sub_product/content2/content2_1.png);background-repeat: no-repeat;}
 .product2_2{background-image: url(../img/images/sub_product/content2/content2_2.png);background-repeat: no-repeat;}
 .product2_3{background-image: url(../img/images/sub_product/content2/content2_3.png);background-repeat: no-repeat;}
@@ -89,7 +89,7 @@
 .product3>ul{width:700px;height: 100%;overflow: hidden;margin: 0 auto;}
 .product3>ul>li{width: 33.3333%;height: 100%;float: left;}
 .product3>ul>li>a{width: 100%;height: 100%;display: block;}
-.product3>ul>li>a:hover{background-image: url(../img/images/sub_product/product_on.png);background-repeat: no-repeat;opacity: .2;transform: scale(1);transition: all 1s ease;}
+.product3>ul>li>a:hover{background-image: url(../img/images/sub_product/product_on.png);background-repeat: no-repeat;opacity: .5;transform: scale(1);transition: all 1s ease;}
 .product3_1{background-image: url(../img/images/sub_product/content3/content3_1.png);background-repeat: no-repeat;}
 .product3_2{background-image: url(../img/images/sub_product/content3/content3_2.png);background-repeat: no-repeat;}
 .product3_3{background-image: url(../img/images/sub_product/content3/content3_3.png);background-repeat: no-repeat;}
