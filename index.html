@@ -10,39 +10,40 @@
     <link rel="stylesheet" href="./css/flower.css">
 	<script src="./js/jquery/jquery-1.12.3.min.js"></script>
 	<script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
-	<script src="./js/jquery/jquery-ui.min.js"></script>
+
+    <script src="./js/jquery/prefixfree.min.js"></script>  
 	<script src="./js/index.js"></script>
+    <script src="./js/gallery.js"></script>
+	
 	<title>Mina</title>
 	<style>
 
     </style>
 	<script>
     $(function(){
-    
-    var popupBtn = $('#Awesome');
-    var close= $('.close');
-    var popup = $('.popup')
-             
-    popupBtn.on('click',function(){
-
-        popup.fadeIn(300).find('.popupBox');
+    var portfolio_1 = $('.portfolio_1'),
+        portfolio_2 = $('.portfolio_2');
         
-    });
-    close.on('click',function(){
-         popup.fadeOut(300);
-    });
-    popup.on('click',function(){
-        popup.fadeOut(100);
-    });
-      
+        portfolio_1.on('mouseover',function(){
+        portfolio_2.stop().animate({'background-color':'rgba(200,200,200,0.9)'},1500);
+        });
+        portfolio_1.on('mouseout',function(){
+        portfolio_2.stop().animate({'background-color':'rgba(50,50,50,0.9)'},1500);    
+        });
         
+        
+        
+        
+        gallery();
     });
 	</script>
 </head>
 <body>
 	<div id="wrap">
-       
-        
+          <video autoplay="autoplay" muted controls loop>
+        <source src="./img/video2.mp4" type="video/mp4"  />
+        </video>
+    
         <div id="menu">
         <div class="mina_logo"><a href="./index.html"><span class="me_hidden">MINA</span></a></div>
         <ul>
@@ -53,7 +54,7 @@
         </ul>
         <button class="top_btn"><span class="me_hidden">Top</span></button>
         </div>
-	    <div id="main_page">
+	    <div id="main_page" class="window_h">
 	       <div class="main_txt">
                <h1><span>Mina</span><span>web</span><span>Portfolio</span></h1></div>
 	       
@@ -73,10 +74,10 @@
         </div>
 	    </div><!--main-->
 	    
-	    <div id="section1">
+	    <div id="section1" class="window_h">
 	    <h2 class="about_text">ABOUT</h2>
 	    <div id="Awesome" class="anim750">
-	
+	    <a href="./resume/index.html" target="_blank">
           <div class="reveal circle_wrapper">
                 <div class="circle">click!</div>
             </div>
@@ -86,55 +87,49 @@
                     <div class="circle anim750"></div>
               </div>
             </div>
-
-          <h4>Resume</h4>
-
+            <h4>Resume</h4>
           <div class="sticky anim750">
                 <div class="back circle_wrapper anim750">
                     <div class="circle anim750"></div>
                 </div>
             </div>
-
-        </div>
-	    
-	    <div class="popup">
-            <div class="popupBox">
-              <!--  <img src="#" alt="" />-->
-                <ul>
-	            <li class="resume1"><span class="me_hidden">resume1</span></li>
-	            <li class="resume2"><span class="me_hidden">resume2</span></li>
-	            </ul>
-            </div>
-            <button class="close" aria-label="팝업닫기">X</button>
+        </a>
         </div>
 	    </div><!--//resume-->
-	    <div id="section2">
+	    <div id="section2" class="window_h">
 	    <h2 class="portfolio_text">PORTFOLIO</h2>
          <div class="portfolio_box">
-            <div class="gallery">
-                <div class="gallery-item">
-                    <div class="gallery-item-image">
-                       <a href="./portfolio/personal_01/cw_index2.html" target="_blank"><img src="./img/portfolio/cw.png" /></a></div>
-                    <div class="gallery-item-description">
-                       <h3>청우사이트</h3><span>청우 제과업체 회사 이동</span></div>
+                <div class="portfolio_1 item">
+                       <span><!--청우식품 홈페이지--></span>
+                       <a href="./portfolio/index.html" target="_blank"><img src="./img/portfolio/cw.png" /></a>
                 </div>
-
-                <div class="gallery-item">
-                    <div class="gallery-item-image">
-                        <a href="./portfolio/team2/layout.html" target="_blank"><img src="./img/portfolio/apieu.png" /></a></div>
-                    <div class="gallery-item-description">
-                       <h3>어퓨사이트</h3><span>어퓨 화장품업체 회사 이동</span></div>
+                <div class="portfolio_2 item">
+                       <span><!--어퓨 홈페이지--></span>
+                        <a href="./portfolio/index2.html" target="_blank"><img src="./img/portfolio/apieu.png" /></a>
                 </div>
           </div>
-             
-         </div> 
-        <video autoplay="autoplay" muted controls><!--loop-->
-        <source src="./img/video.mp4" type="video/mp4"  />
-        </video>
 	    </div>
-	    <div id="section3">
+	    <div id="section3" class="window_h">
 	    <h2 class="work_text">WORK GALLERY</h2>
-	    
+	    <div class="box"></div>
+				<div class="thumnail">
+					<div class="gallery_btn_left gall_btn"><button aria-label="갤러리 왼버튼"></button></div>
+					<div class="gallery_btn_right gall_btn"><button aria-label="갤러리 오른버튼"></button></div>
+					<div class="thumbox">
+						<ul>
+							<li class="imb_1"><a href="#" data-img="./img/gallery/j01_big.png"><h5>1번째</h5><p>노트북</p></a></li>
+							<li class="imb_2"><a href="#" data-img="./img/gallery/j02_big.png"><h5>2번째</h5><p>학원 내부 모습</p></a></li>
+							<li class="imb_3"><a href="#" data-img="./img/gallery/j03_big.jpg"><h5>3번째</h5><p>포트폴리오 청우 홈페이지 스케치</p></a></li>
+							<li class="imb_4"><a href="#" data-img="./img/gallery/j04_big.jpg"><h5>4번째</h5><p>포트폴리오 청우 홈페이지 스케치</p></a></li>
+							<li class="imb_5"><a href="#" data-img="./img/gallery/j05_big.jpg"><h5>5번째</h5><p>포트폴리오 청우 홈페이지 스케치</p></a></li>
+							<li class="imb_6"><a href="#" data-img="./img/gallery/j06_big.jpg"><h5>6번째</h5><p>포트폴리오 청우 홈페이지 스케치</p></a></li>
+							<li class="imb_7"><a href="#" data-img="./img/gallery/j07_big.jpg"><h5>7번째</h5><p>포트폴리오 청우 홈페이지 스케치(전에 작업한 스케치)</p></a></li>
+							<li class="imb_8"><a href="#" data-img="./img/gallery/j08_big.jpg"><h5>8번째</h5><p>포트폴리오 어퓨 홈페이지 스케치(전에 작업한 스케치)</p></a></li>
+							<li class="imb_9"><a href="#" data-img="./img/gallery/j09_big.jpg"><h5>9번째</h5><p>포트폴리오 어퓨 홈페이지 MOB, TAB 스케치(전에 작업한 스케치)</p></a></li>
+							<li class="imb_10"><a href="#" data-img="./img/gallery/j10_big.png"><h5>10번째</h5><p>포트폴리오 청우 홈페이지 스케치</p></a></li>
+						</ul>
+					</div>
+				</div>
       
     
 
