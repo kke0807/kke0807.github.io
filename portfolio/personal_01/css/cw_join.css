@@ -53,8 +53,9 @@
 .inputBox li:nth-child(6)>button{width: 150px; height: 32px;background-image: url(../img/images/join/join_address_btn.png);background-repeat: no-repeat;cursor: pointer;transition: all .8s;}
 .inputBox li:nth-child(6)>button:hover{width: 150px; height: 32px;background-image: url(../img/images/join/join_address_hover.png);background-repeat: no-repeat;cursor: pointer;}
 
-.inputBox li:nth-child(7)>input{width: 205%;margin-top:5px;}                
-.inputBox li:nth-child(8)>input,.inputBox li:nth-child(8)>input{width: 22%;float: left;}
+.inputBox li:nth-child(7)>input{width: 200%;margin-top:5px;}  
+.inputBox li:nth-child(8){width: 450px;}
+.inputBox li:nth-child(8)>input{width: 20%;float: left;}
 .inputBox li:nth-child(9)>input{width:38%; font-size: 0.675rem;}
 
 .question_form>ul>li,.question_form>ol>li{padding-bottom: 10px;}         
