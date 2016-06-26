@@ -107,7 +107,7 @@
                         <li class="join_mail_yes_wrap_img"><!--img삽입--></li>
                          <li class="join_mail_yes_wrap">
                                  <p>이용약관, 개인정보 수집 및 이용, 위치정보 이용약관(선택), 프로모션 안내</p>
-                                  <input type="checkbox" id="join_mail_yes" name="join_mail_yes"><label for="join_mail_yes">메일 수신(선택)에 모두 동의합니다.</label>
+                                  <input type="checkbox" id="join_mail_yes" name="join_mail_yes" /><label for="join_mail_yes">메일 수신(선택)에 모두 동의합니다.</label>
                          </li>
                          <li>
                              <ul>
@@ -115,7 +115,7 @@
                                  <li>CW 이용 약관 동의(필수)</li>
                              </ul>
 
-                             <textarea name="" id="" readonly="redonly" style="resize: none;">
+                             <textarea name="" id="textarea1" readonly="redonly" style="resize: none;">
 
  제 1 조 (목적)
 이 약관은 청우식품(”청우” 또는 “cw”)가 제공하는cw관련 제반 서비스의 이용과 관련하여 회사와 회원과의 권리, 의무 및 책임사항, 기타 필요한 사항을 규정함을 목적으로 합니다.
@@ -266,7 +266,7 @@
                                  <li>개인정보 수집 및 이용에 관한 안내(필수)</li>
                              </ul>
 
-                             <textarea name="" id="" readonly="redonly" style="resize: none;">
+                             <textarea name="" id="textarea2" readonly="redonly" style="resize: none;">
 
 ■ 수집하는 개인정보 항목
 회사는 회원가입, 상담, 서비스 신청 등을 위해 아래와 같은 개인정보를 수집하고 있습니다.
@@ -378,15 +378,15 @@
                    <li>
                    <input type="text" id="question_01" name="" value="" required placeholder="성명" />
                   </li>
-                    <li><input type="text" id="question_02" name="" value="" required placeholder="아이디">
+                    <li><input type="text" id="question_02" name="" value="" required placeholder="아이디" />
                    <button type="button" name="" id="idCheck"></button>
                    <label for="idCheck" class="me_hidden">중복확인</label>
                    </li>
-                   <li><input type="password" id="question_03" name="" value="" required placeholder="비밀번호">
+                   <li><input type="password" id="question_03" name="" value="" required placeholder="비밀번호" />
                    <label for="password"><span class="me_hidden">비밀번호</span>
                    <span class="me_hidden">5~15자리 사이의 비밀번호를 입력하세요.</span>
                    </label></li>
-                   <li><input type="password" id="question_04" name="" value="" required placeholder="비밀번호 확인">
+                   <li><input type="password" id="question_04" name="" value="" required placeholder="비밀번호 확인" />
                      <label for="password_confirm"><span class="me_hidden">패스워드확인</span>
                       <span class="me_hidden">다시 한번 패스워드를 입력하세요.(비밀번호 확인용입니다)</span>
                    </label></li>
@@ -421,6 +421,7 @@
                     <input type="text" name="" id="question_06" value=""/>
                    <span><!--bar--></span>
                    <input type="text" name="" id="question_06_1" value=""/>
+                   <label for="question_06_1"></label>
                     <button type="button" name="" id="idCheck_question_06"></button>
                    <label for="idCheck_question_06" class="me_hidden"></label>
                    </li>
@@ -449,7 +450,7 @@
                    <p>( * 상담을 원하시는 고객님께서는 연락처를 반드시 기재해 주시기 바랍니다.)</p>
                    </li>
 
-                <li><input type="email" id="question_09" name="" value="" equired placeholder="이메일">
+                <li><input type="email" id="question_09" name="" value="" equired placeholder="이메일" />
                    <span>@</span>
                    <input type="email" id="question_09_2" name="" value="" equired  placeholder="이메일 나머지 주소"/>
                    </li>
