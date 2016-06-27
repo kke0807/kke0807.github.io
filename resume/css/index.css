@@ -98,19 +98,19 @@ html, body { height: 100%; position: relative; }
   #main_page > p > strong { font-weight: bold; font-size: 2.6rem; font-family: "NanumGothic"; }
   /*-----------------기타--------------------*/
   #section1 { width: 100%; height: calc(100% - 73px); overflow: hidden; background-image: url(../img/img_bg.jpg); background-attachment: fixed; background-position: right bottom; background-repeat: no-repeat; background-size: 100%; }
-  #section1 > h2 { width: 100%; height: 108px; background-image: url(../img/title_1.png); background-repeat: no-repeat; background-size: 100%; background-position: center; }
+  #section1 > h2 { width: 100%; height: 108px; background-image: url(../img/title_1.png); background-repeat: no-repeat; background-size: 100% 100%; background-position: center; }
   .content1 { width: 100%; height: calc(100% - 108px); }
   .content1 > ul { width: 100%; height: 100%; margin-top: 306px; }
   .content1 > ul > li { float: left; }
   .box_1 { width: 33.3333%; height: 60%; background-color: #eee; }
-  .box_1 > div { width: 100%; height: 100%; background-image: url(../img/edcation_content_1.png); background-repeat: no-repeat; }
+  .box_1 > div { width: 100%; height: 100%; background-image: url(../img/edcation_content_1.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
   .box_2 { width: 33.3333%; height: 60%; background-color: #fff; }
-  .box_2 > div { width: 100%; height: 100%; background-image: url(../img/character_content_1.png); background-repeat: no-repeat; }
+  .box_2 > div { width: 100%; height: 100%; background-image: url(../img/character_content_1.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
   .box_3 { width: 33.3333%; height: 60%; background-color: #eee; }
   .box_3 > div { width: 100%; height: 100%; background-image: url(../img/hobby_cotent_1.png); background-repeat: no-repeat; }
   /*-----------------Skil Set/License--------------------*/
   #section2 { width: 100%; height: calc(100% - 73px); background-color: rgba(240, 240, 240, 0.8); }
-  #section2 > h2 { width: 100%; height: 106px; background-image: url(../img/skill_set_license_title_title.png); background-repeat: no-repeat; background-size: 100%; background-position: bottom; }
+  #section2 > h2 { width: 100%; height: 106px; background-image: url(../img/skill_set_license_title_title.png); background-repeat: no-repeat; background-size: 100% 100%; background-position: bottom; }
   .content2_1 { text-align: center; padding: 10px 50px; background-color: rgba(50, 50, 50, 0.5); margin: 0 auto; }
   .chart { position: relative; display: inline-block; margin: 20px 10px; color: #fff; font-size: 14px; text-align: center; font-weight: 500; }
   .chart canvas { position: absolute; top: 0; left: 0; }
