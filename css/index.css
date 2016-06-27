@@ -10,20 +10,15 @@ html,body{height: 100%;position: relative;}
 #menu>ul>li>a{color: #fff;text-decoration: none;line-height: inherit;}
 #menu>ul>li>a:hover{background-color: #999;color: #f01;border-radius: 0.8rem;padding: 5px;}
 
-
-
 /*----------------------top_btn----------------*/
 .top_btn{width: 3.125rem;height: 3rem;position: fixed;left: 90%;margin-top: -1rem;margin-left: -0.5rem;cursor: pointer;transition: all .4s ease;background-image: url(../img/top_btn.png);background-repeat: no-repeat;background-size: 90%;background-color: transparent;}
 .top_btn:hover{background-image: url(../img/top_btn_hover.png);background-repeat: no-repeat;background-size: 96%; }       
        
-
-#main_page{width:100%;height:calc(100% - 450px);padding-top: 450px;background-color:rgba(50,50,50,0.5);}
-
+#main_page{width:100%;height:calc(100% - 450px);padding-top: 450px;background-color:rgba(50,50,50,0.5);overflow: hidden;}
 
 .main_txt{width: 100%;height: auto;}
 
-
-h1 {
+.main_txt>h1 {
   font-family: arial;
   display: inline-block;
   margin: 0 auto;
@@ -48,15 +43,15 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-span {
+.main_txt>h1>span {
   display: block;
 }
-span:nth-child(1) {
+.main_txt>h1>span:nth-child(1) {
   font-size: 214%;
   line-height: 85%;
   text-indent: -0.33em;
 }
-span:nth-child(2) {
+.main_txt>h1>span:nth-child(2) {
   font-size: 290%;
   line-height: 69%;
   word-spacing: -0.2em;
@@ -270,7 +265,7 @@ margin: 0 auto; }
 .thumbox > ul > li.imb_3 > a { background-image: url("../img/gallery/j03.png"); }
 .thumbox > ul > li.imb_4 > a { background-image: url("../img/gallery/j04.png"); }
 .thumbox > ul > li.imb_5 > a { background-image: url("../img/gallery/j05.png"); }
-.thumbox > ul > li.imb_6 > a { background-image: url("../img/gallery/j06.png"); }
+.thumbox > ul > li.imb_6 > a { background-image: url("../img/gallery/j06.jpg"); }
 .thumbox > ul > li.imb_7 > a { background-image: url("../img/gallery/j07.png"); }
 .thumbox > ul > li.imb_8 > a { background-image: url("../img/gallery/j08.png"); }
 .thumbox > ul > li.imb_9 > a { background-image: url("../img/gallery/j09.png"); }
