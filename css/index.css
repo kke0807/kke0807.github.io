@@ -29,7 +29,7 @@ html, body { height: 100%; position: relative; }
 
 .main_txt { width: 100%; height: auto; }
 
-.main_txt > h1 { font-family: arial; display: inline-block; margin: 0 auto; font-weight: 900; text-transform: uppercase; text-align: center; font-size: 8.5vw; line-height: 120%; padding: 300px 0; animation: background 20s linear infinite; margin-top: 85px; background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); -webkit-background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); background-size: 1000% 100%; background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.main_txt > h1 { font-family: arial; display: inline-block; margin: 0 auto; font-weight: 900; text-transform: uppercase; text-align: center; font-size: 8.5vw; line-height: 120%; padding: 300px 0; animation: background 20s linear infinite; margin-top: 10px; background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); -webkit-background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); background-size: 1000% 100%; background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent; position: absolute; top: 48%; left: 50%; transform: translate(-50%, -50%); }
 
 .main_txt > h1 > span { display: block; }
 
@@ -54,7 +54,7 @@ video { position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; wid
 
 .anim750 { transition: all 750ms ease-in-out; }
 
-#Awesome { position: relative; width: 180px; height: 180px; margin: 0 auto; cursor: pointer; backface-visibility: hidden; }
+#Awesome { position: relative; width: 180px; height: 180px; margin: 0 auto; cursor: pointer; backface-visibility: hidden; margin-top: 16vw; }
 
 #Awesome .sticky { transform: rotate(45deg); }
 
@@ -196,7 +196,7 @@ video { position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; wid
   .top_btn:hover { background-image: url(../img/top_btn_hover.png); background-repeat: no-repeat; background-size: 96%; }
   #main_page { width: 100%; height: calc(100% - 450px); padding-top: 450px; background-color: rgba(50, 50, 50, 0.5); overflow: hidden; }
   .main_txt { width: 100%; height: auto; }
-  .main_txt > h1 { font-family: arial; display: inline-block; margin: 0 auto; font-weight: 900; text-transform: uppercase; text-align: center; font-size: 8.5vw; line-height: 120%; padding: 300px 0; animation: background 20s linear infinite; margin-top: 85px; background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); -webkit-background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); background-size: 1000% 100%; background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+  .main_txt > h1 { font-family: arial; display: inline-block; margin: 0 auto; font-weight: 900; text-transform: uppercase; text-align: center; font-size: 8.5vw; line-height: 120%; padding: 300px 0; animation: background 20s linear infinite; margin-top: 10px; background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); -webkit-background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); background-size: 1000% 100%; background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent; position: absolute; top: 48%; left: 50%; transform: translate(-50%, -50%); }
   .main_txt > h1 > span { display: block; }
   .main_txt > h1 > span:nth-child(1) { font-size: 214%; line-height: 85%; text-indent: -0.33em; }
   .main_txt > h1 > span:nth-child(2) { font-size: 290%; line-height: 69%; word-spacing: -0.2em; text-indent: -0.01em; }
@@ -213,7 +213,7 @@ video { position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; wid
   #section1 { width: 100%; height: calc(100% - 70px); background-color: rgba(50, 50, 50, 0.5); }
   #section1 > h2 { width: 100%; height: 150px; background-color: rgba(255, 255, 255, 0.5); color: #555; font-size: 4rem; line-height: 150px; text-indent: 2rem; }
   .anim750 { transition: all 750ms ease-in-out; }
-  #Awesome { position: relative; width: 180px; height: 180px; margin: 0 auto; cursor: pointer; backface-visibility: hidden; }
+  #Awesome { position: relative; width: 180px; height: 180px; margin: 0 auto; margin-top: 16vw; cursor: pointer; backface-visibility: hidden; }
   #Awesome .sticky { transform: rotate(45deg); }
   #Awesome:hover .sticky { transform: rotate(10deg); }
   #Awesome .sticky { position: absolute; top: 0; left: 0; width: 180px; height: 180px; }
@@ -310,7 +310,7 @@ video { position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; wid
   #section1 { width: 100%; height: calc(100% - 70px); background-color: rgba(50, 50, 50, 0.5); }
   #section1 > h2 { width: 100%; height: 150px; background-color: rgba(255, 255, 255, 0.5); color: #555; font-size: 4rem; line-height: 150px; text-indent: 2rem; }
   .anim750 { transition: all 750ms ease-in-out; }
-  #Awesome { position: relative; width: 180px; height: 180px; margin: 0 auto; cursor: pointer; backface-visibility: hidden; }
+  #Awesome { position: relative; width: 180px; height: 180px; margin: 0 auto; cursor: pointer; backface-visibility: hidden; margin-top: 25vw; }
   #Awesome .sticky { transform: rotate(45deg); }
   #Awesome:hover .sticky { transform: rotate(10deg); }
   #Awesome .sticky { position: absolute; top: 0; left: 0; width: 180px; height: 180px; }
@@ -334,13 +334,13 @@ video { position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; wid
   #section2 > .portfolio_box { width: 100%; height: calc(100% - 152px); margin: 0 auto; }
   .portfolio_1 { width: 50%; height: 100%; float: left; background-color: rgba(200, 200, 200, 0.9); }
   .portfolio_1 > a { width: 100%; height: 100%; display: block; }
-  .portfolio_1 > a > img { width: 75%; height: 55%; margin-left: 10%; margin-top: 30%; }
+  .portfolio_1 > a > img { width: 75%; height: 50%; margin-left: 10%; margin-top: 30%; }
   .portfolio_1 > span { display: none; width: 202px; height: 37px; background-image: url(../img/portfolio/cw_txt.png); background-repeat: no-repeat; margin-top: 60px; margin-left: 13vw; }
   .portfolio_1:hover { background-color: rgba(50, 50, 50, 0.9); }
   .portfolio_1:hover span { display: block; }
   .portfolio_2 { width: 50%; height: 100%; float: left; background-color: rgba(50, 50, 50, 0.9); }
   .portfolio_2 > a { width: 100%; height: 100%; display: block; }
-  .portfolio_2 > a > img { width: 75%; height: 55%; margin-left: 10%; margin-top: 30%; }
+  .portfolio_2 > a > img { width: 75%; height: 50%; margin-left: 10%; margin-top: 30%; }
   .portfolio_2 > span { display: none; width: 202px; height: 37px; background-image: url(../img/portfolio/apieu_txt.png); background-repeat: no-repeat; margin-top: 60px; margin-left: 13vw; }
   .portfolio_2:hover { background-color: rgba(200, 200, 200, 0.9); }
   .portfolio_2:hover span { display: block; }
@@ -389,7 +389,7 @@ video { position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; wid
   .top_btn:hover { background-image: url(../img/top_btn_hover.png); background-repeat: no-repeat; background-size: 96%; }
   #main_page { width: 100%; height: calc(100% - 450px); padding-top: 450px; background-color: rgba(50, 50, 50, 0.5); overflow: hidden; }
   .main_txt { width: 100%; height: auto; }
-  .main_txt > h1 { font-family: arial; display: inline-block; margin: 0 auto; font-weight: 900; text-transform: uppercase; text-align: center; font-size: 8.5vw; line-height: 120%; padding: 300px 0; animation: background 20s linear infinite; margin-top: 85px; background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); -webkit-background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); background-size: 1000% 100%; background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent; position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%); }
+  .main_txt > h1 { font-family: arial; display: inline-block; margin: 0 auto; font-weight: 900; text-transform: uppercase; text-align: center; font-size: 8.5vw; line-height: 120%; padding: 300px 0; animation: background 20s linear infinite; margin-top: 40px; background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); -webkit-background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); background-size: 1000% 100%; background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent; position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%); }
   .main_txt > h1 > span { display: block; }
   .main_txt > h1 > span:nth-child(1) { font-size: 214%; line-height: 85%; text-indent: -0.33em; }
   .main_txt > h1 > span:nth-child(2) { font-size: 290%; line-height: 69%; word-spacing: -0.2em; text-indent: -0.01em; }
@@ -406,7 +406,7 @@ video { position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; wid
   #section1 { width: 100%; height: calc(100% - 70px); background-color: rgba(50, 50, 50, 0.5); }
   #section1 > h2 { width: 100%; height: 150px; background-color: rgba(255, 255, 255, 0.5); color: #555; font-size: 4rem; line-height: 150px; text-indent: 2rem; }
   .anim750 { transition: all 750ms ease-in-out; }
-  #Awesome { position: relative; width: 180px; height: 180px; margin: 0 auto; cursor: pointer; backface-visibility: hidden; }
+  #Awesome { position: relative; width: 180px; height: 180px; margin: 0 auto; cursor: pointer; backface-visibility: hidden; margin-top: 25vw; }
   #Awesome .sticky { transform: rotate(45deg); }
   #Awesome:hover .sticky { transform: rotate(10deg); }
   #Awesome .sticky { position: absolute; top: 0; left: 0; width: 180px; height: 180px; }
@@ -430,14 +430,14 @@ video { position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; wid
   #section2 > .portfolio_box { width: 100%; height: calc(100% - 152px); margin: 0 auto; }
   .portfolio_1 { width: 100%; height: 50%; background-color: rgba(200, 200, 200, 0.9); }
   .portfolio_1 > a { width: 100%; height: 100%; display: block; }
-  .portfolio_1 > a > img { width: 52%; height: 65%; margin-left: 26%; margin-top: 5%; }
-  .portfolio_1 > span { display: none; width: 202px; height: 37px; background-image: url(../img/portfolio/cw_txt.png); background-repeat: no-repeat; margin-top: 60px; margin-left: 38vw; }
+  .portfolio_1 > a > img { width: 52%; height: 78%; margin-left: 26%; margin-top: 5%; }
+  .portfolio_1 > span { display: none; width: 202px; height: 37px; background-image: url(../img/portfolio/cw_txt.png); background-repeat: no-repeat; margin-top: 20px; margin-left: 38vw; }
   .portfolio_1:hover { background-color: rgba(50, 50, 50, 0.9); }
   .portfolio_1:hover span { display: block; }
   .portfolio_2 { width: 100%; height: 50%; background-color: rgba(50, 50, 50, 0.9); }
   .portfolio_2 > a { width: 100%; height: 100%; display: block; }
-  .portfolio_2 > a > img { width: 52%; height: 65%; margin-left: 26%; margin-top: 5%; }
-  .portfolio_2 > span { display: none; width: 202px; height: 37px; background-image: url(../img/portfolio/apieu_txt.png); background-repeat: no-repeat; margin-top: 60px; margin-left: 38vw; }
+  .portfolio_2 > a > img { width: 52%; height: 78%; margin-left: 26%; margin-top: 5%; }
+  .portfolio_2 > span { display: none; width: 202px; height: 37px; background-image: url(../img/portfolio/apieu_txt.png); background-repeat: no-repeat; margin-top: 20px; margin-left: 38vw; }
   .portfolio_2:hover { background-color: rgba(200, 200, 200, 0.9); }
   .portfolio_2:hover span { display: block; }
   .on1 { background-color: rgba(200, 200, 200, 0.9); transition: all .7s; }
@@ -487,7 +487,7 @@ video { position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; wid
   .top_btn:hover { background-image: url(../img/top_btn_hover.png); background-repeat: no-repeat; background-size: 96%; }
   #main_page { width: 100%; height: calc(100% - 450px); padding-top: 450px; background-color: rgba(50, 50, 50, 0.5); overflow: hidden; }
   .main_txt { width: 100%; height: auto; }
-  .main_txt > h1 { font-family: arial; display: inline-block; margin: 0 auto; font-weight: 900; text-transform: uppercase; text-align: center; font-size: 8.5vw; line-height: 120%; padding: 300px 0; animation: background 20s linear infinite; margin-top: 85px; background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); -webkit-background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); background-size: 1000% 100%; background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+  .main_txt > h1 { font-family: arial; display: inline-block; margin: 0 auto; font-weight: 900; text-transform: uppercase; text-align: center; font-size: 8.5vw; line-height: 120%; padding: 300px 0; animation: background 20s linear infinite; margin-top: 45px; background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); -webkit-background: linear-gradient(90deg, #96301e 0%, #c7c958 10%, #1c932e 20%, #4aa5a8 30%, #595aa5 40%, #541043 50%, #1c3a3f 60%, #52afb7 70%, #4eaa4c 80%, #96301e 90%, #c7c958 100%); background-size: 1000% 100%; background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
   .main_txt > h1 > span { display: block; }
   .main_txt > h1 > span:nth-child(1) { font-size: 214%; line-height: 85%; text-indent: -0.33em; }
   .main_txt > h1 > span:nth-child(2) { font-size: 290%; line-height: 69%; word-spacing: -0.2em; text-indent: -0.01em; }
@@ -504,7 +504,7 @@ video { position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; wid
   #section1 { width: 100%; height: calc(100% - 70px); background-color: rgba(50, 50, 50, 0.5); background-image: url(../img/bg.jpg); }
   #section1 > h2 { width: 100%; height: 150px; background-color: rgba(255, 255, 255, 0.5); color: #555; font-size: 4rem; line-height: 150px; text-indent: 2rem; }
   .anim750 { transition: all 750ms ease-in-out; }
-  #Awesome { position: relative; width: 180px; height: 180px; margin: 0 auto; cursor: pointer; backface-visibility: hidden; }
+  #Awesome { position: relative; width: 180px; height: 180px; margin: 0 auto; cursor: pointer; backface-visibility: hidden; margin-top: 35vw; }
   #Awesome .sticky { transform: rotate(45deg); }
   #Awesome:hover .sticky { transform: rotate(10deg); }
   #Awesome .sticky { position: absolute; top: 0; left: 0; width: 180px; height: 180px; }
@@ -528,14 +528,14 @@ video { position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; wid
   #section2 > .portfolio_box { width: 100%; height: calc(100% - 152px); margin: 0 auto; }
   .portfolio_1 { width: 100%; height: 50%; background-color: rgba(200, 200, 200, 0.9); }
   .portfolio_1 > a { width: 100%; height: 100%; display: block; }
-  .portfolio_1 > a > img { width: 60%; height: 72%; margin-left: 20%; margin-top: 5%; }
-  .portfolio_1 > span { display: none; width: 202px; height: 35px; background-image: url(../img/portfolio/cw_txt.png); background-repeat: no-repeat; margin-top: 60px; margin-left: 34%; }
+  .portfolio_1 > a > img { width: 60%; height: 82%; margin-left: 20%; margin-top: 5%; }
+  .portfolio_1 > span { display: none; width: 202px; height: 35px; background-image: url(../img/portfolio/cw_txt.png); background-repeat: no-repeat; margin-top: 20px; margin-left: 34%; }
   .portfolio_1:hover { background-color: rgba(50, 50, 50, 0.9); }
   .portfolio_1:hover span { display: block; }
   .portfolio_2 { width: 100%; height: 50%; background-color: rgba(50, 50, 50, 0.9); }
   .portfolio_2 > a { width: 100%; height: 100%; display: block; }
-  .portfolio_2 > a > img { width: 60%; height: 72%; margin-left: 20%; margin-top: 5%; }
-  .portfolio_2 > span { display: none; width: 202px; height: 35px; background-image: url(../img/portfolio/apieu_txt.png); background-repeat: no-repeat; margin-top: 60px; margin-left: 34%; }
+  .portfolio_2 > a > img { width: 60%; height: 82%; margin-left: 20%; margin-top: 5%; }
+  .portfolio_2 > span { display: none; width: 202px; height: 35px; background-image: url(../img/portfolio/apieu_txt.png); background-repeat: no-repeat; margin-top: 20px; margin-left: 34%; }
   .portfolio_2:hover { background-color: rgba(200, 200, 200, 0.9); }
   .portfolio_2:hover span { display: block; }
   .on1 { background-color: rgba(200, 200, 200, 0.9); transition: all .7s; }
