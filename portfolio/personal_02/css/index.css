@@ -23,7 +23,7 @@
 
 /* HeadWrap */
 #HeadWrap { width: 100%; height: auto; background-color: #fff; position: relative; }
-#HeadWrap > #Headbox { width: 100%; height: calc(100% - 8px); padding-top: 8px; }
+#HeadWrap > #Headbox { width: 100%; height: calc(100% - 8px); padding-top: 8px; overflow: hidden; }
 #HeadWrap > #Headbox > h1 { width: 150px; height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png); background-repeat: no-repeat; }
 #HeadWrap > #Headbox > h1 > a { width: 100%; height: 100%; display: block; }
 #HeadWrap > #Headbox > .site_map { width: 270px; height: 32px; margin-right: 33px; position: absolute; top: 8px; right: 0; }
@@ -156,7 +156,7 @@
   #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1.5rem !important; }
   /* HeadWrap */
   #HeadWrap { width: 100%; height: 120px; background-color: #fff; }
-  #HeadWrap > #Headbox { width: 100%; height: calc(100% - 8px); padding-top: 8px; position: relative; }
+  #HeadWrap > #Headbox { width: 100%; height: calc(100% - 8px); padding-top: 8px; position: relative; overflow: hidden; }
   #HeadWrap > #Headbox > h1 { width: 150px; height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png); background-repeat: no-repeat; }
   #HeadWrap > #Headbox > h1 > a { width: 100%; height: 100%; display: block; }
   #HeadWrap > #Headbox > .site_map { width: 270px; height: 32px; margin-right: 33px; position: absolute; top: 8px; right: 0; }
