@@ -54,7 +54,7 @@
 
 /* indexBanner */
 #indexBannerWrap{width: 100%;height: 540px; background-color: #010101;}
-#indexBanner{width: 60vw;height: 540px; overflow: hidden;background-color: $sub2;position: relative;margin: 0 auto; 
+#indexBanner{width: 60vw;height: 540px; overflow: hidden;background-color: $sub2;position: relative;margin: 0 auto;min-width: 960px; 
     >button{width: 82px;height:50px;background-color:transparent; position: absolute;left: 46%;}
     >.btn_01{background-image:  url("../img/banner/banner_upbtn.png");background-repeat: no-repeat;float: left;cursor: pointer;top: 0;
         &:hover{background-image: url(../img/banner/banner_upbtnOn.png);transition: .6s ease-in;}
