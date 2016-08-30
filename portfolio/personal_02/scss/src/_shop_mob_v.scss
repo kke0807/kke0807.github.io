@@ -115,7 +115,7 @@
 
 /* #shopContentBox */
 #shopContentBox{width: 100%;height: auto;
-    >.shopContent{width: 94vw;height: auto;border-left: $line;border-right: $line;overflow: hidden;
+    >.shopContent{width: 94vw;height: auto;border-left: $line;border-right: $line;overflow: hidden; 
         >h2{width: 93.3333vw;height: 20px;background-color: #fff;padding: 15px 32px;box-shadow: 1px 2px 3px #ccc;
             >span{width: 145px;height: 22px;display: block; background-image:  url("../img/sub/shop/sub_shop_title.png");background-repeat: no-repeat;background-size: 88%;}
             }
@@ -152,7 +152,7 @@
                 }
             }
         }
-        >.shop_product{width: 100%;height:auto;
+        >.shop_product{width: 100%;height:auto; min-height:27.2vw;
             >#shop_menu{width: 100%;height: 7.5vw;
                 >dl{
                     >dt{height: 7.4vw;float: left;}
