@@ -170,7 +170,7 @@
 #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 { border-right: 0; margin-right: 0; border-bottom: 0; }
 #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 > a { background-image: url("../img/sub/shop/product/product12_off.png"); background-repeat: no-repeat; }
 #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 > a:hover { background-image: url("../img/sub/shop/product/product12_on.png"); transition: .8s ease-in-out; }
-#shopContentBox > .shopContent > .shop_event { width: 960px; height: 200px; margin: 0 auto; overflow: hidden; clear: both; }
+#shopContentBox > .shopContent > .shop_event { width: 960px; height: 200px; margin: 0 auto; overflow: hidden; }
 #shopContentBox > .shopContent > .shop_event > ul > li { height: 200px; float: left; }
 #shopContentBox > .shopContent > .shop_event > ul > .shop_event1 { width: 442px; }
 #shopContentBox > .shopContent > .shop_event > ul > .shop_event1 > a { background-image: url("../img/sub/shop/event/product_event_01.png"); background-repeat: no-repeat; }
@@ -351,7 +351,7 @@
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 { border-right: 0; margin-right: 0; border-bottom: 0; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 > a { background-image: url("../img/sub/shop/product/product12_off.png"); background-repeat: no-repeat; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 > a:hover { background-image: url("../img/sub/shop/product/product12_on.png"); transition: .8s ease-in-out; }
-  #shopContentBox > .shopContent > .shop_event { width: 960px; height: 200px; margin: 0 auto; overflow: hidden; clear: both; }
+  #shopContentBox > .shopContent > .shop_event { width: 960px; height: 200px; margin: 0 auto; overflow: hidden; }
   #shopContentBox > .shopContent > .shop_event > ul > li { height: 200px; float: left; }
   #shopContentBox > .shopContent > .shop_event > ul > .shop_event1 { width: 442px; }
   #shopContentBox > .shopContent > .shop_event > ul > .shop_event1 > a { background-image: url("../img/sub/shop/event/product_event_01.png"); background-repeat: no-repeat; }
@@ -513,7 +513,7 @@
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 { border-right: 0; margin-right: 0; border-bottom: 0; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 > a { background-image: url("../img/sub/shop/product/product12_off.png"); background-repeat: no-repeat; background-size: 100%; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 > a:hover { background-image: url("../img/sub/shop/product/product12_on.png"); transition: .8s ease-in-out; }
-  #shopContentBox > .shopContent > .shop_event { width: 960px; height: 200px; margin: 0 auto; overflow: hidden; clear: both; }
+  #shopContentBox > .shopContent > .shop_event { width: 960px; height: 200px; margin: 0 auto; overflow: hidden; }
   #shopContentBox > .shopContent > .shop_event > ul > li { height: 200px; float: left; }
   #shopContentBox > .shopContent > .shop_event > ul > .shop_event1 { width: 442px; }
   #shopContentBox > .shopContent > .shop_event > ul > .shop_event1 > a { background-image: url("../img/sub/shop/event/product_event_01.png"); background-repeat: no-repeat; }
@@ -675,7 +675,7 @@
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 { border-right: 0; margin-right: 0; border-bottom: 0; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 > a { background-image: url("../img/sub/shop/product/product12_off.png"); background-repeat: no-repeat; background-size: 100%; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 > a:hover { background-image: url("../img/sub/shop/product/product12_on.png"); transition: .8s ease-in-out; }
-  #shopContentBox > .shopContent > .shop_event { width: 100%; height: 200px; margin: 0 auto; overflow: hidden; clear: both; }
+  #shopContentBox > .shopContent > .shop_event { width: 100%; height: 200px; margin: 0 auto; overflow: hidden; }
   #shopContentBox > .shopContent > .shop_event > ul > li { height: 200px; float: left; }
   #shopContentBox > .shopContent > .shop_event > ul > .shop_event1 { width: 45vw; }
   #shopContentBox > .shopContent > .shop_event > ul > .shop_event1 > a { background-image: url("../img/sub/shop/event/product_event_01.png"); background-repeat: no-repeat; /*background-size: 100%;*/ }
@@ -856,7 +856,7 @@
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 { border-right: 0; margin-right: 0; border-bottom: 0; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 > a { background-image: url("../img/sub/shop/product/product12_off.png"); background-repeat: no-repeat; background-size: 100%; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 > a:hover { background-image: url("../img/sub/shop/product/product12_on.png"); transition: .8s ease-in-out; }
-  #shopContentBox > .shopContent > .shop_event { width: 100%; height: 200px; margin: 0 auto; overflow: hidden; clear: both; }
+  #shopContentBox > .shopContent > .shop_event { width: 100%; height: 200px; margin: 0 auto; overflow: hidden; }
   #shopContentBox > .shopContent > .shop_event > ul > li { height: 200px; float: left; }
   #shopContentBox > .shopContent > .shop_event > ul > .shop_event1 { width: 45vw; }
   #shopContentBox > .shopContent > .shop_event > ul > .shop_event1 > a { background-image: url("../img/sub/shop/event/product_event_01.png"); background-repeat: no-repeat; /*background-size: 100%;*/ }
@@ -1036,7 +1036,7 @@
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 { border-right: 0; margin-right: 0; border-bottom: 0; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 > a { background-image: url("../img/sub/shop/product/product12_off.png"); background-repeat: no-repeat; background-size: 100%; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dd > .productBox > .shop_product12 > a:hover { background-image: url("../img/sub/shop/product/product12_on.png"); transition: .8s ease-in-out; }
-  #shopContentBox > .shopContent > .shop_event { width: 100%; height: 18vw; margin: 0 auto; overflow: hidden; /*clear: both;*/ }
+  #shopContentBox > .shopContent > .shop_event { width: 100%; height: 18vw; margin: 0 auto; overflow: hidden; }
   #shopContentBox > .shopContent > .shop_event > ul > li { height: 18vw; float: left; }
   #shopContentBox > .shopContent > .shop_event > ul > .shop_event1 { width: 45%; }
   #shopContentBox > .shopContent > .shop_event > ul > .shop_event1 > a { background-image: url("../img/sub/shop/event/product_event_01.png"); background-repeat: no-repeat; background-size: 100%; }
