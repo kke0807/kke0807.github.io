@@ -29,19 +29,18 @@
 .shopmenu_6on{background-image: url("../img/sub/shop/menu_bar/product_bar6_on.png");background-repeat: no-repeat;background-size: 100%;}
 .shopmenu_6off{background-image: url("../img/sub/shop/menu_bar/product_bar6_off.png");background-repeat: no-repeat;background-size: 100%;}  
 
-    
-/* HeadWrap */
+  /* HeadWrap */
 #HeadWrap{width: 100%;height: 120px;background-color: #fff;
     >#Headbox{width: 100%;height: calc(100% - 8px);padding-top: 8px;position: relative;
         >h1{width: 150px;height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png);background-repeat: no-repeat;
             >a{width: 100%;height: 100%;display: block;}
         }
-        >.site_map{width: 280px;height: 32px;margin-right: 0.625vw;position: absolute;top: 8px;right: 0;
+        >.site_map{width: 36vw;height: 32px;margin-right: 0.2vw;position: absolute;top: 8px;right: 0;
             >ul{width: inherit;height: inherit;
-                >li{float: left;margin-right: 16px;}
-                >.site_search{width: 15.625vw;height: 22px;padding: 0.52vw; background-color:$sub2;border-radius: 8%;
-                    >form>fieldset>input{width: 11vw;height: 22px;float: left;text-indent: 2px;}
-                    >form>fieldset>button{width: 28px;height: 22px;background-image: url(../img/header/search_btn.png);background-repeat: no-repeat;float: left;margin-left: 5px;}
+                >li{float: left;margin-right: 5%;}
+                >.site_search{width: 50%;height: 22px;padding: 0.52vw; background-color:$sub2;border-radius: 8%;
+                    >form>fieldset>input{width: 12vw;height: 22px;float: left;text-indent: 2px;float: left;}
+                    >form>fieldset>button{width: 5vw;height: 22px;background-image: url(../img/header/search_btn.png);background-color: transparent;background-repeat: no-repeat;margin-left: 5%;float: left;}
                 }
                 >.site_login{width: 40px;height: 16px;margin-top: 7px;
                     >a{background-image: url(../img/header/menu_login.png);background-repeat: no-repeat;}}
@@ -52,25 +51,25 @@
         }//.site_map
         >.menu_btn{display: none;}
         >#gnb{width: 100%;height: 38px;background-color: $main;margin-top: 8px;
-            >ul{width: 89.583vw;height: 22px; padding: 8px 50px;margin: 0 auto;
-                >li{float: left;height: 20px;margin-right:9vw;}
-                >.gnb_1{width: 45px;
-                    >a{background-image: url(../img/header/menu_shop.png);background-repeat: no-repeat;
+            >ul{width: 89.583vw;height: 16px; padding: 12px 50px;margin: 0 auto;
+                >li{float: left;height: 20px;margin-right:/*8vw*/11.2%;}
+                >.gnb_1{width: 4.6875vw;
+                    >a{background-image: url(../img/header/menu_shop.png);background-repeat: no-repeat;background-size: 100%;
                         &:hover{background-image: url(../img/header/menu_shopOn.png);transition: .2s ease-in;}}}
-                >.gnb_2{width: 56px;
-                    >a{background-image: url(../img/header/menu_protip.png);background-repeat: no-repeat;
+                >.gnb_2{width: 5.83vw;
+                    >a{background-image: url(../img/header/menu_protip.png);background-repeat: no-repeat;background-size: 100%;
                         &:hover{background-image: url(../img/header/menu_protipOn.png);transition: .2s ease-in;}}}
-                >.gnb_3{width: 60px;
-                    >a{background-image: url(../img/header/menu_chance.png);background-repeat: no-repeat;
+                >.gnb_3{width: 6.25vw;
+                    >a{background-image: url(../img/header/menu_chance.png);background-repeat: no-repeat;background-size: 100%;
                         &:hover{background-image: url(../img/header/menu_chanceOn.png);transition: .2s ease-in;}}}
-                >.gnb_4{width: 60px;
-                    >a{background-image: url(../img/header/menu_service.png);background-repeat: no-repeat;
+                >.gnb_4{width: 6.25vw;
+                    >a{background-image: url(../img/header/menu_service.png);background-repeat: no-repeat;background-size: 100%;
                         &:hover{background-image: url(../img/header/menu_serviceOn.png);transition: .2s ease-in;}}}
-                >.gnb_5{width: 56px;
-                    >a{background-image: url(../img/header/menu_review.png);background-repeat: no-repeat;
+                >.gnb_5{width: 5.83vw;
+                    >a{background-image: url(../img/header/menu_review.png);background-repeat: no-repeat;background-size: 100%;
                         &:hover{background-image: url(../img/header/menu_reviewOn.png);transition: .2s ease-in;}}}
-                >.gnb_6{width: 46px;margin-right: 0;
-                    >a{background-image: url(../img/header/menu_brand.png);background-repeat: no-repeat;
+                >.gnb_6{width: 4.79vw;margin-right: 0;
+                    >a{background-image: url(../img/header/menu_brand.png);background-repeat: no-repeat;background-size: 100%;
                         &:hover{background-image: url(../img/header/menu_brandOn.png);transition: .2s ease-in;}}}
             }//ul
         }//#gnb
@@ -233,7 +232,7 @@
             >li{width: 100%;}
             >.addBox1{width: 100%;height: 20px;margin-bottom: 1.041vw;
                 >ul{width: 100%;height: 20px;
-                    >li{height: 2.0833vw;float: left;margin-right: 10vw;
+                    >li{height: 2.0833vw;float: left;margin-right: 8.2vw;
                         >a{background-position: center;}
                     }
                     >.foo_menu1{width: 36px;margin-left: 10px;
