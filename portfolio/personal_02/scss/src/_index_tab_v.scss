@@ -5,14 +5,14 @@
 //*:focus{outline: 2px solid $sub2;}
 #container{background-color: $main;overflow: hidden;}
 #indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:$sub !important; width: 1.35rem !important;}
-
+    
 /* HeadWrap */
 #HeadWrap{width: 100%;height: 120px;background-color: #fff;
     >#Headbox{width: 100%;height: calc(100% - 8px);padding-top: 8px;position: relative;
         >h1{width: 150px;height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png);background-repeat: no-repeat;
             >a{width: 100%;height: 100%;display: block;}
         }
-        >.site_map{width: 270px;height: 32px;margin-right: 0.625vw;position: absolute;top: 8px;right: 0;
+        >.site_map{width: 280px;height: 32px;margin-right: 0.625vw;position: absolute;top: 8px;right: 0;
             >ul{width: inherit;height: inherit;
                 >li{float: left;margin-right: 16px;}
                 >.site_search{width: 15.625vw;height: 22px;padding: 0.52vw; background-color:$sub2;border-radius: 8%;
@@ -29,7 +29,7 @@
         >.menu_btn{display: none;}
         >#gnb{width: 100%;height: 38px;background-color: $main;margin-top: 8px;
             >ul{width: 89.583vw;height: 22px; padding: 8px 50px;margin: 0 auto;
-                >li{float: left;height: 20px;margin-right:8.8vw;}
+                >li{float: left;height: 20px;margin-right:9vw;}
                 >.gnb_1{width: 45px;
                     >a{background-image: url(../img/header/menu_shop.png);background-repeat: no-repeat;
                         &:hover{background-image: url(../img/header/menu_shopOn.png);transition: .2s ease-in;}}}
