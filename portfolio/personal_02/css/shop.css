@@ -465,7 +465,7 @@
   #shopContentBox > .shopContent > .shop_new_product > ul > .new_product2 > a:hover { background-image: url("../img/sub/shop/new_product/new_product2_on.png"); transition: .6s ease-in-out; }
   #shopContentBox > .shopContent > .shop_new_product > ul > .new_product3_txt { width: 32vw; height: 171px; background-image: url("../img/sub/shop/new_product/new_product3txt.png"); background-repeat: no-repeat; background-position: center; background-size: 100%; }
   #shopContentBox > .shopContent > .shop_new_product > ul > .new_product3_txt > span { width: 0; height: 0; display: block; overflow: hidden; }
-  #shopContentBox > .shopContent > .shop_product { width: 100%; height: auto; }
+  #shopContentBox > .shopContent > .shop_product { width: 100%; height: auto; min-height: 27.2vw; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu { width: 100%; height: 7.4vw; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dt { height: 7.4vw; float: left; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > .shopmenu_1 { width: 15.66vw; }
@@ -627,7 +627,7 @@
   #shopContentBox > .shopContent > .shop_new_product > ul > .new_product2 > a:hover { background-image: url("../img/sub/shop/new_product/new_product2_on.png"); transition: .6s ease-in-out; }
   #shopContentBox > .shopContent > .shop_new_product > ul > .new_product3_txt { width: 32vw; height: 171px; background-image: url("../img/sub/shop/new_product/new_product3txt.png"); background-repeat: no-repeat; background-position: center; background-size: 100%; }
   #shopContentBox > .shopContent > .shop_new_product > ul > .new_product3_txt > span { width: 0; height: 0; display: block; overflow: hidden; }
-  #shopContentBox > .shopContent > .shop_product { width: 100%; height: auto; }
+  #shopContentBox > .shopContent > .shop_product { width: 100%; height: auto; min-height: 27.2vw; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu { width: 100%; height: 7.4vw; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dt { height: 7.4vw; float: left; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > .shopmenu_1 { width: 15.66vw; }
@@ -808,7 +808,7 @@
   #shopContentBox > .shopContent > .shop_new_product > ul > .new_product2 > a:hover { background-image: url("../img/sub/shop/new_product/new_product2_on.png"); transition: .6s ease-in-out; }
   #shopContentBox > .shopContent > .shop_new_product > ul > .new_product3_txt { width: 32vw; height: 17.8125vw; background-image: url("../img/sub/shop/new_product/new_product3txt.png"); background-repeat: no-repeat; background-position: center; background-size: 100%; }
   #shopContentBox > .shopContent > .shop_new_product > ul > .new_product3_txt > span { width: 0; height: 0; display: block; overflow: hidden; }
-  #shopContentBox > .shopContent > .shop_product { width: 100%; height: auto; }
+  #shopContentBox > .shopContent > .shop_product { width: 100%; height: auto; min-height: 27.2vw; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu { width: 100%; height: 7.4vw; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dt { height: 7.4vw; float: left; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > .shopmenu_1 { width: 15.66vw; }
@@ -988,7 +988,7 @@
   #shopContentBox > .shopContent > .shop_new_product > ul > .new_product2 > a:hover { background-image: url("../img/sub/shop/new_product/new_product2_on.png"); transition: .6s ease-in-out; }
   #shopContentBox > .shopContent > .shop_new_product > ul > .new_product3_txt { width: 32vw; height: 17.8125vw; background-image: url("../img/sub/shop/new_product/new_product3txt.png"); background-repeat: no-repeat; background-position: center; background-size: 100%; }
   #shopContentBox > .shopContent > .shop_new_product > ul > .new_product3_txt > span { width: 0; height: 0; display: block; overflow: hidden; }
-  #shopContentBox > .shopContent > .shop_product { width: 100%; height: auto; }
+  #shopContentBox > .shopContent > .shop_product { width: 100%; height: auto; min-height: 27.2vw; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu { width: 100%; height: 7.5vw; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > dt { height: 7.4vw; float: left; }
   #shopContentBox > .shopContent > .shop_product > #shop_menu > dl > .shopmenu_1 { width: 15.66vw; }
