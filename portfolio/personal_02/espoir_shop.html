@@ -13,15 +13,18 @@
 	<script src="./js/jquery/jquery-ui.min.js"></script>
     <script src="./js/top_btn.js"></script>
     <script src="./js/menu_btn.js"></script>
+    <script src="./js/shop_menu.js"></script>
+    <script src="./js/shop_movie.js"></script>
 	<title>espoir</title>
 	<style>
- 
-        
+
     </style>
 	<script>
     $(function(){
        top_btn();
        menu_btn();
+       shop_menu();
+       shop_movie(); 
     });
 	</script>
 </head>
@@ -98,18 +101,17 @@
                 </article>
                 <article class="shop_product">
                    <h3>espoir 상품</h3>
-                   <nav id="shop_menu" role="navigation">
+                   <div id="shop_menu">
                     <h2>espoir_shopmenu</h2>
-                    <ul role="menubar" class="me_link">
-                         <li class="shopmenu_1"><a href="#"><span>all</span></a></li>
-                         <li class="shopmenu_2"><a href="#"><span>lip</span></a></li>
-                         <li class="shopmenu_3"><a href="#"><span>eye</span></a></li>
-                         <li class="shopmenu_4"><a href="#"><span>face_makeup</span></a></li>
-                         <li class="shopmenu_5"><a href="#"><span>skin_care</span></a></li>
-                         <li class="shopmenu_6"><a href="#"><span>pro_tool</span></a></li>
-                     </ul>
-                    </nav>
-                    <ul class="me_link">
+                    <dl role="menubar" class="me_link">
+                        <dt class="shopmenu_1"><a href="#"><span>all</span></a></dt>
+                        <dt class="shopmenu_2"><a href="#"><span>lip</span></a></dt>
+                        <dt class="shopmenu_3"><a href="#"><span>eye</span></a></dt>
+                        <dt class="shopmenu_4"><a href="#"><span>face_makeup</span></a></dt>
+                        <dt class="shopmenu_5"><a href="#"><span>skin_care</span></a></dt>
+                        <dt class="shopmenu_6"><a href="#"><span>pro_tool</span></a></dt>
+                        <dd class="shop_menu1">
+                        <ul class="me_link productBox">
                         <li class="shop_product1"><span>shop_product1</span></li>
                         <li class="shop_product2">
                             <a href="#">
@@ -150,6 +152,75 @@
                             <button type="button" class="buy_btn"><span class="me_hidden">구매하기 버튼</span></button>
                             <button type="button" class="cart_btn"><span class="me_hidden">장바구니 버튼</span></button></a></li>
                     </ul>
+                    </dd> 
+                    <dd class="shop_menu2">
+                    <ul class="me_link productBox">
+                        <li class="shop_product1"><span>shop_product1</span></li>
+                        <li class="shop_product2">
+                            <a href="#">
+                                <span>shop_product2</span>
+                                <button type="button" class="buy_btn"><span class="me_hidden">구매하기 버튼</span></button>
+                                <button type="button" class="cart_btn"><span class="me_hidden">장바구니 버튼</span></button>
+                            </a>
+                        </li>
+                        <li class="shop_product3"><a href="#"><span>shop_product3</span>
+                            <button type="button" class="buy_btn"><span class="me_hidden">구매하기 버튼</span></button>
+                            <button type="button" class="cart_btn"><span class="me_hidden">장바구니 버튼</span></button>
+                        </a></li>
+                    </ul>
+                    </dd>
+                    <dd class="shop_menu3">
+                    <ul class="me_link productBox">
+                        <li class="shop_product1"><span>shop_product1</span></li>
+                        
+                        <li class="shop_product4"><a href="#"><span>shop_product4</span>
+                            <button type="button" class="buy_btn"><span class="me_hidden">구매하기 버튼</span></button>
+                            <button type="button" class="cart_btn"><span class="me_hidden">장바구니 버튼</span></button></a></li>
+                        <li class="shop_product5"><a href="#"><span>shop_product5</span>
+                            <button type="button" class="buy_btn"><span class="me_hidden">구매하기 버튼</span></button>
+                            <button type="button" class="cart_btn"><span class="me_hidden">장바구니 버튼</span></button></a></li>
+                        <li class="shop_product6"><a href="#"><span>shop_product6</span>
+                            <button type="button" class="buy_btn"><span class="me_hidden">구매하기 버튼</span></button>
+                            <button type="button" class="cart_btn"><span class="me_hidden">장바구니 버튼</span></button></a></li>
+                        <li class="shop_product7"><a href="#"><span>shop_product7</span>
+                            <button type="button" class="buy_btn"><span class="me_hidden">구매하기 버튼</span></button>
+                            <button type="button" class="cart_btn"><span class="me_hidden">장바구니 버튼</span></button></a></li>
+                        </ul>
+                    </dd>
+                    <dd class="shop_menu4">
+                    <ul class="me_link productBox">
+                        <li class="shop_product1"><span>shop_product1</span></li>
+                        <li class="shop_product8"><a href="#"><span>shop_product8</span>
+                            <button type="button" class="buy_btn"><span class="me_hidden">구매하기 버튼</span></button>
+                            <button type="button" class="cart_btn"><span class="me_hidden">장바구니 버튼</span></button></a></li>
+                        <li class="shop_product9"><a href="#"><span>shop_product9</span>
+                            <button type="button" class="buy_btn"><span class="me_hidden">구매하기 버튼</span></button>
+                            <button type="button" class="cart_btn"><span class="me_hidden">장바구니 버튼</span></button></a></li>
+                    </ul>
+                    </dd>
+                    <dd class="shop_menu5">
+                    <ul class="me_link productBox">
+                        <li class="shop_product1"><span>shop_product1</span></li>
+                        <li class="shop_product10"><a href="#"><span>shop_product10</span>
+                            <button type="button" class="buy_btn"><span class="me_hidden">구매하기 버튼</span></button>
+                            <button type="button" class="cart_btn"><span class="me_hidden">장바구니 버튼</span></button></a></li>
+                    </ul>
+                    </dd>
+                    <dd class="shop_menu6">
+                    <ul class="me_link productBox">
+                        <li class="shop_product1"><span>shop_product1</span></li>
+                        <li class="shop_product11"><a href="#"><span>shop_product11</span>
+                            <button type="button" class="buy_btn"><span class="me_hidden">구매하기 버튼</span></button>
+                            <button type="button" class="cart_btn"><span class="me_hidden">장바구니 버튼</span></button></a></li>
+                        <li class="shop_product12"><a href="#"><span>shop_product12</span>
+                            <button type="button" class="buy_btn"><span class="me_hidden">구매하기 버튼</span></button>
+                            <button type="button" class="cart_btn"><span class="me_hidden">장바구니 버튼</span></button></a></li>
+                    </ul>
+                    </dd>
+                    </dl>
+                    
+                 </div>
+                 
                 </article>
                 <article class="shop_event">
                    <h3>espoir event</h3>
