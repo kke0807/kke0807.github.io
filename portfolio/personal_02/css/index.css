@@ -220,7 +220,7 @@
   #indexContentBox > .indexContent > .in_product > ul > .in_product2 { width: 481px; }
   #indexContentBox > .indexContent > .in_product > ul > .in_product2 > a { background-image: url(../img/article/product/product2.png); background-repeat: no-repeat; }
   #indexContentBox > .indexContent > .in_product > ul > .in_product2 > a:hover { background-image: url(../img/article/product/product2_on.png); transition: .6s ease-in-out; }
-  #indexContentBox > .indexContent > .in_brand { width: calc(960px - 80px); height: 234px; padding: 48px 40px; background-color: #fff; margin: 0 auto; }
+  #indexContentBox > .indexContent > .in_brand { width: calc(960px - 80px); height: 234px; padding: 48px 40px; background-color: #2b2b2b; margin: 0 auto; }
   #indexContentBox > .indexContent > .in_brand > ul > li { width: 244px; height: 242px; float: left; margin-right: 74px; }
   #indexContentBox > .indexContent > .in_brand > ul > .in_brand1 > a { background-image: url(../img/article/brand/brand1.png); background-repeat: no-repeat; }
   #indexContentBox > .indexContent > .in_brand > ul > .in_brand1 > a:hover { background-image: url(../img/article/brand/brand1_on.png); transition: .8s ease-in-out; }
