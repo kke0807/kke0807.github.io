@@ -4,6 +4,8 @@
 
 #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1.5rem !important; }
 
+.accodion_width > div > dl > dd.widthView { width: 35vw !important; }
+
 .menu_btnBox > .menubar1 { transform: rotate(52deg) translate(15px, 0); transition: 0.5s ease-in; }
 .menu_btnBox > .menubar2 { transform: rotate(-50deg) translate(8px, 5px); transition: 0.5s ease-in; }
 .menu_btnBox > .menubar3 { display: none; }
@@ -123,6 +125,7 @@
 
 @media screen and (min-width: 1025px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
   #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1.5rem !important; }
+  .accodion_width > div > dl > dd.widthView { width: 338px !important; }
   .menu_btnBox > .menubar1 { transform: rotate(52deg) translate(15px, 0); transition: 0.5s ease-in; }
   .menu_btnBox > .menubar2 { transform: rotate(-50deg) translate(8px, 5px); transition: 0.5s ease-in; }
   .menu_btnBox > .menubar3 { display: none; }
@@ -191,22 +194,22 @@
   #protipContentBox > .protipContent > .protip_acc > .accodion_width { width: 100%; height: 460px; margin-top: 50px; margin: 0 auto; }
   #protipContentBox > .protipContent > .protip_acc > .accodion_width > div { width: auto; height: 100%; float: left; }
   #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl { width: 100%; height: 100%; overflow: hidden; }
-  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dt { width: 188px; height: 100%; float: left; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dt { width: 185px; height: 100%; float: left; }
   #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dd { width: 0; height: 100%; float: left; transition: all 0.3s; }
   #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc1 > dl { background-image: url(../img/sub/pro_tip/protip_acc/color_finder.png); background-repeat: no-repeat; }
   #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc2 > dl { background-image: url(../img/sub/pro_tip/protip_acc/foundation_finder.png); background-repeat: no-repeat; }
   #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc3 > dl { background-image: url(../img/sub/pro_tip/protip_acc/brush_finder.png); background-repeat: no-repeat; }
   #protipContentBox > .protipContent > .protip_etc { width: 900px; height: 325px; padding: 0 30px; padding-top: 30px; }
-  #protipContentBox > .protipContent > .protip_etc .protip_video { width: 560px; height: 325px; float: left; margin-right: 16px; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video { width: 560px; height: 325px; float: left; margin-right: 14px; }
   #protipContentBox > .protipContent > .protip_etc .protip_video > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_video.png"); background-repeat: no-repeat; }
   #protipContentBox > .protipContent > .protip_etc .protip_video > a > span { width: 0; height: 0; display: block; overflow: hidden; }
   #protipContentBox > .protipContent > .protip_etc .protip_qna { width: 320px; height: 325px; float: left; }
   #protipContentBox > .protipContent > .protip_etc .protip_qna > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_qna.png"); background-repeat: no-repeat; }
   #protipContentBox > .protipContent > .protip_etc .protip_qna > a > span { width: 0; height: 0; display: block; overflow: hidden; }
-  #protipContentBox > .protipContent > .protip_everyday { width: 870px; height: 380px; padding: 0 45px; padding-top: 22px; }
-  #protipContentBox > .protipContent > .protip_everyday > h3 { width: 869px; height: 18px; margin: 0 auto; background-image: url("../img/sub/pro_tip/everyday/everyday_makeup_title.png"); background-repeat: no-repeat; }
+  #protipContentBox > .protipContent > .protip_everyday { width: 875px; height: 380px; padding: 0 45px; padding-top: 22px; }
+  #protipContentBox > .protipContent > .protip_everyday > h3 { width: 875px; height: 18px; margin: 0 auto; background-image: url("../img/sub/pro_tip/everyday/everyday_makeup_title.png"); background-repeat: no-repeat; }
   #protipContentBox > .protipContent > .protip_everyday > ul { margin-top: 25px; }
-  #protipContentBox > .protipContent > .protip_everyday > ul > li { width: 207px; height: 284px; float: left; margin-left: 12px; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > li { width: 207px; height: 284px; float: left; margin-left: 14px; }
   #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 { margin-left: 0; }
   #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_1.png"); background-repeat: no-repeat; }
   #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup2 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_2.png"); background-repeat: no-repeat; }
@@ -238,6 +241,7 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
   #container { overflow: hidden; }
   #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1.35rem !important; }
+  .accodion_width > div > dl > dd.widthView { width: 35vw !important; }
   /* HeadWrap */
   #HeadWrap { width: 100%; height: 120px; background-color: #fff; }
   #HeadWrap > #Headbox { width: 100%; height: calc(100% - 8px); padding-top: 8px; position: relative; }
@@ -335,6 +339,7 @@
 @media screen and (min-width: 641px) and (max-width: 768px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
   #container { overflow: hidden; }
   #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1.35rem !important; }
+  .accodion_width > div > dl > dd.widthView { width: 35vw !important; }
   /* HeadWrap */
   #HeadWrap { width: 100%; height: 120px; background-color: #fff; }
   #HeadWrap > #Headbox { width: 100%; height: calc(100% - 8px); padding-top: 8px; position: relative; }
@@ -434,6 +439,7 @@
 @media screen and (min-width: 481px) and (max-width: 640px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
   #container { overflow: hidden; }
   #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1.3rem !important; }
+  .accodion_width > div > dl > dd.widthView { width: 35vw !important; }
   .menu_btnBox > .menubar1 { transform: rotate(52deg) translate(15px, 0); transition: 0.5s ease-in; }
   .menu_btnBox > .menubar2 { transform: rotate(-50deg) translate(8px, 5px); transition: 0.5s ease-in; }
   .menu_btnBox > .menubar3 { display: none; }
@@ -550,6 +556,7 @@
 @media screen and (max-width: 480px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
   #container { overflow: hidden; }
   #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1rem !important; }
+  .accodion_width > div > dl > dd.widthView { width: 35vw !important; }
   .menu_btnBox > .menubar1 { transform: rotate(52deg) translate(15px, 0); transition: 0.5s ease-in; }
   .menu_btnBox > .menubar2 { transform: rotate(-50deg) translate(8px, 5px); transition: 0.5s ease-in; }
   .menu_btnBox > .menubar3 { display: none; }
