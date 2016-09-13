@@ -7,6 +7,7 @@
 
 #container{overflow: hidden;}
 #indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:$sub !important; width: 1rem !important;}
+.accodion_width>div>dl>dd.widthView{width: 35vw !important;}    
     
 .menu_btnBox{
     >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    

@@ -2,7 +2,8 @@
 //*:focus{outline: 2px solid $sub2;}
 #container{/*background-color: $main;*/}
 #indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:$sub !important; width: 1.5rem !important;}
-    
+.accodion_width>div>dl>dd.widthView{width: 35vw !important;}    
+      
 .menu_btnBox{
     >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    
     >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        

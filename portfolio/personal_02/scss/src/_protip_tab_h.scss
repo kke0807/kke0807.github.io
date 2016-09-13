@@ -4,7 +4,8 @@
 //*:focus{outline: 2px solid $sub2;}
 #container{overflow: hidden;}
 #indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:$sub !important; width: 1.35rem !important;}
-
+.accodion_width>div>dl>dd.widthView{width: 35vw !important;}    
+  
 /* HeadWrap */
 #HeadWrap{width: 100%;height: 120px;background-color: #fff;
     >#Headbox{width: 100%;height: calc(100% - 8px);padding-top: 8px;position: relative;

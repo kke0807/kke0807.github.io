@@ -4,7 +4,8 @@
 //*:focus{outline: 2px solid $sub2;}
 
 #indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:$sub !important; width: 1.5rem !important;}
-    
+.accodion_width>div>dl>dd.widthView{width: 338px !important;}    
+      
 .menu_btnBox{
     >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    
     >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        
@@ -102,7 +103,7 @@
             >.accodion_width{width:100%;height: 460px;margin-top: 50px; margin: 0 auto;
                 >div{width: auto;height: 100%;float: left;
                     >dl{width: 100%;height: 100%;overflow: hidden;
-                        >dt{width: 188px;height: 100%;float:left;}
+                        >dt{width: 185px;height: 100%;float:left;}
                         >dd{width: 0;height: 100%;float:left;transition: all 0.3s;}
                     }
                 }
@@ -121,7 +122,7 @@
             }
         }
         >.protip_etc{width:900px;height:325px;padding: 0 30px;padding-top: 30px;
-            .protip_video{width: 560px;height: 325px;float: left;margin-right: 16px;
+            .protip_video{width: 560px;height: 325px;float: left;margin-right: 14px;
                 >a{width: 100%;height: 100%;display: block; background-image: url("../img/sub/pro_tip/promakeup_video.png");background-repeat: no-repeat;
                     >span{width: 0;height: 0;display: block;overflow: hidden;}
                 }
@@ -132,10 +133,10 @@
                 }
             }
         }
-        >.protip_everyday{width: 870px;height:380px;padding:  0 45px;padding-top: 22px;
-            >h3{width: 869px;height: 18px;margin: 0 auto;background-image: url("../img/sub/pro_tip/everyday/everyday_makeup_title.png");background-repeat: no-repeat;}
+        >.protip_everyday{width: 875px;height:380px;padding: 0 45px;padding-top: 22px;
+            >h3{width: 875px;height: 18px;margin: 0 auto;background-image: url("../img/sub/pro_tip/everyday/everyday_makeup_title.png");background-repeat: no-repeat;}
             >ul{margin-top: 25px;
-                >li{width: 207px;height: 284px;float: left;margin-left: 12px;}
+                >li{width: 207px;height: 284px;float: left;margin-left: 14px;}
                 >.everyday_makeup1{margin-left: 0; 
                     >a{background-image: url("../img/sub/pro_tip/everyday/everyday_1.png");background-repeat: no-repeat;
                     }
