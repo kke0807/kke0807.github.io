@@ -1,0 +1,666 @@
+* { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
+
+#container { /*background-color: $main;*/ }
+
+#indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1.5rem !important; }
+
+.menu_btnBox > .menubar1 { transform: rotate(52deg) translate(15px, 0); transition: 0.5s ease-in; }
+.menu_btnBox > .menubar2 { transform: rotate(-50deg) translate(8px, 5px); transition: 0.5s ease-in; }
+.menu_btnBox > .menubar3 { display: none; }
+.menu_btnBox > .menu_nav { width: 100vw; height: auto; display: block; background-color: #2b2b2b; position: absolute; top: 16.5vw; right: -3vw !important; z-index: 900; box-shadow: 1px 1px 1px #f1f1f1; }
+.menu_btnBox > .menu_nav > dt { width: 100%; height: 8vw; }
+.menu_btnBox > .menu_nav > dt > a { width: 100%; height: 100%; display: block; text-decoration: none; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; }
+.menu_btnBox > .menu_nav > dt > a > span { width: 100%; height: 100%; text-align: center; line-height: 8vw; font-size: 1rem; font-weight: bold; color: #f1f1f1; }
+.menu_btnBox > .menu_nav > dt > a > span:hover { background-color: #f1f1f1; color: #ef4025; }
+.menu_btnBox > .menu_nav > dt:nth-child(8) { width: 50%; height: 8vw; float: left; }
+.menu_btnBox > .menu_nav > dt:nth-child(8) > a { width: 100%; height: 100%; display: block; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; background-image: url(../img/header/login_off.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+.menu_btnBox > .menu_nav > dt:nth-child(8) > a:hover { background-color: #f1f1f1; background-image: url(../img/header/login_on.png); background-repeat: no-repeat; }
+.menu_btnBox > .menu_nav > dt:nth-child(8) > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+.menu_btnBox > .menu_nav > dt:last-child { width: 50%; height: 8vw; float: left; }
+.menu_btnBox > .menu_nav > dt:last-child > a { width: 100%; height: 100%; display: block; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; background-image: url(../img/header/join_off.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+.menu_btnBox > .menu_nav > dt:last-child > a:hover { background-color: #f1f1f1; background-image: url(../img/header/join_on.png); background-repeat: no-repeat; }
+.menu_btnBox > .menu_nav > dt:last-child > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+
+/* .menu_btnBox(mob_toggleClass) */
+/* HeadWrap */
+#HeadWrap { width: 100%; height: auto; background-color: #fff; position: relative; }
+#HeadWrap > #Headbox { width: 100%; height: calc(100% - 8px); padding-top: 8px; overflow: hidden; }
+#HeadWrap > #Headbox > h1 { width: 150px; height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png); background-repeat: no-repeat; }
+#HeadWrap > #Headbox > h1 > a { width: 100%; height: 100%; display: block; }
+#HeadWrap > #Headbox > .site_map { width: 270px; height: 32px; margin-right: 33px; position: absolute; top: 8px; right: 0; }
+#HeadWrap > #Headbox > .site_map > ul { width: inherit; height: inherit; }
+#HeadWrap > #Headbox > .site_map > ul > li { float: left; margin-right: 16px; }
+#HeadWrap > #Headbox > .site_map > ul > .site_search { width: 150px; height: 22px; padding: 5px; background-color: #f1f1f1; border-radius: 8%; }
+#HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > input { width: 106px; height: 22px; float: left; text-indent: 2px; }
+#HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > button { width: 28px; height: 22px; background-image: url(../img/header/search_btn.png); background-repeat: no-repeat; float: left; margin-left: 5px; }
+#HeadWrap > #Headbox > .site_map > ul > .site_login { width: 40px; height: 16px; margin-top: 7px; }
+#HeadWrap > #Headbox > .site_map > ul > .site_login > a { background-image: url(../img/header/menu_login.png); background-repeat: no-repeat; }
+#HeadWrap > #Headbox > .site_map > ul > .site_join { width: 30px; height: 16px; margin-right: 0; margin-top: 7px; }
+#HeadWrap > #Headbox > .site_map > ul > .site_join > a { background-image: url(../img/header/menu_join.png); background-repeat: no-repeat; }
+#HeadWrap > #Headbox > .menu_btn { width: 45px; height: 40px; position: absolute; top: 2.2vw; right: 3vw; background-color: transparent; }
+#HeadWrap > #Headbox > .menu_btn > div { width: 45px; height: 8px; margin-top: 1vw; background-color: #2b2b2b; border-radius: 15%; }
+#HeadWrap > #Headbox > #gnb { width: 100%; height: 38px; background-color: #2b2b2b; margin-top: 8px; }
+#HeadWrap > #Headbox > #gnb > ul { width: 860px; height: 22px; padding: 8px 50px; margin: 0 auto; }
+#HeadWrap > #Headbox > #gnb > ul > li { float: left; height: 20px; margin-right: 105px; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_1 { width: 45px; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_1 > a { background-image: url(../img/header/menu_shop.png); background-repeat: no-repeat; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_1 > a:hover { background-image: url(../img/header/menu_shopOn.png); transition: .2s ease-in; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_2 { width: 56px; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_2 > a { background-image: url(../img/header/menu_protip.png); background-repeat: no-repeat; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_2 > a:hover { background-image: url(../img/header/menu_protipOn.png); transition: .2s ease-in; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_3 { width: 60px; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_3 > a { background-image: url(../img/header/menu_chance.png); background-repeat: no-repeat; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_3 > a:hover { background-image: url(../img/header/menu_chanceOn.png); transition: .2s ease-in; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_4 { width: 60px; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_4 > a { background-image: url(../img/header/menu_service.png); background-repeat: no-repeat; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_4 > a:hover { background-image: url(../img/header/menu_serviceOn.png); transition: .2s ease-in; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_5 { width: 56px; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_5 > a { background-image: url(../img/header/menu_review.png); background-repeat: no-repeat; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_5 > a:hover { background-image: url(../img/header/menu_reviewOn.png); transition: .2s ease-in; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_6 { width: 46px; margin-right: 0; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a { background-image: url(../img/header/menu_brand.png); background-repeat: no-repeat; }
+#HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a:hover { background-image: url(../img/header/menu_brandOn.png); transition: .2s ease-in; }
+
+/* protipbannerWrap */
+#protipbannerWrap { width: 960px; height: 350px; background-image: url("../img/sub/pro_tip/gentleaura/protip_gentle_aura.png"); background-repeat: no-repeat; position: relative; margin: 0 auto; }
+#protipbannerWrap > .view_btn { width: 180px; height: 48px; background-color: transparent; position: absolute; cursor: pointer; bottom: 10%; right: 12.5%; background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_off.png"); background-repeat: no-repeat; }
+#protipbannerWrap > .view_btn:hover { background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_on.png"); transition: .6s ease-in; }
+
+/* #protipContentBox */
+#protipContentBox { width: 100%; height: auto; }
+#protipContentBox > .protipContent { width: 960px; height: auto; margin: 0 auto; border-left: 1px solid #ccc; border-right: 1px solid #ccc; }
+#protipContentBox > .protipContent > h2 { width: 896px; height: 20px; background-color: #fff; padding: 15px 32px; box-shadow: 1px 2px 3px #ccc; }
+#protipContentBox > .protipContent > h2 > span { width: 162px; height: 22px; display: block; background-image: url("../img/sub/pro_tip/sub_protip_title.png"); background-repeat: no-repeat; background-size: 88%; }
+#protipContentBox > .protipContent > .protip_acc { width: 900px; height: 460px; padding: 0 30px; padding-top: 30px; }
+#protipContentBox > .protipContent > .protip_acc > .accodion_width { width: 100%; height: 460px; margin-top: 50px; margin: 0 auto; }
+#protipContentBox > .protipContent > .protip_acc > .accodion_width > div { width: auto; height: 100%; float: left; }
+#protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl { width: 100%; height: 100%; overflow: hidden; }
+#protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dt { width: 188px; height: 100%; float: left; }
+#protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dd { width: 0; height: 100%; float: left; transition: all 0.3s; }
+#protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc1 > dl { background-image: url(../img/sub/pro_tip/protip_acc/color_finder.png); background-repeat: no-repeat; }
+#protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc2 > dl { background-image: url(../img/sub/pro_tip/protip_acc/foundation_finder.png); background-repeat: no-repeat; }
+#protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc3 > dl { background-image: url(../img/sub/pro_tip/protip_acc/brush_finder.png); background-repeat: no-repeat; }
+#protipContentBox > .protipContent > .protip_etc { width: 900px; height: 325px; padding: 0 30px; padding-top: 30px; }
+#protipContentBox > .protipContent > .protip_etc .protip_video { width: 560px; height: 325px; float: left; margin-right: 16px; }
+#protipContentBox > .protipContent > .protip_etc .protip_video > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_video.png"); background-repeat: no-repeat; }
+#protipContentBox > .protipContent > .protip_etc .protip_video > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+#protipContentBox > .protipContent > .protip_etc .protip_qna { width: 320px; height: 325px; float: left; }
+#protipContentBox > .protipContent > .protip_etc .protip_qna > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_qna.png"); background-repeat: no-repeat; }
+#protipContentBox > .protipContent > .protip_etc .protip_qna > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+#protipContentBox > .protipContent > .protip_everyday { width: 870px; height: 380px; padding: 0 45px; padding-top: 22px; }
+#protipContentBox > .protipContent > .protip_everyday > h3 { width: 869px; height: 18px; margin: 0 auto; background-image: url("../img/sub/pro_tip/everyday/everyday_makeup_title.png"); background-repeat: no-repeat; }
+#protipContentBox > .protipContent > .protip_everyday > ul { margin-top: 25px; }
+#protipContentBox > .protipContent > .protip_everyday > ul > li { width: 207px; height: 284px; float: left; margin-left: 12px; }
+#protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 { margin-left: 0; }
+#protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_1.png"); background-repeat: no-repeat; }
+#protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup2 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_2.png"); background-repeat: no-repeat; }
+#protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup3 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_3.png"); background-repeat: no-repeat; }
+#protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup4 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_4.png"); background-repeat: no-repeat; }
+
+/* FootWrap */
+#FootWrap { width: 100%; height: 90px; background-color: #f1f1f1; }
+#FootWrap > #Foot { width: 876px; height: calc(100% - 20px); margin: 0 auto; padding: 10px 42px; }
+#FootWrap > #Foot > .top_btn { width: 13vw; height: 5.5vw; margin-left: 40%; background-color: transparent; background-image: url(../img/footer/top_btn.png); background-repeat: no-repeat; background-size: 100%; }
+#FootWrap > #Foot > ul > li { width: 100%; }
+#FootWrap > #Foot > ul > .addBox1 { width: 100%; height: 20px; margin-bottom: 10px; }
+#FootWrap > #Foot > ul > .addBox1 > ul { width: 100%; height: 20px; }
+#FootWrap > #Foot > ul > .addBox1 > ul > li { height: 20px; float: left; margin-right: 120px; }
+#FootWrap > #Foot > ul > .addBox1 > ul > li > a { background-position: center; }
+#FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu1 { width: 36px; margin-left: 10px; }
+#FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu1 > a { background-image: url(../img/footer/foo_menu1.png); background-repeat: no-repeat; }
+#FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu2 { width: 74px; }
+#FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu2 > a { background-image: url(../img/footer/foo_menu2.png); background-repeat: no-repeat; }
+#FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu3 { width: 140px; }
+#FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu3 > a { background-image: url(../img/footer/foo_menu3.png); background-repeat: no-repeat; }
+#FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu4 { width: 88px; }
+#FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu4 > a { background-image: url(../img/footer/foo_menu4.png); background-repeat: no-repeat; }
+#FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu5 { width: 37px; margin-right: 0; }
+#FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu5 > a { background-image: url(../img/footer/foo_menu5.png); background-repeat: no-repeat; }
+#FootWrap > #Foot > ul > .addBox2 { width: 100%; height: 40px; }
+#FootWrap > #Foot > ul > .addBox2 > address { font-size: 0.778rem; }
+#FootWrap > #Foot > ul > .addBox2 > address > p { color: #555; margin-bottom: 0.5rem; color: #a1a1a1; }
+#FootWrap > #Foot > ul > .addBox2 > address > p > strong { font-weight: bold; color: #999; }
+
+@media screen and (min-width: 1025px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
+  #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1.5rem !important; }
+  .menu_btnBox > .menubar1 { transform: rotate(52deg) translate(15px, 0); transition: 0.5s ease-in; }
+  .menu_btnBox > .menubar2 { transform: rotate(-50deg) translate(8px, 5px); transition: 0.5s ease-in; }
+  .menu_btnBox > .menubar3 { display: none; }
+  .menu_btnBox > .menu_nav { width: 100vw; height: auto; display: block; background-color: #2b2b2b; position: absolute; top: 16.5vw; right: -3vw !important; z-index: 900; box-shadow: 1px 1px 1px #f1f1f1; }
+  .menu_btnBox > .menu_nav > dt { width: 100%; height: 8vw; }
+  .menu_btnBox > .menu_nav > dt > a { width: 100%; height: 100%; display: block; text-decoration: none; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; }
+  .menu_btnBox > .menu_nav > dt > a > span { width: 100%; height: 100%; text-align: center; line-height: 8vw; font-size: 1rem; font-weight: bold; color: #f1f1f1; }
+  .menu_btnBox > .menu_nav > dt > a > span:hover { background-color: #f1f1f1; color: #ef4025; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) { width: 50%; height: 8vw; float: left; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) > a { width: 100%; height: 100%; display: block; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; background-image: url(../img/header/login_off.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) > a:hover { background-color: #f1f1f1; background-image: url(../img/header/login_on.png); background-repeat: no-repeat; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  .menu_btnBox > .menu_nav > dt:last-child { width: 50%; height: 8vw; float: left; }
+  .menu_btnBox > .menu_nav > dt:last-child > a { width: 100%; height: 100%; display: block; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; background-image: url(../img/header/join_off.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+  .menu_btnBox > .menu_nav > dt:last-child > a:hover { background-color: #f1f1f1; background-image: url(../img/header/join_on.png); background-repeat: no-repeat; }
+  .menu_btnBox > .menu_nav > dt:last-child > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  /* .menu_btnBox(mob_toggleClass) */
+  /* HeadWrap */
+  #HeadWrap { width: 100%; height: auto; background-color: #fff; position: relative; }
+  #HeadWrap > #Headbox { width: 100%; height: calc(100% - 8px); padding-top: 8px; overflow: hidden; }
+  #HeadWrap > #Headbox > h1 { width: 150px; height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > h1 > a { width: 100%; height: 100%; display: block; }
+  #HeadWrap > #Headbox > .site_map { width: 270px; height: 32px; margin-right: 33px; position: absolute; top: 8px; right: 0; }
+  #HeadWrap > #Headbox > .site_map > ul { width: inherit; height: inherit; }
+  #HeadWrap > #Headbox > .site_map > ul > li { float: left; margin-right: 16px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search { width: 150px; height: 22px; padding: 5px; background-color: #f1f1f1; border-radius: 8%; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > input { width: 106px; height: 22px; float: left; text-indent: 2px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > button { width: 28px; height: 22px; background-image: url(../img/header/search_btn.png); background-repeat: no-repeat; float: left; margin-left: 5px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_login { width: 40px; height: 16px; margin-top: 7px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_login > a { background-image: url(../img/header/menu_login.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_join { width: 30px; height: 16px; margin-right: 0; margin-top: 7px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_join > a { background-image: url(../img/header/menu_join.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > .menu_btn { display: none; width: 45px; height: 40px; position: absolute; top: 2.2vw; right: 3vw; background-color: transparent; }
+  #HeadWrap > #Headbox > .menu_btn > div { width: 45px; height: 8px; margin-top: 1vw; background-color: #2b2b2b; border-radius: 15%; }
+  #HeadWrap > #Headbox > #gnb { width: 100%; height: 38px; background-color: #2b2b2b; margin-top: 8px; }
+  #HeadWrap > #Headbox > #gnb > ul { width: 860px; height: 22px; padding: 8px 50px; margin: 0 auto; }
+  #HeadWrap > #Headbox > #gnb > ul > li { float: left; height: 20px; margin-right: 105px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 { width: 45px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 > a { background-image: url(../img/header/menu_shop.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 > a:hover { background-image: url(../img/header/menu_shopOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 { width: 56px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 > a { background-image: url(../img/header/menu_protip.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 > a:hover { background-image: url(../img/header/menu_protipOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 { width: 60px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 > a { background-image: url(../img/header/menu_chance.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 > a:hover { background-image: url(../img/header/menu_chanceOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 { width: 60px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 > a { background-image: url(../img/header/menu_service.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 > a:hover { background-image: url(../img/header/menu_serviceOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 { width: 56px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 > a { background-image: url(../img/header/menu_review.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 > a:hover { background-image: url(../img/header/menu_reviewOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 { width: 46px; margin-right: 0; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a { background-image: url(../img/header/menu_brand.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a:hover { background-image: url(../img/header/menu_brandOn.png); transition: .2s ease-in; }
+  /* protipbannerWrap */
+  #protipbannerWrap { width: 960px; height: 350px; background-image: url("../img/sub/pro_tip/gentleaura/protip_gentle_aura.png"); background-repeat: no-repeat; position: relative; margin: 0 auto; }
+  #protipbannerWrap > .view_btn { width: 180px; height: 48px; background-color: transparent; position: absolute; cursor: pointer; bottom: 10%; right: 12.5%; background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_off.png"); background-repeat: no-repeat; }
+  #protipbannerWrap > .view_btn:hover { background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_on.png"); transition: .6s ease-in; }
+  /* #protipContentBox */
+  #protipContentBox { width: 100%; height: auto; }
+  #protipContentBox > .protipContent { width: 960px; height: auto; margin: 0 auto; border-left: 1px solid #ccc; border-right: 1px solid #ccc; }
+  #protipContentBox > .protipContent > h2 { width: 896px; height: 20px; background-color: #fff; padding: 15px 32px; box-shadow: 1px 2px 3px #ccc; }
+  #protipContentBox > .protipContent > h2 > span { width: 162px; height: 22px; display: block; background-image: url("../img/sub/pro_tip/sub_protip_title.png"); background-repeat: no-repeat; background-size: 88%; }
+  #protipContentBox > .protipContent > .protip_acc { width: 900px; height: 460px; padding: 0 30px; padding-top: 30px; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width { width: 100%; height: 460px; margin-top: 50px; margin: 0 auto; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div { width: auto; height: 100%; float: left; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl { width: 100%; height: 100%; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dt { width: 188px; height: 100%; float: left; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dd { width: 0; height: 100%; float: left; transition: all 0.3s; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc1 > dl { background-image: url(../img/sub/pro_tip/protip_acc/color_finder.png); background-repeat: no-repeat; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc2 > dl { background-image: url(../img/sub/pro_tip/protip_acc/foundation_finder.png); background-repeat: no-repeat; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc3 > dl { background-image: url(../img/sub/pro_tip/protip_acc/brush_finder.png); background-repeat: no-repeat; }
+  #protipContentBox > .protipContent > .protip_etc { width: 900px; height: 325px; padding: 0 30px; padding-top: 30px; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video { width: 560px; height: 325px; float: left; margin-right: 16px; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_video.png"); background-repeat: no-repeat; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna { width: 320px; height: 325px; float: left; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_qna.png"); background-repeat: no-repeat; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_everyday { width: 870px; height: 380px; padding: 0 45px; padding-top: 22px; }
+  #protipContentBox > .protipContent > .protip_everyday > h3 { width: 869px; height: 18px; margin: 0 auto; background-image: url("../img/sub/pro_tip/everyday/everyday_makeup_title.png"); background-repeat: no-repeat; }
+  #protipContentBox > .protipContent > .protip_everyday > ul { margin-top: 25px; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > li { width: 207px; height: 284px; float: left; margin-left: 12px; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 { margin-left: 0; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_1.png"); background-repeat: no-repeat; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup2 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_2.png"); background-repeat: no-repeat; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup3 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_3.png"); background-repeat: no-repeat; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup4 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_4.png"); background-repeat: no-repeat; }
+  /* FootWrap */
+  #FootWrap { width: 100%; height: 90px; background-color: #f1f1f1; }
+  #FootWrap > #Foot { width: 876px; height: calc(100% - 20px); margin: 0 auto; padding: 10px 42px; }
+  #FootWrap > #Foot > .top_btn { display: none; width: 13vw; height: 5.5vw; margin-left: 40%; background-color: transparent; background-image: url(../img/footer/top_btn.png); background-repeat: no-repeat; background-size: 100%; }
+  #FootWrap > #Foot > ul > li { width: 100%; }
+  #FootWrap > #Foot > ul > .addBox1 { width: 100%; height: 20px; margin-bottom: 10px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul { width: 100%; height: 20px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > li { height: 20px; float: left; margin-right: 120px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > li > a { background-position: center; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu1 { width: 36px; margin-left: 10px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu1 > a { background-image: url(../img/footer/foo_menu1.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu2 { width: 74px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu2 > a { background-image: url(../img/footer/foo_menu2.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu3 { width: 140px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu3 > a { background-image: url(../img/footer/foo_menu3.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu4 { width: 88px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu4 > a { background-image: url(../img/footer/foo_menu4.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu5 { width: 37px; margin-right: 0; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu5 > a { background-image: url(../img/footer/foo_menu5.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox2 { width: 100%; height: 40px; }
+  #FootWrap > #Foot > ul > .addBox2 > address { font-size: 0.778rem; }
+  #FootWrap > #Foot > ul > .addBox2 > address > p { color: #555; margin-bottom: 0.5rem; color: #a1a1a1; }
+  #FootWrap > #Foot > ul > .addBox2 > address > p > strong { font-weight: bold; color: #999; } }
+@media screen and (min-width: 769px) and (max-width: 1024px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
+  #container { overflow: hidden; }
+  #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1.35rem !important; }
+  /* HeadWrap */
+  #HeadWrap { width: 100%; height: 120px; background-color: #fff; }
+  #HeadWrap > #Headbox { width: 100%; height: calc(100% - 8px); padding-top: 8px; position: relative; }
+  #HeadWrap > #Headbox > h1 { width: 150px; height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > h1 > a { width: 100%; height: 100%; display: block; }
+  #HeadWrap > #Headbox > .site_map { width: 280px; height: 32px; margin-right: 0.625vw; position: absolute; top: 8px; right: 0; }
+  #HeadWrap > #Headbox > .site_map > ul { width: inherit; height: inherit; }
+  #HeadWrap > #Headbox > .site_map > ul > li { float: left; margin-right: 16px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search { width: 15.625vw; height: 22px; padding: 0.52vw; background-color: #f1f1f1; border-radius: 8%; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > input { width: 11vw; height: 22px; float: left; text-indent: 2px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > button { width: 28px; height: 22px; background-image: url(../img/header/search_btn.png); background-repeat: no-repeat; float: left; margin-left: 5px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_login { width: 40px; height: 16px; margin-top: 7px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_login > a { background-image: url(../img/header/menu_login.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_join { width: 30px; height: 16px; margin-right: 0; margin-top: 7px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_join > a { background-image: url(../img/header/menu_join.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > .menu_btn { display: none; }
+  #HeadWrap > #Headbox > #gnb { width: 100%; height: 38px; background-color: #2b2b2b; margin-top: 8px; }
+  #HeadWrap > #Headbox > #gnb > ul { width: 89.583vw; height: 22px; padding: 8px 50px; margin: 0 auto; }
+  #HeadWrap > #Headbox > #gnb > ul > li { float: left; height: 20px; margin-right: 9.8vw; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 { width: 45px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 > a { background-image: url(../img/header/menu_shop.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 > a:hover { background-image: url(../img/header/menu_shopOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 { width: 56px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 > a { background-image: url(../img/header/menu_protip.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 > a:hover { background-image: url(../img/header/menu_protipOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 { width: 60px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 > a { background-image: url(../img/header/menu_chance.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 > a:hover { background-image: url(../img/header/menu_chanceOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 { width: 60px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 > a { background-image: url(../img/header/menu_service.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 > a:hover { background-image: url(../img/header/menu_serviceOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 { width: 56px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 > a { background-image: url(../img/header/menu_review.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 > a:hover { background-image: url(../img/header/menu_reviewOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 { width: 46px; margin-right: 0; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a { background-image: url(../img/header/menu_brand.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a:hover { background-image: url(../img/header/menu_brandOn.png); transition: .2s ease-in; }
+  /* protipbannerWrap */
+  #protipbannerWrap { width: 100%; height: 34vw; background-image: url("../img/sub/pro_tip/gentleaura/protip_gentle_aura.png"); background-repeat: no-repeat; position: relative; background-position: center; overflow: hidden; background-size: 100%; }
+  #protipbannerWrap > .view_btn { width: 18.75vw; height: 5vw; background-color: transparent; position: absolute; cursor: pointer; bottom: 10%; right: 12.5%; background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_off.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipbannerWrap > .view_btn:hover { background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_on.png"); transition: .6s ease-in; }
+  /* #protipContentBox */
+  #protipContentBox { width: 100%; height: auto; }
+  #protipContentBox > .protipContent { width: 94vw; height: auto; margin: 0 auto; border-left: 1px solid #ccc; border-right: 1px solid #ccc; overflow: hidden; }
+  #protipContentBox > .protipContent > h2 { width: 93.3333vw; height: 20px; background-color: #fff; padding: 15px 32px; box-shadow: 1px 2px 3px #ccc; }
+  #protipContentBox > .protipContent > h2 > span { width: 162px; height: 22px; display: block; background-image: url("../img/sub/pro_tip/sub_protip_title.png"); background-repeat: no-repeat; background-size: 88%; }
+  #protipContentBox > .protipContent > .protip_acc { width: 93.75vw; height: 40vw; padding: 0 3.125vw; padding-top: 3.125vw; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width { width: 100%; height: 40vw; margin-top: 50px; margin: 0 auto; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div { width: auto; height: 100%; float: left; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl { width: 100%; height: 100%; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dt { width: 17.5vw; height: 100%; float: left; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dd { width: 0; height: 100%; float: left; transition: all 0.3s; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc1 > dl { background-image: url(../img/sub/pro_tip/protip_acc/color_finder.png); background-repeat: no-repeat; background-size: 55vw; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc2 > dl { background-image: url(../img/sub/pro_tip/protip_acc/foundation_finder.png); background-repeat: no-repeat; background-size: 55vw; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc3 > dl { background-image: url(../img/sub/pro_tip/protip_acc/brush_finder.png); background-repeat: no-repeat; background-size: 55vw; }
+  #protipContentBox > .protipContent > .protip_etc { width: 93.75vw; height: 33vw; padding: 0 3.125vw; padding-top: 3.125vw; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video { width: 54vw; height: 33vw; float: left; /*margin-right:1.666vw;*/ }
+  #protipContentBox > .protipContent > .protip_etc .protip_video > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_video.png"); background-repeat: no-repeat; background-size: 100% 100%; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna { width: 33vw; height: 33vw; float: left; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_qna.png"); background-repeat: no-repeat; background-size: 95% 100%; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_everyday { width: 90.625vw; height: 39vw; padding: 0 4vw; padding-top: 3vw; margin: 0 auto; }
+  #protipContentBox > .protipContent > .protip_everyday > h3 { width: 86vw; height: 2.5vw; display: block; overflow: hidden; margin: auto 0; background-position: center; background-image: url("../img/sub/pro_tip/everyday/everyday_makeup_title.png"); background-repeat: no-repeat; }
+  #protipContentBox > .protipContent > .protip_everyday > ul { margin-top: 2.6vw; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > li { width: 20.5vw; height: 29.583vw; float: left; margin-left: 1.25vw; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 { margin-left: 0; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_1.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup2 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_2.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup3 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_3.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup4 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_4.png"); background-repeat: no-repeat; background-size: 100%; }
+  /* FootWrap */
+  #FootWrap { width: 100%; height: 12vw; background-color: #f1f1f1; }
+  #FootWrap > #Foot { width: 91.25vw; height: calc(100% - 20px); margin: 0 auto; padding: 10px 4.375vw; }
+  #FootWrap > #Foot > .top_btn { display: none; }
+  #FootWrap > #Foot > ul > li { width: 100%; }
+  #FootWrap > #Foot > ul > .addBox1 { width: 100%; height: 20px; margin-bottom: 1.041vw; }
+  #FootWrap > #Foot > ul > .addBox1 > ul { width: 100%; height: 20px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > li { height: 2.0833vw; float: left; margin-right: 10vw; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > li > a { background-position: center; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu1 { width: 36px; margin-left: 10px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu1 > a { background-image: url(../img/footer/foo_menu1.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu2 { width: 74px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu2 > a { background-image: url(../img/footer/foo_menu2.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu3 { width: 140px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu3 > a { background-image: url(../img/footer/foo_menu3.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu4 { width: 88px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu4 > a { background-image: url(../img/footer/foo_menu4.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu5 { width: 37px; margin-right: 0; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu5 > a { background-image: url(../img/footer/foo_menu5.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox2 { width: 100%; height: 4.16666vw; }
+  #FootWrap > #Foot > ul > .addBox2 > address { font-size: 0.765rem; }
+  #FootWrap > #Foot > ul > .addBox2 > address > p { color: #555; margin-bottom: 0.5rem; color: #a1a1a1; }
+  #FootWrap > #Foot > ul > .addBox2 > address > p > strong { font-weight: bold; color: #999; } }
+@media screen and (min-width: 641px) and (max-width: 768px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
+  #container { overflow: hidden; }
+  #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1.35rem !important; }
+  /* HeadWrap */
+  #HeadWrap { width: 100%; height: 120px; background-color: #fff; }
+  #HeadWrap > #Headbox { width: 100%; height: calc(100% - 8px); padding-top: 8px; position: relative; }
+  #HeadWrap > #Headbox > h1 { width: 150px; height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > h1 > a { width: 100%; height: 100%; display: block; }
+  #HeadWrap > #Headbox > .site_map { width: 36vw; height: 32px; margin-right: 0.2vw; position: absolute; top: 8px; right: 0; }
+  #HeadWrap > #Headbox > .site_map > ul { width: inherit; height: inherit; }
+  #HeadWrap > #Headbox > .site_map > ul > li { float: left; margin-right: 5%; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search { width: 50%; height: 22px; padding: 0.52vw; background-color: #f1f1f1; border-radius: 8%; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > input { width: 12vw; height: 22px; float: left; text-indent: 2px; float: left; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > button { width: 5vw; height: 22px; background-image: url(../img/header/search_btn.png); background-color: transparent; background-repeat: no-repeat; margin-left: 5%; float: left; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_login { width: 40px; height: 16px; margin-top: 7px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_login > a { background-image: url(../img/header/menu_login.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_join { width: 30px; height: 16px; margin-right: 0; margin-top: 7px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_join > a { background-image: url(../img/header/menu_join.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > .menu_btn { display: none; }
+  #HeadWrap > #Headbox > #gnb { width: 100%; height: 38px; background-color: #2b2b2b; margin-top: 8px; }
+  #HeadWrap > #Headbox > #gnb > ul { width: 89.583vw; height: 16px; padding: 12px 50px; margin: 0 auto; }
+  #HeadWrap > #Headbox > #gnb > ul > li { float: left; height: 20px; margin-right: 11.2%; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 { width: 4.6875vw; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 > a { background-image: url(../img/header/menu_shop.png); background-repeat: no-repeat; background-size: 100%; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 > a:hover { background-image: url(../img/header/menu_shopOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 { width: 5.83vw; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 > a { background-image: url(../img/header/menu_protip.png); background-repeat: no-repeat; background-size: 100%; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 > a:hover { background-image: url(../img/header/menu_protipOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 { width: 6.25vw; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 > a { background-image: url(../img/header/menu_chance.png); background-repeat: no-repeat; background-size: 100%; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 > a:hover { background-image: url(../img/header/menu_chanceOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 { width: 6.25vw; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 > a { background-image: url(../img/header/menu_service.png); background-repeat: no-repeat; background-size: 100%; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 > a:hover { background-image: url(../img/header/menu_serviceOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 { width: 5.83vw; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 > a { background-image: url(../img/header/menu_review.png); background-repeat: no-repeat; background-size: 100%; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 > a:hover { background-image: url(../img/header/menu_reviewOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 { width: 4.79vw; margin-right: 0; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a { background-image: url(../img/header/menu_brand.png); background-repeat: no-repeat; background-size: 100%; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a:hover { background-image: url(../img/header/menu_brandOn.png); transition: .2s ease-in; }
+  /* protipbannerWrap */
+  #protipbannerWrap { width: 100%; height: 34vw; background-image: url("../img/sub/pro_tip/gentleaura/protip_gentle_aura.png"); background-repeat: no-repeat; position: relative; background-position: center; overflow: hidden; background-size: 100%; }
+  #protipbannerWrap > .view_btn { width: 18.75vw; height: 5vw; background-color: transparent; position: absolute; cursor: pointer; bottom: 10%; right: 12.5%; background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_off.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipbannerWrap > .view_btn:hover { background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_on.png"); transition: .6s ease-in; }
+  /* #protipContentBox */
+  #protipContentBox { width: 100%; height: auto; }
+  #protipContentBox > .protipContent { width: 94vw; height: auto; margin: 0 auto; border-left: 1px solid #ccc; border-right: 1px solid #ccc; overflow: hidden; }
+  #protipContentBox > .protipContent > h2 { width: 93.3333vw; height: 20px; background-color: #fff; padding: 15px 32px; box-shadow: 1px 2px 3px #ccc; }
+  #protipContentBox > .protipContent > h2 > span { width: 162px; height: 22px; display: block; background-image: url("../img/sub/pro_tip/sub_protip_title.png"); background-repeat: no-repeat; background-size: 88%; }
+  #protipContentBox > .protipContent > .protip_acc { width: 93.75vw; height: 40vw; padding: 0 3.125vw; padding-top: 3.125vw; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width { width: 100%; height: 40vw; margin-top: 50px; margin: 0 auto; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div { width: auto; height: 100%; float: left; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl { width: 100%; height: 100%; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dt { width: 17.5vw; height: 100%; float: left; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dd { width: 0; height: 100%; float: left; transition: all 0.3s; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc1 > dl { background-image: url(../img/sub/pro_tip/protip_acc/color_finder.png); background-repeat: no-repeat; background-size: 55vw; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc2 > dl { background-image: url(../img/sub/pro_tip/protip_acc/foundation_finder.png); background-repeat: no-repeat; background-size: 55vw; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc3 > dl { background-image: url(../img/sub/pro_tip/protip_acc/brush_finder.png); background-repeat: no-repeat; background-size: 55vw; }
+  #protipContentBox > .protipContent > .protip_etc { width: 93.75vw; height: 33vw; padding: 0 3.125vw; padding-top: 3.125vw; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video { width: 54vw; height: 33vw; float: left; /*margin-right:1.666vw;*/ }
+  #protipContentBox > .protipContent > .protip_etc .protip_video > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_video.png"); background-repeat: no-repeat; background-size: 100% 100%; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna { width: 33vw; height: 33vw; float: left; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_qna.png"); background-repeat: no-repeat; background-size: 95% 100%; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_everyday { width: 90.625vw; height: 39vw; padding: 0 4vw; padding-top: 3vw; margin: 0 auto; }
+  #protipContentBox > .protipContent > .protip_everyday > h3 { width: 86vw; height: 2.7vw; display: block; overflow: hidden; margin: auto 0; background-position: center; background-image: url("../img/sub/pro_tip/everyday/everyday_makeup_title.png"); background-repeat: no-repeat; }
+  #protipContentBox > .protipContent > .protip_everyday > ul { margin-top: 2.6vw; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > li { width: 20.5vw; height: 29.583vw; float: left; margin-left: 1.25vw; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 { margin-left: 0; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_1.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup2 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_2.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup3 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_3.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup4 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_4.png"); background-repeat: no-repeat; background-size: 100%; }
+  /* FootWrap */
+  #FootWrap { width: 100%; height: 12vw; background-color: #f1f1f1; }
+  #FootWrap > #Foot { width: 91.25vw; height: calc(100% - 20px); margin: 0 auto; padding: 10px 4.375vw; }
+  #FootWrap > #Foot > .top_btn { width: 11vw; height: 4.5vw; margin-left: 44%; background-color: transparent; background-image: url(../img/footer/top_btn.png); background-repeat: no-repeat; background-size: 100%; }
+  #FootWrap > #Foot > ul > li { width: 100%; }
+  #FootWrap > #Foot > ul > .addBox1 { width: 100%; height: 20px; margin-bottom: 1.041vw; display: none; }
+  #FootWrap > #Foot > ul > .addBox1 > ul { width: 100%; height: 20px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > li { height: 2.0833vw; float: left; margin-right: 8.2vw; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > li > a { background-position: center; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu1 { width: 36px; margin-left: 10px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu1 > a { background-image: url(../img/footer/foo_menu1.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu2 { width: 74px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu2 > a { background-image: url(../img/footer/foo_menu2.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu3 { width: 140px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu3 > a { background-image: url(../img/footer/foo_menu3.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu4 { width: 88px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu4 > a { background-image: url(../img/footer/foo_menu4.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu5 { width: 37px; margin-right: 0; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu5 > a { background-image: url(../img/footer/foo_menu5.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox2 { width: 100%; height: 4.16666vw; }
+  #FootWrap > #Foot > ul > .addBox2 > address { font-size: 0.765rem; }
+  #FootWrap > #Foot > ul > .addBox2 > address > .address_txt { color: #555; margin-bottom: 0.5rem; margin-top: 0.5rem; color: #a1a1a1; display: block; text-align: center; }
+  #FootWrap > #Foot > ul > .addBox2 > address > .address_txt > strong { font-weight: bold; color: #999; }
+  #FootWrap > #Foot > ul > .addBox2 > address > p { color: #555; margin-bottom: 0.5rem; color: #a1a1a1; display: none; }
+  #FootWrap > #Foot > ul > .addBox2 > address > p > strong { font-weight: bold; color: #999; } }
+@media screen and (min-width: 481px) and (max-width: 640px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
+  #container { overflow: hidden; }
+  #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1.3rem !important; }
+  .menu_btnBox > .menubar1 { transform: rotate(52deg) translate(15px, 0); transition: 0.5s ease-in; }
+  .menu_btnBox > .menubar2 { transform: rotate(-50deg) translate(8px, 5px); transition: 0.5s ease-in; }
+  .menu_btnBox > .menubar3 { display: none; }
+  .menu_btnBox > .menu_nav { width: 100vw; height: auto; display: block; background-color: #2b2b2b; position: absolute; top: 16.5vw; right: -3vw !important; z-index: 900; box-shadow: 1px 1px 1px #f1f1f1; }
+  .menu_btnBox > .menu_nav > dt { width: 100%; height: 8vw; }
+  .menu_btnBox > .menu_nav > dt > a { width: 100%; height: 100%; display: block; text-decoration: none; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; }
+  .menu_btnBox > .menu_nav > dt > a > span { width: 100%; height: 100%; text-align: center; line-height: 8vw; font-size: 1rem; font-weight: bold; color: #f1f1f1; }
+  .menu_btnBox > .menu_nav > dt > a > span:hover { background-color: #f1f1f1; color: #ef4025; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) { width: 50%; height: 8vw; float: left; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) > a { width: 100%; height: 100%; display: block; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; background-image: url(../img/header/login_off.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) > a:hover { background-color: #f1f1f1; background-image: url(../img/header/login_on.png); background-repeat: no-repeat; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  .menu_btnBox > .menu_nav > dt:last-child { width: 50%; height: 8vw; float: left; }
+  .menu_btnBox > .menu_nav > dt:last-child > a { width: 100%; height: 100%; display: block; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; background-image: url(../img/header/join_off.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+  .menu_btnBox > .menu_nav > dt:last-child > a:hover { background-color: #f1f1f1; background-image: url(../img/header/join_on.png); background-repeat: no-repeat; }
+  .menu_btnBox > .menu_nav > dt:last-child > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  /* .menu_btnBox(mob_toggleClass) */
+  /* HeadWrap */
+  #HeadWrap { width: 100%; height: auto; background-color: #fff; }
+  #HeadWrap > #Headbox { width: 100%; height: 112px; padding-top: 8px; }
+  #HeadWrap > #Headbox > h1 { width: 150px; height: 70px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > h1 > a { width: 100%; height: 100%; display: block; }
+  #HeadWrap > #Headbox > .site_map { width: 100%; height: 40px; position: absolute; left: 0; top: initial; background-color: #2b2b2b; margin-top: 2px; }
+  #HeadWrap > #Headbox > .site_map > ul { width: 100%; height: 40px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search { width: 60vw; height: 20px; padding: 0.52vw; background-color: #f1f1f1; border-radius: 2%; margin-left: 19%; margin-top: 6px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > input { width: 54vw; height: 20px; float: left; text-indent: 2px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > button { width: 28px; height: 20px; background-image: url(../img/header/search_btn.png); background-repeat: no-repeat; float: left; margin-left: 5px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_login { width: 40px; height: 16px; margin-top: 7px; display: none; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_login > a { background-image: url(../img/header/menu_login.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_join { width: 30px; height: 16px; margin-right: 0; margin-top: 7px; display: none; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_join > a { background-image: url(../img/header/menu_join.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > .menu_btn { width: 45px; height: 40px; position: absolute; top: 2.2vw; right: 3vw; background-color: transparent; }
+  #HeadWrap > #Headbox > .menu_btn > div { width: 45px; height: 8px; margin-top: 1vw; background-color: #2b2b2b; border-radius: 15%; }
+  #HeadWrap > #Headbox > #gnb { width: 100%; height: 38px; background-color: #2b2b2b; margin-top: 8px; display: none; }
+  #HeadWrap > #Headbox > #gnb > ul { width: 89.583vw; height: 22px; padding: 8px 50px; margin: 0 auto; }
+  #HeadWrap > #Headbox > #gnb > ul > li { float: left; height: 20px; margin-right: 8.8vw; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 { width: 45px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 > a { background-image: url(../img/header/menu_shop.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 > a:hover { background-image: url(../img/header/menu_shopOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 { width: 56px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 > a { background-image: url(../img/header/menu_protip.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 > a:hover { background-image: url(../img/header/menu_protipOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 { width: 60px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 > a { background-image: url(../img/header/menu_chance.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 > a:hover { background-image: url(../img/header/menu_chanceOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 { width: 60px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 > a { background-image: url(../img/header/menu_service.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 > a:hover { background-image: url(../img/header/menu_serviceOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 { width: 56px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 > a { background-image: url(../img/header/menu_review.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 > a:hover { background-image: url(../img/header/menu_reviewOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 { width: 46px; margin-right: 0; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a { background-image: url(../img/header/menu_brand.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a:hover { background-image: url(../img/header/menu_brandOn.png); transition: .2s ease-in; }
+  /* protipbannerWrap */
+  #protipbannerWrap { width: 100%; height: 34vw; background-image: url("../img/sub/pro_tip/gentleaura/protip_gentle_aura.png"); background-repeat: no-repeat; position: relative; background-position: center; overflow: hidden; background-size: 100%; }
+  #protipbannerWrap > .view_btn { width: 18.75vw; height: 5vw; background-color: transparent; position: absolute; cursor: pointer; bottom: 10%; right: 12.5%; background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_off.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipbannerWrap > .view_btn:hover { background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_on.png"); transition: .6s ease-in; }
+  /* #protipContentBox */
+  #protipContentBox { width: 100%; height: auto; }
+  #protipContentBox > .protipContent { width: 94vw; height: auto; margin: 0 auto; border-left: 1px solid #ccc; border-right: 1px solid #ccc; overflow: hidden; }
+  #protipContentBox > .protipContent > h2 { width: 93.3333vw; height: 20px; background-color: #fff; padding: 15px 32px; box-shadow: 1px 2px 3px #ccc; }
+  #protipContentBox > .protipContent > h2 > span { width: 162px; height: 22px; display: block; background-image: url("../img/sub/pro_tip/sub_protip_title.png"); background-repeat: no-repeat; background-size: 88%; }
+  #protipContentBox > .protipContent > .protip_acc { width: 93.75vw; height: 40vw; padding: 0 3.125vw; padding-top: 3.125vw; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width { width: 100%; height: 40vw; margin-top: 50px; margin: 0 auto; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div { width: auto; height: 100%; float: left; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl { width: 100%; height: 100%; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dt { width: 17.5vw; height: 100%; float: left; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dd { width: 0; height: 100%; float: left; transition: all 0.3s; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc1 > dl { background-image: url(../img/sub/pro_tip/protip_acc/color_finder.png); background-repeat: no-repeat; background-size: 55vw; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc2 > dl { background-image: url(../img/sub/pro_tip/protip_acc/foundation_finder.png); background-repeat: no-repeat; background-size: 55vw; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc3 > dl { background-image: url(../img/sub/pro_tip/protip_acc/brush_finder.png); background-repeat: no-repeat; background-size: 55vw; }
+  #protipContentBox > .protipContent > .protip_etc { width: 93.75vw; height: 33vw; padding: 0 3.125vw; padding-top: 3.125vw; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video { width: 54vw; height: 33vw; float: left; /*margin-right:1.666vw;*/ }
+  #protipContentBox > .protipContent > .protip_etc .protip_video > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_video.png"); background-repeat: no-repeat; background-size: 100% 100%; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna { width: 33vw; height: 33vw; float: left; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_qna.png"); background-repeat: no-repeat; background-size: 95% 100%; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_everyday { width: 90.625vw; height: 39vw; padding: 0 4vw; padding-top: 3vw; margin: 0 auto; }
+  #protipContentBox > .protipContent > .protip_everyday > h3 { width: 86vw; height: 2.7vw; display: block; overflow: hidden; margin: auto 0; background-position: center; background-image: url("../img/sub/pro_tip/everyday/everyday_makeup_title.png"); background-repeat: no-repeat; background-size: 100% 92%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul { margin-top: 2.6vw; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > li { width: 20.5vw; height: 29.583vw; float: left; margin-left: 1.25vw; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 { margin-left: 0; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_1.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup2 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_2.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup3 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_3.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup4 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_4.png"); background-repeat: no-repeat; background-size: 100%; }
+  /* FootWrap */
+  #FootWrap { width: 100%; height: 12vw; background-color: #f1f1f1; }
+  #FootWrap > #Foot { width: 91.25vw; height: calc(100% - 20px); margin: 0 auto; padding: 10px 4.375vw; }
+  #FootWrap > #Foot > .top_btn { width: 13vw; height: 5.5vw; margin-left: 40%; background-color: transparent; background-image: url(../img/footer/top_btn.png); background-repeat: no-repeat; background-size: 100%; }
+  #FootWrap > #Foot > ul > li { width: 100%; }
+  #FootWrap > #Foot > ul > .addBox1 { width: 100%; height: 20px; margin-bottom: 1.041vw; display: none; }
+  #FootWrap > #Foot > ul > .addBox1 > ul { width: 100%; height: 20px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > li { height: 2.0833vw; float: left; margin-right: 8.5vw; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > li > a { background-position: center; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu1 { width: 36px; margin-left: 10px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu1 > a { background-image: url(../img/footer/foo_menu1.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu2 { width: 74px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu2 > a { background-image: url(../img/footer/foo_menu2.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu3 { width: 140px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu3 > a { background-image: url(../img/footer/foo_menu3.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu4 { width: 88px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu4 > a { background-image: url(../img/footer/foo_menu4.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu5 { width: 37px; margin-right: 0; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu5 > a { background-image: url(../img/footer/foo_menu5.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox2 { width: 100%; height: 4.16666vw; }
+  #FootWrap > #Foot > ul > .addBox2 > address { font-size: 0.765rem; }
+  #FootWrap > #Foot > ul > .addBox2 > address > .address_txt { color: #555; margin-bottom: 0.5rem; margin-top: 0.5rem; color: #a1a1a1; display: block; text-align: center; }
+  #FootWrap > #Foot > ul > .addBox2 > address > .address_txt > strong { font-weight: bold; color: #999; }
+  #FootWrap > #Foot > ul > .addBox2 > address > p { color: #555; margin-bottom: 0.5rem; color: #a1a1a1; display: none; }
+  #FootWrap > #Foot > ul > .addBox2 > address > p > strong { font-weight: bold; color: #999; } }
+@media screen and (max-width: 480px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
+  #container { overflow: hidden; }
+  #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1rem !important; }
+  .menu_btnBox > .menubar1 { transform: rotate(52deg) translate(15px, 0); transition: 0.5s ease-in; }
+  .menu_btnBox > .menubar2 { transform: rotate(-50deg) translate(8px, 5px); transition: 0.5s ease-in; }
+  .menu_btnBox > .menubar3 { display: none; }
+  .menu_btnBox > .menu_nav { width: 100vw; height: auto; display: block; background-color: #2b2b2b; position: absolute; top: 240%; right: -3vw !important; z-index: 900; box-shadow: 1px 1px 1px #f1f1f1; }
+  .menu_btnBox > .menu_nav > dt { width: 100%; height: 8vw; }
+  .menu_btnBox > .menu_nav > dt > a { width: 100%; height: 100%; display: block; text-decoration: none; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; }
+  .menu_btnBox > .menu_nav > dt > a > span { width: 100%; height: 100%; text-align: center; line-height: 8vw; font-size: 1rem; font-weight: bold; color: #f1f1f1; }
+  .menu_btnBox > .menu_nav > dt > a > span:hover { background-color: #f1f1f1; color: #ef4025; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) { width: 50%; height: 8vw; float: left; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) > a { width: 100%; height: 100%; display: block; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; background-image: url(../img/header/login_off.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) > a:hover { background-color: #f1f1f1; background-image: url(../img/header/login_on.png); background-repeat: no-repeat; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  .menu_btnBox > .menu_nav > dt:last-child { width: 50%; height: 8vw; float: left; }
+  .menu_btnBox > .menu_nav > dt:last-child > a { width: 100%; height: 100%; display: block; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; background-image: url(../img/header/join_off.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+  .menu_btnBox > .menu_nav > dt:last-child > a:hover { background-color: #f1f1f1; background-image: url(../img/header/join_on.png); background-repeat: no-repeat; }
+  .menu_btnBox > .menu_nav > dt:last-child > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  /* .menu_btnBox(mob_toggleClass) */
+  #HeadWrap { width: 100%; height: auto; background-color: #fff; position: relative; }
+  #HeadWrap > #Headbox { width: 100%; height: 110px; padding-top: 8px; /*.site_map */ }
+  #HeadWrap > #Headbox > h1 { width: 150px; height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > h1 > a { width: 100%; height: 100%; display: block; }
+  #HeadWrap > #Headbox > .site_map { width: 100%; height: 40px; position: absolute; left: 0; top: initial; background-color: #2b2b2b; margin-top: 2px; }
+  #HeadWrap > #Headbox > .site_map > ul { width: 100%; height: 40px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search { width: 60vw; height: 20px; padding: 0.52vw; background-color: #f1f1f1; border-radius: 2%; margin-left: 19%; margin-top: 6px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > input { width: 49vw; height: 20px; float: left; text-indent: 2px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > button { width: 28px; height: 20px; background-image: url(../img/header/search_btn.png); background-repeat: no-repeat; float: left; margin-left: 5px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_login { width: 40px; height: 16px; margin-top: 7px; display: none; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_login > a { background-image: url(../img/header/menu_login.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_join { width: 30px; height: 16px; margin-right: 0; margin-top: 7px; display: none; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_join > a { background-image: url(../img/header/menu_join.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > .menu_btn { width: 45px; height: 40px; position: absolute; top: 4.2vw; right: 3vw; background-color: transparent; }
+  #HeadWrap > #Headbox > .menu_btn > div { width: 45px; height: 8px; margin-top: 1.5vw; background-color: #2b2b2b; border-radius: 15%; }
+  #HeadWrap > #Headbox > #gnb { width: 100%; height: 38px; background-color: #2b2b2b; margin-top: 8px; display: none; }
+  #HeadWrap > #Headbox > #gnb > ul { width: 89.583vw; height: 22px; padding: 8px 50px; margin: 0 auto; }
+  #HeadWrap > #Headbox > #gnb > ul > li { float: left; height: 20px; margin-right: 8.8vw; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 { width: 45px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 > a { background-image: url(../img/header/menu_shop.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_1 > a:hover { background-image: url(../img/header/menu_shopOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 { width: 56px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 > a { background-image: url(../img/header/menu_protip.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_2 > a:hover { background-image: url(../img/header/menu_protipOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 { width: 60px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 > a { background-image: url(../img/header/menu_chance.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_3 > a:hover { background-image: url(../img/header/menu_chanceOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 { width: 60px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 > a { background-image: url(../img/header/menu_service.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_4 > a:hover { background-image: url(../img/header/menu_serviceOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 { width: 56px; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 > a { background-image: url(../img/header/menu_review.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_5 > a:hover { background-image: url(../img/header/menu_reviewOn.png); transition: .2s ease-in; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 { width: 46px; margin-right: 0; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a { background-image: url(../img/header/menu_brand.png); background-repeat: no-repeat; }
+  #HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a:hover { background-image: url(../img/header/menu_brandOn.png); transition: .2s ease-in; }
+  /* protipbannerWrap */
+  #protipbannerWrap { width: 100%; height: 34vw; background-image: url("../img/sub/pro_tip/gentleaura/protip_gentle_aura.png"); background-repeat: no-repeat; position: relative; background-position: center; overflow: hidden; background-size: 100%; }
+  #protipbannerWrap > .view_btn { width: 18.75vw; height: 5vw; background-color: transparent; position: absolute; cursor: pointer; bottom: 10%; right: 12.5%; background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_off.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipbannerWrap > .view_btn:hover { background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_on.png"); transition: .6s ease-in; }
+  /* #protipContentBox */
+  #protipContentBox { width: 100%; height: auto; }
+  #protipContentBox > .protipContent { width: 94vw; height: auto; margin: 0 auto; border-left: 1px solid #ccc; border-right: 1px solid #ccc; overflow: hidden; }
+  #protipContentBox > .protipContent > h2 { width: 93.3333vw; height: 20px; background-color: #fff; padding: 15px 32px; box-shadow: 1px 2px 3px #ccc; }
+  #protipContentBox > .protipContent > h2 > span { width: 162px; height: 22px; display: block; background-image: url("../img/sub/pro_tip/sub_protip_title.png"); background-repeat: no-repeat; background-size: 88%; }
+  #protipContentBox > .protipContent > .protip_acc { width: 93.75vw; height: 40vw; padding: 0 3.125vw; padding-top: 3.125vw; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width { width: 100%; height: 40vw; margin-top: 50px; margin: 0 auto; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div { width: auto; height: 100%; float: left; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl { width: 100%; height: 100%; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dt { width: 17.5vw; height: 100%; float: left; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > div > dl > dd { width: 0; height: 100%; float: left; transition: all 0.3s; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc1 > dl { background-image: url(../img/sub/pro_tip/protip_acc/color_finder.png); background-repeat: no-repeat; background-size: 55vw; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc2 > dl { background-image: url(../img/sub/pro_tip/protip_acc/foundation_finder.png); background-repeat: no-repeat; background-size: 55vw; }
+  #protipContentBox > .protipContent > .protip_acc > .accodion_width > .protip_acc3 > dl { background-image: url(../img/sub/pro_tip/protip_acc/brush_finder.png); background-repeat: no-repeat; background-size: 55vw; }
+  #protipContentBox > .protipContent > .protip_etc { width: 93.75vw; height: 33vw; padding: 0 3.125vw; padding-top: 3.125vw; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video { width: 56%; height: 100%; float: left; margin-right: 4.5vw; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_video.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_etc .protip_video > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna { width: 32%; height: 100%; float: left; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna > a { width: 100%; height: 100%; display: block; background-image: url("../img/sub/pro_tip/promakeup_qna.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_etc .protip_qna > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  #protipContentBox > .protipContent > .protip_everyday { width: 90.625vw; height: 38vw; padding: 0 4vw; /*padding-top: 2vw;*/ margin: 0 auto; }
+  #protipContentBox > .protipContent > .protip_everyday > h3 { width: 86vw; height: 2.6vw; display: block; overflow: hidden; margin: auto 0; background-position: center; background-image: url("../img/sub/pro_tip/everyday/everyday_makeup_title.png"); background-repeat: no-repeat; background-size: 100% 92%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul { margin-top: 2.6vw; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > li { width: 20.5vw; height: 29.583vw; float: left; margin-left: 1.25vw; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 { margin-left: 0; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup1 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_1.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup2 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_2.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup3 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_3.png"); background-repeat: no-repeat; background-size: 100%; }
+  #protipContentBox > .protipContent > .protip_everyday > ul > .everyday_makeup4 > a { background-image: url("../img/sub/pro_tip/everyday/everyday_4.png"); background-repeat: no-repeat; background-size: 100%; }
+  /* FootWrap */
+  #FootWrap { width: 100%; height: 16vw; background-color: #f1f1f1; }
+  #FootWrap > #Foot { width: 91.25vw; height: calc(100% - 20px); margin: 0 auto; padding: 10px 4.375vw; }
+  #FootWrap > #Foot > .top_btn { width: 13vw; height: 5.5vw; margin-left: 40%; background-color: transparent; background-image: url(../img/footer/top_btn.png); background-repeat: no-repeat; background-size: 100%; }
+  #FootWrap > #Foot > ul > li { width: 100%; }
+  #FootWrap > #Foot > ul > .addBox1 { width: 100%; height: 20px; margin-bottom: 1.041vw; display: none; }
+  #FootWrap > #Foot > ul > .addBox1 > ul { width: 100%; height: 20px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > li { height: 2.0833vw; float: left; margin-right: 8.5vw; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > li > a { background-position: center; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu1 { width: 36px; margin-left: 10px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu1 > a { background-image: url(../img/footer/foo_menu1.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu2 { width: 74px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu2 > a { background-image: url(../img/footer/foo_menu2.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu3 { width: 140px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu3 > a { background-image: url(../img/footer/foo_menu3.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu4 { width: 88px; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu4 > a { background-image: url(../img/footer/foo_menu4.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu5 { width: 37px; margin-right: 0; }
+  #FootWrap > #Foot > ul > .addBox1 > ul > .foo_menu5 > a { background-image: url(../img/footer/foo_menu5.png); background-repeat: no-repeat; }
+  #FootWrap > #Foot > ul > .addBox2 { width: 100%; height: 4.16666vw; }
+  #FootWrap > #Foot > ul > .addBox2 > address { font-size: 0.765rem; }
+  #FootWrap > #Foot > ul > .addBox2 > address > .address_txt { color: #555; margin-bottom: 0.5rem; margin-top: 0.5rem; color: #a1a1a1; display: block; text-align: center; }
+  #FootWrap > #Foot > ul > .addBox2 > address > .address_txt > strong { font-weight: bold; color: #999; }
+  #FootWrap > #Foot > ul > .addBox2 > address > p { color: #555; margin-bottom: 0.5rem; color: #a1a1a1; display: none; }
+  #FootWrap > #Foot > ul > .addBox2 > address > p > strong { font-weight: bold; color: #999; } }
+
+/*# sourceMappingURL=protip.css.map */
