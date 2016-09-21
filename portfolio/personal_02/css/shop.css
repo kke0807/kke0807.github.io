@@ -751,9 +751,9 @@
   #HeadWrap > #Headbox > h1 > a { width: 100%; height: 100%; display: block; }
   #HeadWrap > #Headbox > .site_map { width: 100%; height: 40px; position: absolute; left: 0; top: initial; background-color: #2b2b2b; margin-top: 2px; }
   #HeadWrap > #Headbox > .site_map > ul { width: 100%; height: 40px; }
-  #HeadWrap > #Headbox > .site_map > ul > .site_search { width: 60vw; height: 20px; padding: 0.52vw; background-color: #f1f1f1; border-radius: 2%; margin-left: 19%; margin-top: 6px; }
-  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > input { width: 54vw; height: 20px; float: left; text-indent: 2px; }
-  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > button { width: 28px; height: 20px; background-image: url(../img/header/search_btn.png); background-repeat: no-repeat; float: left; margin-left: 5px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search { width: 60vw; height: 3.1vw; padding: 0.52vw; background-color: #f1f1f1; border-radius: 2%; margin-left: 19%; margin-top: 6px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > input { width: 54vw; height: 3vw; float: left; text-indent: 2px; }
+  #HeadWrap > #Headbox > .site_map > ul > .site_search > form > fieldset > button { width: 4vw; height: 3vw; background-image: url(../img/header/search_btn.png); background-repeat: no-repeat; background-size: 100%; float: left; margin-left: 5px; }
   #HeadWrap > #Headbox > .site_map > ul > .site_login { width: 40px; height: 16px; margin-top: 7px; display: none; }
   #HeadWrap > #Headbox > .site_map > ul > .site_login > a { background-image: url(../img/header/menu_login.png); background-repeat: no-repeat; }
   #HeadWrap > #Headbox > .site_map > ul > .site_join { width: 30px; height: 16px; margin-right: 0; margin-top: 7px; display: none; }
@@ -891,12 +891,12 @@
   #FootWrap > #Foot > ul > .addBox2 > address > p { color: #555; margin-bottom: 0.5rem; color: #a1a1a1; display: none; }
   #FootWrap > #Foot > ul > .addBox2 > address > p > strong { font-weight: bold; color: #999; } }
 @media screen and (max-width: 480px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
-  #container { overflow: hidden; }
+  #container { overflow: hidden; position: relative; }
   #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1rem !important; }
   .menu_btnBox > .menubar1 { transform: rotate(52deg) translate(15px, 0); transition: 0.5s ease-in; }
   .menu_btnBox > .menubar2 { transform: rotate(-50deg) translate(8px, 5px); transition: 0.5s ease-in; }
   .menu_btnBox > .menubar3 { display: none; }
-  .menu_btnBox > .menu_nav { width: 100vw; height: auto; display: block; background-color: #2b2b2b; position: absolute; top: 240%; right: -3vw !important; z-index: 900; box-shadow: 1px 1px 1px #f1f1f1; }
+  .menu_btnBox > .menu_nav { width: 100vw; height: auto; display: block; background-color: #2b2b2b; position: absolute; top: 6rem !important; right: -10vw !important; z-index: 900; box-shadow: 1px 1px 1px #f1f1f1; }
   .menu_btnBox > .menu_nav > dt { width: 100%; height: 8vw; }
   .menu_btnBox > .menu_nav > dt > a { width: 100%; height: 100%; display: block; text-decoration: none; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; }
   .menu_btnBox > .menu_nav > dt > a > span { width: 100%; height: 100%; text-align: center; line-height: 8vw; font-size: 1rem; font-weight: bold; color: #f1f1f1; }
@@ -926,6 +926,23 @@
   .shopmenu_5off { background-image: url("../img/sub/shop/menu_bar/product_bar5_off.png"); background-repeat: no-repeat; background-size: 100%; }
   .shopmenu_6on { background-image: url("../img/sub/shop/menu_bar/product_bar6_on.png"); background-repeat: no-repeat; background-size: 100%; }
   .shopmenu_6off { background-image: url("../img/sub/shop/menu_bar/product_bar6_off.png"); background-repeat: no-repeat; background-size: 100%; }
+  .menu_btnBox > .menubar1 { transform: rotate(52deg) translate(15px, 0); transition: 0.5s ease-in; }
+  .menu_btnBox > .menubar2 { transform: rotate(-50deg) translate(8px, 5px); transition: 0.5s ease-in; }
+  .menu_btnBox > .menubar3 { display: none; }
+  .menu_btnBox > .menu_nav { width: 100vw; height: auto; display: block; background-color: #2b2b2b; position: absolute; top: 6rem !important; right: -10vw !important; z-index: 900; box-shadow: 1px 1px 1px #f1f1f1; }
+  .menu_btnBox > .menu_nav > dt { width: 100%; height: 8vw; }
+  .menu_btnBox > .menu_nav > dt > a { width: 100%; height: 100%; display: block; text-decoration: none; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; }
+  .menu_btnBox > .menu_nav > dt > a > span { width: 100%; height: 100%; text-align: center; line-height: 8vw; font-size: 1rem; font-weight: bold; color: #f1f1f1; }
+  .menu_btnBox > .menu_nav > dt > a > span:hover { background-color: #f1f1f1; color: #ef4025; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) { width: 50%; height: 8vw; float: left; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) > a { width: 100%; height: 100%; display: block; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; background-image: url(../img/header/login_off.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) > a:hover { background-color: #f1f1f1; background-image: url(../img/header/login_on.png); background-repeat: no-repeat; }
+  .menu_btnBox > .menu_nav > dt:nth-child(8) > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  .menu_btnBox > .menu_nav > dt:last-child { width: 50%; height: 8vw; float: left; }
+  .menu_btnBox > .menu_nav > dt:last-child > a { width: 100%; height: 100%; display: block; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; background-image: url(../img/header/join_off.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+  .menu_btnBox > .menu_nav > dt:last-child > a:hover { background-color: #f1f1f1; background-image: url(../img/header/join_on.png); background-repeat: no-repeat; }
+  .menu_btnBox > .menu_nav > dt:last-child > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  /* .menu_btnBox(mob_toggleClass) */
   #HeadWrap { width: 100%; height: auto; background-color: #fff; position: relative; }
   #HeadWrap > #Headbox { width: 100%; height: 110px; padding-top: 8px; /*.site_map */ }
   #HeadWrap > #Headbox > h1 { width: 150px; height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png); background-repeat: no-repeat; }
@@ -939,8 +956,8 @@
   #HeadWrap > #Headbox > .site_map > ul > .site_login > a { background-image: url(../img/header/menu_login.png); background-repeat: no-repeat; }
   #HeadWrap > #Headbox > .site_map > ul > .site_join { width: 30px; height: 16px; margin-right: 0; margin-top: 7px; display: none; }
   #HeadWrap > #Headbox > .site_map > ul > .site_join > a { background-image: url(../img/header/menu_join.png); background-repeat: no-repeat; }
-  #HeadWrap > #Headbox > .menu_btn { width: 45px; height: 40px; position: absolute; top: 4.2vw; right: 3vw; background-color: transparent; }
-  #HeadWrap > #Headbox > .menu_btn > div { width: 45px; height: 8px; margin-top: 1.5vw; background-color: #2b2b2b; border-radius: 15%; }
+  #HeadWrap > #Headbox > .menu_btn { width: 4vw; height: 4vw; position: absolute; top: 14%; right: 10%; background-color: transparent; }
+  #HeadWrap > #Headbox > .menu_btn > div { width: 2.4rem; height: 0.525rem; margin-top: 1vw; background-color: #2b2b2b; border-radius: 15%; }
   #HeadWrap > #Headbox > #gnb { width: 100%; height: 38px; background-color: #2b2b2b; margin-top: 8px; display: none; }
   #HeadWrap > #Headbox > #gnb > ul { width: 89.583vw; height: 22px; padding: 8px 50px; margin: 0 auto; }
   #HeadWrap > #Headbox > #gnb > ul > li { float: left; height: 20px; margin-right: 8.8vw; }
@@ -963,8 +980,8 @@
   #HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a { background-image: url(../img/header/menu_brand.png); background-repeat: no-repeat; }
   #HeadWrap > #Headbox > #gnb > ul > .gnb_6 > a:hover { background-image: url(../img/header/menu_brandOn.png); transition: .2s ease-in; }
   /* shopmovieWrap */
-  #shopmovieWrap { width: 100%; height: 350px; background-image: url("../img/sub/shop/movie/shop_movie.png"); background-repeat: no-repeat; background-position: center; position: relative; overflow: hidden; }
-  #shopmovieWrap > .play_btn { width: 60px; height: 90px; background-color: transparent; position: absolute; cursor: pointer; bottom: 10%; left: 20%; background-image: url("../img/sub/shop/movie/shop_movie_btn_off.png"); background-repeat: no-repeat; }
+  #shopmovieWrap { width: 100%; height: 52vw; background-image: url("../img/sub/shop/movie/shop_movie.png"); background-repeat: no-repeat; background-position: center; position: relative; overflow: hidden; }
+  #shopmovieWrap > .play_btn { width: 10vw; height: 15vw; background-color: transparent; position: absolute; cursor: pointer; bottom: 10%; left: 28%; background-image: url("../img/sub/shop/movie/shop_movie_btn_off.png"); background-size: 100%; background-repeat: no-repeat; }
   #shopmovieWrap > .play_btn:hover { background-image: url("../img/sub/shop/movie/shop_movie_btn_on.png"); transition: .6s ease-in; }
   /* #shopContentBox */
   #shopContentBox { width: 100%; height: auto; }
