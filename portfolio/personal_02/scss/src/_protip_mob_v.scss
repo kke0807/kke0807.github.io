@@ -5,15 +5,16 @@
 *{margin: 0;padding: 0;border: 0; font-family: sans-serif;}
 //*:focus{outline: 2px solid $sub2;}
 
-#container{overflow: hidden;}
+
+#container{overflow: hidden;position: relative;}
+ 
 #indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:$sub !important; width: 1rem !important;}
 .accodion_width>div>dl>dd.widthView{width: 35vw !important;}    
-    
-.menu_btnBox{
+  .menu_btnBox{
     >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    
     >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        
     >.menubar3{display: none; }                                        
-    >.menu_nav{width:100vw;height: auto;display: block;background-color: $main;position: absolute;top:240%;right: -3vw !important; z-index: 900;box-shadow: 1px 1px 1px $sub2;
+    >.menu_nav{width:100vw;height: auto;display: block;background-color: $main;position: absolute;top:6rem !important;right: -10vw !important; z-index: 900;box-shadow: 1px 1px 1px $sub2;
              >dt{width: 100%;height: 8vw;
                 >a{width: 100%;height: 100%;display: block;text-decoration: none;border-top: 1px solid #fff;transition:  all 0.3s;cursor: pointer;
                     >span{width: 100%;height: 100%; text-align: center;line-height:8vw;font-size: 1rem;font-weight: bold;color: $sub2;
@@ -36,6 +37,7 @@
     }
 }/* .menu_btnBox(mob_toggleClass) */
 
+
   
 #HeadWrap{width: 100%;height: auto;background-color: #fff;position: relative;
     >#Headbox{width: 100%;height: 110px;padding-top: 8px;
@@ -54,9 +56,9 @@
                 >a{background-image: url(../img/header/menu_join.png);background-repeat: no-repeat;}
                 }
             }
-        } /*.site_map */                                                     
-        >.menu_btn{width: 45px;height: 40px;position: absolute;top: 4.2vw;right: 3vw;background-color: transparent;
-            >div{width: 45px;height: 8px; margin-top: 1.5vw;background-color:  $main;border-radius: 15%;}
+        } /*.site_map */      
+        >.menu_btn{width: 4vw;height: 4vw;position: absolute;top: 14%;right: 10%;background-color: transparent;
+            >div{width: 2.4rem;height: 0.525rem; margin-top: 1vw;background-color:  $main;border-radius: 15%;}
         }
         >#gnb{width: 100%;height: 38px;background-color: $main;margin-top: 8px;display: none;
             >ul{width: 89.583vw;height: 22px; padding: 8px 50px;margin: 0 auto;
@@ -83,7 +85,6 @@
         }//#gnb
     }//#Headbox
 }//#HeadWrap
-
 /* protipbannerWrap */
 #protipbannerWrap{width: 100%;height: 34vw;background-image:  url("../img/sub/pro_tip/gentleaura/protip_gentle_aura.png");background-repeat: no-repeat;position: relative;background-position: center;overflow: hidden;background-size: 100%;
     >.view_btn{width: 18.75vw;height:5vw;background-color:transparent; position: absolute;cursor: pointer;bottom: 10%;right:12.5%; background-image:  url("../img/sub/pro_tip/gentleaura/gentle_btn_off.png");background-repeat: no-repeat;background-size: 100%;

@@ -5,14 +5,14 @@
 *{margin: 0;padding: 0;border: 0; font-family: sans-serif;}
 //*:focus{outline: 2px solid $sub2;}
 
-#container{overflow: hidden;}
+#container{overflow: hidden;position: relative;}
+ 
 #indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:$sub !important; width: 1rem !important;}
-    
-.menu_btnBox{
+ .menu_btnBox{
     >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    
     >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        
     >.menubar3{display: none; }                                        
-    >.menu_nav{width:100vw;height: auto;display: block;background-color: $main;position: absolute;top:240%;right: -3vw !important; z-index: 900;box-shadow: 1px 1px 1px $sub2;
+    >.menu_nav{width:100vw;height: auto;display: block;background-color: $main;position: absolute;top:6rem !important;right: -10vw !important; z-index: 900;box-shadow: 1px 1px 1px $sub2;
              >dt{width: 100%;height: 8vw;
                 >a{width: 100%;height: 100%;display: block;text-decoration: none;border-top: 1px solid #fff;transition:  all 0.3s;cursor: pointer;
                     >span{width: 100%;height: 100%; text-align: center;line-height:8vw;font-size: 1rem;font-weight: bold;color: $sub2;
@@ -34,6 +34,7 @@
             }
     }
 }/* .menu_btnBox(mob_toggleClass) */
+
 
 /* shop_product_box */
 .shop_menu3>ul>.shop_product7{border-left: 1px solid #888;}
@@ -58,6 +59,33 @@
 .shopmenu_6on{background-image: url("../img/sub/shop/menu_bar/product_bar6_on.png");background-repeat: no-repeat;background-size: 100%;}
 .shopmenu_6off{background-image: url("../img/sub/shop/menu_bar/product_bar6_off.png");background-repeat: no-repeat;background-size: 100%;}      
     
+.menu_btnBox{
+    >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    
+    >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        
+    >.menubar3{display: none; }                                        
+    >.menu_nav{width:100vw;height: auto;display: block;background-color: $main;position: absolute;top:6rem !important;right: -10vw !important; z-index: 900;box-shadow: 1px 1px 1px $sub2;
+             >dt{width: 100%;height: 8vw;
+                >a{width: 100%;height: 100%;display: block;text-decoration: none;border-top: 1px solid #fff;transition:  all 0.3s;cursor: pointer;
+                    >span{width: 100%;height: 100%; text-align: center;line-height:8vw;font-size: 1rem;font-weight: bold;color: $sub2;
+                    &:hover{background-color: $sub2; color: #ef4025;}
+                    }
+                }
+            }
+            >dt:nth-child(8){width: 50%;height: 8vw;float: left;
+                >a{width: 100%;height: 100%;display: block;border-top: 1px solid #fff;transition:  all 0.3s;cursor: pointer;background-image: url(../img/header/login_off.png);background-repeat: no-repeat;background-size:contain;background-position: center;
+                    &:hover{background-color: $sub2;background-image: url(../img/header/login_on.png);background-repeat: no-repeat;}
+                    >span{width: 0;height: 0;display: block;overflow: hidden;}
+                }
+            }
+            >dt:last-child{width: 50%;height: 8vw;float: left;
+                >a{width: 100%;height: 100%;display: block;border-top: 1px solid #fff;transition:  all 0.3s;cursor: pointer;background-image: url(../img/header/join_off.png);background-repeat: no-repeat;background-size:contain;background-position: center;
+                    &:hover{background-color: $sub2;background-image: url(../img/header/join_on.png);background-repeat: no-repeat;}
+                >span{width: 0;height: 0;display: block;overflow: hidden;}
+                }
+            }
+    }
+}/* .menu_btnBox(mob_toggleClass) */
+
 #HeadWrap{width: 100%;height: auto;background-color: #fff;position: relative;
     >#Headbox{width: 100%;height: 110px;padding-top: 8px;
         >h1{width: 150px;height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png);background-repeat: no-repeat;
@@ -75,9 +103,9 @@
                 >a{background-image: url(../img/header/menu_join.png);background-repeat: no-repeat;}
                 }
             }
-        } /*.site_map */                                                     
-        >.menu_btn{width: 45px;height: 40px;position: absolute;top: 4.2vw;right: 3vw;background-color: transparent;
-            >div{width: 45px;height: 8px; margin-top: 1.5vw;background-color:  $main;border-radius: 15%;}
+        } /*.site_map */      
+        >.menu_btn{width: 4vw;height: 4vw;position: absolute;top: 14%;right: 10%;background-color: transparent;
+            >div{width: 2.4rem;height: 0.525rem; margin-top: 1vw;background-color:  $main;border-radius: 15%;}
         }
         >#gnb{width: 100%;height: 38px;background-color: $main;margin-top: 8px;display: none;
             >ul{width: 89.583vw;height: 22px; padding: 8px 50px;margin: 0 auto;
@@ -105,10 +133,9 @@
     }//#Headbox
 }//#HeadWrap
 
-
 /* shopmovieWrap */
-#shopmovieWrap{width: 100%;height: 350px;background-image:  url("../img/sub/shop/movie/shop_movie.png"); background-repeat: no-repeat;background-position: center; position: relative;overflow: hidden; 
-    >.play_btn{width: 60px;height:90px;background-color:transparent; position: absolute;cursor: pointer;bottom: 10%;left: 20%; background-image:  url("../img/sub/shop/movie/shop_movie_btn_off.png");background-repeat: no-repeat;
+#shopmovieWrap{width: 100%;height: 52vw;background-image:  url("../img/sub/shop/movie/shop_movie.png"); background-repeat: no-repeat;background-position: center; position: relative;overflow: hidden; 
+    >.play_btn{width: 10vw;height:15vw;background-color:transparent; position: absolute;cursor: pointer;bottom: 10%;left: 28%; background-image:  url("../img/sub/shop/movie/shop_movie_btn_off.png");background-size: 100%;background-repeat: no-repeat;
         &:hover{background-image: url("../img/sub/shop/movie/shop_movie_btn_on.png");transition: .6s ease-in;}
     }
 }//#shopmovieWrap

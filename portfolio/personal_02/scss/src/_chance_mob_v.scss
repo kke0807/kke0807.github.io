@@ -4,9 +4,9 @@
 
 *{margin: 0;padding: 0;border: 0; font-family: sans-serif;}
 //*:focus{outline: 2px solid $sub2;}
-#container{background-color: $main;overflow: hidden;position: relative;}
-#indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:$sub !important; width: 1rem !important;}
 
+#container{overflow: hidden;position: relative;}
+ 
 .menu_btnBox{
     >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    
     >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        
@@ -82,111 +82,83 @@
     }//#Headbox
 }//#HeadWrap
 
-/* indexBanner */
-#indexBannerWrap{width: 100%;height: 62vw; background-color: #010101;}
-#indexBanner{width: 100vw;height: 100%; overflow: hidden;background-color: $sub2;position: relative;margin: 0 auto; 
-    >button{width: 82px;height:50px;background-color:transparent; position: absolute;left: 46%;}
-    >.btn_01{background-image:  url("../img/banner/banner_upbtn.png");background-repeat: no-repeat;float: left;cursor: pointer;top: 0;
-        &:hover{background-image: url(../img/banner/banner_upbtnOn.png);transition: .6s ease-in;}
+/* chancebannerWrap */
+#chancebannerWrap{width: 100%;height: 34vw;background-image:  url("../img/sub/chance/product_img.png");background-repeat: no-repeat;position: relative;overflow: hidden; background-position: center;background-size: 100%;
+    >.view_btn{width: 10.52vw;height:2.3958vw;background-color:transparent; position: absolute;cursor: pointer;bottom: 5%;right:33%; background-image:   url("../img/sub/chance/view_btn.png");background-repeat: no-repeat;background-size: 100%;
+        &:hover{background-image: url("../img/sub/chance/view_btn_on.png");transition: .6s ease-in;}
     }
-    >.btn_02{background-image:  url("../img/banner/banner_downbtn.png");background-repeat: no-repeat;float: left;cursor: pointer;bottom: 0;
-        &:hover{background-image: url(../img/banner/banner_downbtnOn.png);transition: .6s ease-in;}
-    }
-               
-    >ol{width: 10rem;height: 1.25rem;position: absolute;bottom: 1.875vw;left: 3.5%; z-index: 20;float: left;
-         >li{width: 2.3vw;height: 2.3vw;float: left;margin-right: 10px;
-         }//li
-         >.indicator_1{width: 2.3vw;height: 2.3vw;background-color:$sub2;cursor: pointer;border-radius: 50%;}
-         >.indicator_2{width: 2.3vw;height: 2.3vw;background-color:$sub2;cursor: pointer;border-radius: 50%;}
-         >.indicator_3{width: 2.3vw;height: 2.3vw;background-color:$sub2;cursor: pointer;border-radius: 50%;}
-         >.indicator_4{width: 2.3vw;height:2.3vw;background-color:$sub2;cursor: pointer;border-radius: 50%;} 
-     }//ol
-     >ul{width: 100%;height: 500%;margin-top: -62vw;overflow: hidden;background-color: #010101;
-         >li{width:100% ;height:calc(100% / 5);
-             >img{width: 100%;height:100%;} 
-         }//li
-    }//ul
-}//#indexBanner
+}//#chancebannerWrap
 
-/* indexContentBox */
-#indexContentBox{width: 100%;height:auto;overflow: hidden;
-    >.indexContent{width: 100%;
-        >.in_product{width: 100vw;height: 32.70833vw;margin: 0 auto;
-            >ul{
-                >li{height: 32.70833vw;float: left;}
-                >.in_product1{width: 49.8958vw;
-                    >a{background-image: url(../img/article/product/product1.png);background-repeat: no-repeat;background-size: 100%;
-                        &:hover{background-image: url(../img/article/product/product1_on.png);transition: .6s ease-in-out;background-size: 100%;}}
-                }
-                >.in_product2{width: 50.1041vw;
-                     >a{background-image: url(../img/article/product/product2.png);background-repeat: no-repeat;background-size: 100%;
-                        &:hover{background-image: url(../img/article/product/product2_on.png);transition: .6s ease-in-out;background-size: 100%;}}
-                }
+/* #chanceContentBox */
+#chanceContentBox{width: 100%;height: auto;
+    >.chanceContent{width: 94vw;height: auto;margin: 0 auto;border-left: $line;border-right: $line;overflow: hidden;
+        >h2{width: 93.3333vw;height: 20px;background-color: #fff;padding: 15px 32px;box-shadow: 1px 2px 3px #ccc;margin-bottom: 2px;
+            >span{width: 166px;height: 22px;display: block; background-image:  url("../img/sub/chance/sub_chance_title.png");background-repeat: no-repeat;background-size: 88%;}
             }
-        }
-        >.in_brand{width: calc(100vw - 8.333vw);height:24.375vw;padding: 5vw 4.16666vw;background-color: #fff;margin: 0 auto;
-            >ul{
-                >li{width: 25.416vw;height: 25.2083vw;float: left;margin-right: 6vw;}
-                >.in_brand1{
-                 >a{background-image: url(../img/article/brand/brand1.png);background-repeat: no-repeat;background-size: 100%;
-                        &:hover{background-image: url(../img/article/brand/brand1_on.png);transition: .8s ease-in-out;}}
-                }
-                >.in_brand2{
-                     >a{background-image: url(../img/article/brand/brand2.png);background-repeat: no-repeat;background-size: 100%;
-                        &:hover{background-image: url(../img/article/brand/brand2_on.png);transition: .8s ease-in-out;}}
-                }
-                >.in_brand3{margin-right: 0;
-                     >a{background-image: url(../img/article/brand/brand3.png);background-repeat: no-repeat;background-size: 100%;
-                        &:hover{background-image: url(../img/article/brand/brand3_on.png);transition: .8s ease-in-out;}}
-                }
-            }
-        }
-        >.in_etc{width: 100vw;height:74vw;
-            >ul{
-                >li{float: left;}
-                >.in_etc1{width: 100vw;height: 50vw;
-                >a{background-image: url(../img/article/etc/etc1.png);background-repeat: no-repeat;background-size: 100%;background-position: center;
-                        &:hover{background-image: url(../img/article/etc/etc1_on.png);transition: .8s ease-in;}}
-                }
-                >.in_etc2{width: 36vw;height: 24vw;
-                    >a{background-image: url(../img/article/etc/etc2.png);background-repeat: no-repeat;background-size: 100%;background-position: center;}
-                }
-                >.in_etc3{width: 64vw;height: 24vw;
-                    >a{background-image: url(../img/article/etc/etc3.png);background-repeat: no-repeat;background-size: 100%;background-position: center;
-                        &:hover{background-image: url(../img/article/etc/etc3_on.png);transition: .8s ease-in;}}
-                }
-            }
-        }
-        >.in_movie{width: 100vw !important;height: 52.0833vw !important; margin: 0 auto;overflow: hidden;display: none;}
-        >.in_contact{width: 100%;height:38.5vw;background-color: #010101;
-            >ul{width: calc(100% - 57.5vw);height:152px;padding: 10px 28.75vw;background-color: #010101; 
-                >li{margin: 0 auto; 
-                >span{width: 0;height: 0;display: block;overflow: hidden;}
-                }
-                >.in_contact_title{width: 15.625vw;height: 3vw;background-image: url(../img/article/contact/contact_title.png);background-repeat: no-repeat;background-size: 100%;}
-                >.in_contact_txt{width: 90vw;height: 15vw;margin-top: 15px;margin-left: -58%; background-image: url(../img/article/contact/contact_txt.png);background-repeat: no-repeat;background-size:contain;}
-                >.in_contact_sns{width: 152px;height: 33px;margin-top: 1vw;
-                    >ul{
-                        >li{width: 34px;height: 33px;float: left;margin-right: 25px;}
-                        >.sns_icon1{
-                             >a{background-image: url(../img/article/contact/contact_t.png);background-repeat: no-repeat;
-                                &:hover{background-image: url(../img/article/contact/contact_ton.png);transition: .5s ease-in;}}    
-                        }
-                        >.sns_icon2{
-                              >a{background-image: url(../img/article/contact/contact_f.png);background-repeat: no-repeat;
-                                &:hover{background-image: url(../img/article/contact/contact_fon.png);transition: .5s ease-in;}}      
-                        }
-                        >.sns_icon3{margin-right: 0;
-                                >a{background-image: url(../img/article/contact/contact_i.png);background-repeat: no-repeat;
-                                    &:hover{background-image: url(../img/article/contact/contact_ion.png);transition: .5s ease-in;}}  
-                        }
+        >.event_box{width:inherit;height:50vw; margin: 0 auto;position: relative;overflow: hidden;
+            >.indi{width: 100%;height: 4.4791vw;position: absolute;z-index: 100;bottom: 0;
+                >li{width: 25%;height:4.4791vw;float: left;
+                    &:nth-child(1){background-image:url("../img/sub/chance/event/menu1.png");background-repeat: no-repeat;background-size: 100%;
+                         &:hover{background-image: url("../img/sub/chance/event/menu1_on.png");transition: .6s ease-in;}
                     }
+                    &:nth-child(2){background-image:url("../img/sub/chance/event/menu2.png");background-repeat: no-repeat;background-size: 100%;
+                         &:hover{background-image: url("../img/sub/chance/event/menu2_on.png");transition: .6s ease-in;}
+                    }
+                    &:nth-child(3){background-image:url("../img/sub/chance/event/menu3.png");background-repeat: no-repeat;background-size: 100%;
+                         &:hover{background-image: url("../img/sub/chance/event/menu3_on.png");transition: .6s ease-in;}
+                    }
+                    &:nth-child(4){background-image:url("../img/sub/chance/event/menu4.png");background-repeat: no-repeat;background-size: 100%;
+                         &:hover{background-image: url("../img/sub/chance/event/menu4_on.png");transition: .6s ease-in;}
+                    }
+                        >a{width: 100%;height: 100%;display: block;}
+                }//li
+            }//.indi
+            >.contentBox{width: 400%;height: 46vw;
+                >li{width: 25%;height: 100%;float: left;background-position:center;background-size: 100%;
+                    &:nth-child(1){background-image:url("../img/sub/chance/event/event_1.png");background-repeat: no-repeat;}
+                    &:nth-child(2){background-image:url("../img/sub/chance/event/event_2.png");background-repeat: no-repeat;}
+                    &:nth-child(3){background-image:url("../img/sub/chance/event/event_3.png");background-repeat: no-repeat;}
+                    &:nth-child(4){background-image:url("../img/sub/chance/event/event_4.png");background-repeat: no-repeat;}
+                    >span{width: 0;height: 0;display: block;overflow: hidden;}
+                }//li
+            }//.contentBox
+        }
+        >.event_announcement{width:90.625vw;height:25vw;padding: 0 4.6875vw;padding-top: 2.5vw;
+            >h3{width:86vw;height: 2.5vw;display: block;overflow: hidden;margin: auto 0; background-position: center; background-image: url("../img/sub/chance/announcement/announcement_title.png");background-repeat: no-repeat;background-size: 100%;}    
+            >ul{width: 86vw;height: 19.7916vw;margin-top: 2.7vw;
+                >li{width: 21vw;height: 100%;float: left;margin-right: 0.59vw;
+                    >a{width: 100%;height: 100%;display: block;background-size: 100%;}
+                    &:last-child{margin-right: 0;}
+                }
+                
+                >.announcement_1>a{background-image: url("../img/sub/chance/announcement/announcement_1.png");background-repeat: no-repeat;}
+                >.announcement_2>a{background-image: url("../img/sub/chance/announcement/announcement_2.png");background-repeat: no-repeat;}
+                >.announcement_3>a{background-image: url("../img/sub/chance/announcement/announcement_3.png");background-repeat: no-repeat;}
+                >.announcement_4>a{background-image: url("../img/sub/chance/announcement/announcement_4.png");background-repeat: no-repeat;}
+            }
+        }
+        >.event_content{width:90.625vw;height:auto;padding: 2.5vw 4.6875vw;position:relative;padding-bottom: 3.6485vw;
+            >h3{width:86vw;height: 2.5vw;display: block;overflow: hidden;margin: auto 0; background-position: center;background-image: url("../img/sub/chance/event_content/event_content_title.png");background-repeat: no-repeat;background-size: 100%;}    
+            >ul{width: 86vw;height: auto;margin-top: 2.7vw;
+                >li{width: 42vw;height: 29.5833vw;float: left;margin-right: 2vw;margin-bottom: 3.125vw;
+                    >a{width: 100%;height: 100%;display: block;background-size: 100%;}
+                    &:nth-child(2),&:nth-child(4){margin-right: 0;}
+                }
+                >.content_1>a{background-image: url("../img/sub/chance/event_content/eventbox_1.png");background-repeat: no-repeat;}
+                >.content_2>a{background-image: url("../img/sub/chance/event_content/eventbox_2.png");background-repeat: no-repeat;}
+                >.content_3>a{background-image: url("../img/sub/chance/event_content/eventbox_3.png");background-repeat: no-repeat;}
+                >.content_4>a{background-image: url("../img/sub/chance/event_content/eventbox_4.png");background-repeat: no-repeat;}
+                >.content_5>a{width: 42vw;height: 29.5833vw;background-image: url("../img/sub/chance/event_content/eventbox_5.png");background-repeat: no-repeat;}
+            } 
+            >.btnBox{width: 86vw;height: 10vw;
+                >.line{width: 35vw;height: 10vw;display: block; background-image: url("../img/sub/chance/event_content/event_line.png");background-repeat: no-repeat;float: left;background-size: 100%;}
+                >button{width: 10vw;height: 10vw;background-image: url("../img/sub/chance/event_content/more_btn.png");background-repeat: no-repeat;background-size: 100%; background-color: transparent;float: left;margin-left: 2.8vw;margin-right: 2.8vw;transition: .8s ease-in;
+                    &:hover{background-image: url("../img/sub/chance/event_content/more_btn_on.png");}
                 }
             }
-            >.espoir_map{width: 100%;height: 25.2083vw;background-color: #ddd;display: none;}
-        }  
-    }//.indexContent
-}//#indexContentBox
+        }
+    }//.chanceContent
+}//#chanceContentBox
 
 /* FootWrap */
 #FootWrap{width: 100%;height: 16vw; background-color: $sub2;
