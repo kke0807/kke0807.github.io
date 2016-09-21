@@ -7,25 +7,33 @@
     <link rel="shortcut icon" type="image/x-icon" href="./favicon/favicon.png" />
     <link rel="apple-touch-icon" href="./favicon/favicon.png" /> <!--애플용-->
 	<link rel="stylesheet" href="./css/lib/normalize.css" />
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/chance.css">
 	<script src="./js/jquery/jquery-1.12.3.min.js"></script>
 	<script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
 	<script src="./js/jquery/jquery-ui.min.js"></script>
-	<script src="./js/index_banner.js"></script>
     <script src="./js/top_btn.js"></script>
     <script src="./js/menu_btn.js"></script>
+    <script src="./js/indi.js"></script>
 	<title>espoir</title>
 	<style>
- 
-        
+
     </style>
 	<script>
     $(function(){
-       indexbanner();
        top_btn();
        menu_btn();
+       indi($('.indi'),$('.contentBox'));
+        /*-------------광고 더보기 버튼-------------*/
+             var event_morebtn = $('.btnBox'),
+             event_li5= $('.event_content').find('.content_5');
+             event_li5.hide();
+             event_morebtn.on('click',function(){
+                event_morebtn.fadeOut();
+                event_li5.fadeIn(2000);
+                
+            });
     });
-	</script>
+	</script> 
 </head>
 <body>
 <div id="container">
@@ -66,8 +74,6 @@
                        <dt><a href="#"><span>Join</span></a></dt>
 	                </dl>
                 </button>
-                
-                
                  <nav id="gnb" role="navigation">
                     <h2>espoir_menu</h2>
                      <ul role="menubar" class="me_link">
@@ -81,75 +87,53 @@
                  </nav>
              </header>
         </div><!--//#HeadWrap-->
-        <article id="indexBannerWrap" role="bannerWrap">
-        <section id="indexBanner" aria-atomic="false">
-            <h2>espoir banner</h2>
-          <button class="btn_01"><span class="me_hidden">up_btn</span></button>
-            <button class="btn_02"><span class="me_hidden">down_btn</span></button>
-            <ol id="indicator_box">
-                <li class="indicator_1"></li>
-                <li class="indicator_2"></li>
-                <li class="indicator_3"></li>
-                <li class="indicator_4"></li>
-            </ol><!--#indicator_box-->
-            <ul class="banner_box_page">
-                <li class="banner_01 page"><img src="./img/banner/banner1.png" alt="첫번째 배너입니다" /></li>
-                <li class="banner_02 page"><img src="./img/banner/banner2.png" alt="두번째 배너입니다" /></li>
-                <li class="banner_03 page"><img src="./img/banner/banner3.png" alt="세번째 배너입니다" /></li>
-                <li class="banner_04 page"><img src="./img/banner/banner4.png" alt="네번째 배너입니다" /></li>
-            </ul><!--//.banner_box_page-->
-        </section>
+        <article id="chancebannerWrap" role="chanceWrap">
+            <h2>espoir chance banner</h2>
+            <button class="view_btn"><span class="me_hidden">view_btn</span></button>
         </article>
-        <article id="indexContentBox" role="main">
-            <h2>espoir content</h2>
-            <section class="indexContent">
-               <h2>본문영역의content</h2>
-                <article class="in_product">
-                   <h3>espoir 신상품</h3>
-                    <ul class="me_link">
-                        <li class="in_product1"><a href="./espoir_shop.html"><span>신상품 1</span></a></li>
-                        <li class="in_product2"><a href="./espoir_shop.html"><span>신상품 2</span></a></li>
-                    </ul>
+        <article id="chanceContentBox" role="sub_chance">
+            <h2>espoir chance content</h2>
+            <section class="chanceContent">
+               <h2><span><!--타이틀 이미지영역--></span></h2>
+                <article class="event_box">
+                   <h3>메인 이벤트</h3>
+                   <ul class="indi">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                   </ul>
+                   <ul class="contentBox">
+                    <li><span>event_01</span></li>
+                    <li><span>event_02</span></li>
+                    <li><span>event_03</span></li>
+                    <li><span>event_04</span></li>
+                   </ul>
                 </article>
-                <article class="in_brand">
-                   <h3>espoir 브랜드스토리</h3>
-                    <ul class="me_link">
-                        <li class="in_brand1"><a href="#"><span>in_brand1</span></a></li>
-                        <li class="in_brand2"><a href="#"><span>in_brand2</span></a></li>
-                        <li class="in_brand3"><a href="#"><span>in_brand3</span></a></li>
-                    </ul>
+                <article class="event_announcement">
+                   <h3><!--espoir 이벤트 당첨자 발표--></h3>
+                   <ul class="me_link">
+                    <li class="announcement_1"><a href="#"><span>announcement_1</span></a></li>
+                    <li class="announcement_2"><a href="#"><span>announcement_2</span></a></li>
+                    <li class="announcement_3"><a href="#"><span>announcement_3</span></a></li>
+                    <li class="announcement_4"><a href="#"><span>announcement_4</span></a></li>
+                   </ul>
                 </article>
-                <article class="in_etc">
-                   <h3>espoir etc</h3>
-                    <ul class="me_link">
-                        <li class="in_etc1"><a href="#"><span>color finder</span></a></li>
-                        <li class="in_etc2"><a href="#"><span>pro makeup video</span></a></li>
-                        <li class="in_etc3"><a href="#"><span>everyday makeup</span></a></li>
-                    </ul>
-                </article>
-                <article class="in_movie">
-                   <h3>espoir movie</h3>
-                   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FZneCEMz9PE" frameborder="0" allowfullscreen></iframe>
-                </article>
-                <article class="in_contact">
-                   <h3>espoir contact us</h3>
-                    <ul class="me_link">
-                        <li class="in_contact_title"><span>contact us</span></li>
-                        <li class="in_contact_txt"><span>서울시 중구 청계천로 100 시그니쳐타워 7층
-쇼핑몰 고객상담 080-619-8888   /   에스쁘아 고객상담 080-619-8888
-( 상담시간 월 ~ 금 09:00-18:00 )</span></li>
-                        <li class="in_contact_sns">
-                           <ul class="me_link">
-                                <li class="sns_icon1"><a href="#"><span>sns_icon1</span></a></li>
-                                <li class="sns_icon2"><a href="#"><span>sns_icon2</span></a></li>
-                                <li class="sns_icon3"><a href="#"><span>sns_icon3</span></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <div class="espoir_map">
-                       <h4>espoir 지도</h4>
-                       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12649.894507057903!2d126.9881614!3d37.5674635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x31c430dda5d056fa!2z7Iuc6re464uI7LOQ7YOA7JuM!5e0!3m2!1sko!2skr!4v1470913121502" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe> 
-                    </div>
+                 <article class="event_content clearfix">
+                   <h3><!--espoir 진행중인 이벤트--></h3>
+                   <ul class="me_link">
+                    <li class="content_1"><a href="#"><span>content_1</span></a></li>
+                    <li class="content_2"><a href="#"><span>content_2</span></a></li>
+                    <li class="content_3"><a href="#"><span>content_3</span></a></li>
+                    <li class="content_4"><a href="#"><span>content_4</span></a></li>
+                    <li class="content_5"><a href="#"><span>content_5</span></a></li>
+                   </ul>
+                   <div class="btnBox">
+                       <div class="line"><!--줄(라인)--></div>
+                       <button class="more_btn"><span class="me_hidden">more_btn</span></button>
+                       <div class="line"><!--줄(라인)--></div>
+                   </div>
+                   
                 </article>
             </section>
         </article>
