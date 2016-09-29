@@ -20,7 +20,7 @@
                     }
                 }
             }
-            >dt:nth-child(8){width: 50%;height: 8vw;float: left;
+            >dt:nth-child(7){width: 50%;height: 8vw;float: left;
                 >a{width: 100%;height: 100%;display: block;border-top: 1px solid #fff;transition:  all 0.3s;cursor: pointer;background-image: url(../img/header/login_off.png);background-repeat: no-repeat;background-size:contain;background-position: center;
                     &:hover{background-color: $sub2;background-image: url(../img/header/login_on.png);background-repeat: no-repeat;}
                     >span{width: 0;height: 0;display: block;overflow: hidden;}
@@ -58,33 +58,7 @@
         
 .shopmenu_6on{background-image: url("../img/sub/shop/menu_bar/product_bar6_on.png");background-repeat: no-repeat;background-size: 100%;}
 .shopmenu_6off{background-image: url("../img/sub/shop/menu_bar/product_bar6_off.png");background-repeat: no-repeat;background-size: 100%;}      
-    
-.menu_btnBox{
-    >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    
-    >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        
-    >.menubar3{display: none; }                                        
-    >.menu_nav{width:100vw;height: auto;display: block;background-color: $main;position: absolute;top:6rem !important;right: -10vw !important; z-index: 900;box-shadow: 1px 1px 1px $sub2;
-             >dt{width: 100%;height: 8vw;
-                >a{width: 100%;height: 100%;display: block;text-decoration: none;border-top: 1px solid #fff;transition:  all 0.3s;cursor: pointer;
-                    >span{width: 100%;height: 100%; text-align: center;line-height:8vw;font-size: 1rem;font-weight: bold;color: $sub2;
-                    &:hover{background-color: $sub2; color: #ef4025;}
-                    }
-                }
-            }
-            >dt:nth-child(8){width: 50%;height: 8vw;float: left;
-                >a{width: 100%;height: 100%;display: block;border-top: 1px solid #fff;transition:  all 0.3s;cursor: pointer;background-image: url(../img/header/login_off.png);background-repeat: no-repeat;background-size:contain;background-position: center;
-                    &:hover{background-color: $sub2;background-image: url(../img/header/login_on.png);background-repeat: no-repeat;}
-                    >span{width: 0;height: 0;display: block;overflow: hidden;}
-                }
-            }
-            >dt:last-child{width: 50%;height: 8vw;float: left;
-                >a{width: 100%;height: 100%;display: block;border-top: 1px solid #fff;transition:  all 0.3s;cursor: pointer;background-image: url(../img/header/join_off.png);background-repeat: no-repeat;background-size:contain;background-position: center;
-                    &:hover{background-color: $sub2;background-image: url(../img/header/join_on.png);background-repeat: no-repeat;}
-                >span{width: 0;height: 0;display: block;overflow: hidden;}
-                }
-            }
-    }
-}/* .menu_btnBox(mob_toggleClass) */
+
 
 #HeadWrap{width: 100%;height: auto;background-color: #fff;position: relative;
     >#Headbox{width: 100%;height: 110px;padding-top: 8px;

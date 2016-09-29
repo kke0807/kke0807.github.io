@@ -1,11 +1,7 @@
 //pc
 @media screen and (min-width:1025px){
-*{margin: 0;padding: 0;border: 0; font-family: sans-serif;}
 //*:focus{outline: 2px solid $sub2;}
-
-#indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:$sub !important; width: 1.5rem !important;}
-.accodion_width>div>dl>dd.widthView{width: 338px !important;}    
-      
+     
 .menu_btnBox{
     >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    
     >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        
@@ -32,15 +28,31 @@
             }
         }
 }/* .menu_btnBox(mob_toggleClass) */
+    
+.eyeborowbar_1off{background-image: url("../img/sub/service/eyeborow_bar/eyeborow_bar_off.png");background-repeat: no-repeat;}
+.eyeborowbar_1on{background-image: url("../img/sub/service/eyeborow_bar/eyeborow_bar_on.png");background-repeat: no-repeat;}
+.eyeborowbar_2off{background-image: url("../img/sub/service/eyeborow_bar/service_off.png");background-repeat: no-repeat;}
+.eyeborowbar_2on{background-image: url("../img/sub/service/eyeborow_bar/service_on.png");background-repeat: no-repeat;}
+.eyeborowbar_3off{background-image: url("../img/sub/service/eyeborow_bar/qna_off.png");background-repeat: no-repeat;}
+.eyeborowbar_3on{background-image: url("../img/sub/service/eyeborow_bar/qna_on.png");background-repeat: no-repeat;}
+.eyeborowbar_4off{background-image: url("../img/sub/service/eyeborow_bar/location_off.png");background-repeat: no-repeat;}
+.eyeborowbar_4on{background-image: url("../img/sub/service/eyeborow_bar/location_on.png");background-repeat: no-repeat;}        
+.eyeborowbar_5off{background-image: url("../img/sub/service/eyeborow_bar/makeup_off.png");background-repeat: no-repeat;}
+.eyeborowbar_5on{background-image: url("../img/sub/service/eyeborow_bar/makeup_on.png");background-repeat: no-repeat;}
 
- 
+.eyeborowbar_menu1{height:1100px;  background-image: url("../img/sub/service/eyeborow_bar/eyeborowbar_img.png");background-repeat: no-repeat;}
+.eyeborowbar_menu2{height: 2030px;background-image: url("../img/sub/service/eyeborow_bar/service_img.png");background-repeat: no-repeat;}
+.eyeborowbar_menu3{height: 882px;background-image: url("../img/sub/service/eyeborow_bar/qna_img.png");background-repeat: no-repeat;}
+.eyeborowbar_menu4{height: 2964px;background-image: url("../img/sub/service/eyeborow_bar/location_img.png");background-repeat: no-repeat;}
+.eyeborowbar_menu5{height: 1835px;background-image: url("../img/sub/service/eyeborow_bar/makeup_img.png");background-repeat: no-repeat;}
+    
 /* HeadWrap */
-#HeadWrap{width: 100%;height: auto;background-color: #fff;position: relative;
-    >#Headbox{width: 100%;height: calc(100% - 8px);padding-top: 8px;overflow: hidden;
+#HeadWrap{width: 100%;height: 120px;background-color: #fff;
+    >#Headbox{width: 100%;height: calc(100% - 8px);padding-top: 8px;position: relative;overflow: hidden;
         >h1{width: 150px;height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png);background-repeat: no-repeat;
             >a{width: 100%;height: 100%;display: block;}
         }
-        >.site_map{width: 270px;height: 32px;margin-right: 33px;position: absolute;top: 8px;right: 0;
+        >.site_map{width: 280px;height: 32px;margin-right: 33px;position: absolute;top: 8px;right: 0;
             >ul{width: inherit;height: inherit;
                 >li{float: left;margin-right: 16px;}
                 >.site_search{width: 150px;height: 22px;padding: 5px; background-color:$sub2;border-radius: 8%;
@@ -54,11 +66,7 @@
                 }
             }
         }//.site_map
-        >.menu_btn{display: none;width: 45px;height: 40px;position: absolute;top: 2.2vw;right: 3vw;background-color: transparent;
-            >div{width: 45px;height: 8px; margin-top: 1vw;background-color:  $main;border-radius: 15%;}
-        }
-        
-        
+        >.menu_btn{display: none;}
         >#gnb{width: 100%;height: 38px;background-color: $main;margin-top: 8px;
             >ul{width: 860px;height: 22px; padding: 8px 50px;margin: 0 auto;
                 >li{float: left;height: 20px;margin-right: 105px;}
@@ -86,82 +94,70 @@
 }//#HeadWrap
 
 
-/* protipbannerWrap */
-#protipbannerWrap{width: 960px;height: 350px;background-image:  url("../img/sub/pro_tip/gentleaura/protip_gentle_aura.png");background-repeat: no-repeat;position: relative;margin: 0 auto; 
-    >.view_btn{width: 180px;height:48px;background-color:transparent; position: absolute;cursor: pointer;bottom: 10%;right: 12.5%; background-image:  url("../img/sub/pro_tip/gentleaura/gentle_btn_off.png");background-repeat: no-repeat;
-        &:hover{background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_on.png");transition: .6s ease-in;}
-    }
-}//#protipbannerWrap
+/* serviceWrap */
+#serviceWrap{width: 960px;height: 350px;background-image:  url("../img/sub/service/service_img.png");background-repeat: no-repeat;position: relative;margin: 0 auto; }//#serviceWrap
 
-/* #protipContentBox */
-#protipContentBox{width: 100%;height: auto;
-    >.protipContent{width: 960px;height: auto;margin: 0 auto;border-left: $line;border-right: $line;
+/* #serviceContentBox */
+#serviceContentBox{width: 100%;height: auto;
+    >.serviceContent{width: 960px;height: auto;margin: 0 auto;border-left: $line;border-right: $line;
         >h2{width: 896px;height: 20px;background-color: #fff;padding: 15px 32px;box-shadow: 1px 2px 3px #ccc;
-            >span{width: 162px;height: 22px;display: block; background-image:  url("../img/sub/pro_tip/sub_protip_title.png");background-repeat: no-repeat;background-size: 88%;}
+            >span{width: 145px;height: 22px;display: block; background-image:  url("../img/sub/service/sub_service_title.png");background-repeat: no-repeat;background-size: 88%;}
+        }
+        >.service_lesson{width: 100%;height: 576px;background-image:  url("../img/sub/service/lesson/lesson_img.png");background-repeat: no-repeat;position: relative !important;
+            >.lesson_box{width: 296px;height: 156px;background-image:  url("../img/sub/service/lesson/lesson_box.png");background-repeat: no-repeat;position: absolute;bottom:10%;right: 12%;
+                >ul{margin-top: 22%;
+                    >li{height: 72px;float: left;margin-left: 14%;
+                        >a{width: 100%;height: 100%;display: block;transition: .8s;}
+                    }
+                    .lesson_store{width: 52px;margin-left: 10%;
+                        >a{background-image:  url("../img/sub/service/lesson/store_off.png");background-repeat: no-repeat;
+                            &:hover{background-image:  url("../img/sub/service/lesson/store_on.png");}
+                        }
+                    }
+                    .lesson_apply{width: 46px;
+                        >a{background-image:  url("../img/sub/service/lesson/apply_off.png");background-repeat: no-repeat;
+                            &:hover{background-image:  url("../img/sub/service/lesson/apply_on.png");}
+                        }
+                    }
+                    .lesson_story{width: 60px;
+                        >a{background-image:  url("../img/sub/service/lesson/story_off.png");background-repeat: no-repeat;
+                            &:hover{background-image:  url("../img/sub/service/lesson/story_on.png");}
+                        }
+                    }
+                }
             }
-        >.protip_acc{width:900px;height:460px;padding: 0 30px;padding-top: 30px;
-            >.accodion_width{width:100%;height: 460px;margin-top: 50px; margin: 0 auto;
-                >div{width: auto;height: 100%;float: left;
-                    >dl{width: 100%;height: 100%;overflow: hidden;
-                        >dt{width: 185px;height: 100%;float:left;}
-                        >dd{width: 0;height: 100%;float:left;transition: all 0.3s;}
+            
+        }
+        >.service_membership{width: 100%;height: 246px;
+            >.vvip_lounge{width: 50%;height: 100%;float: left;background-image:  url("../img/sub/service/membership/vvip_off.png");background-repeat: no-repeat;transition: .8s ease-in;
+                &:hover{background-image:  url("../img/sub/service/membership/vvip_on.png");}
+            }
+            >.membership{width: 50%;height: 100%;float: left;background-image:  url("../img/sub/service/membership/membership_off.png");background-repeat: no-repeat;transition: .8s ease-in;
+                &:hover{background-image:  url("../img/sub/service/membership/membership_on.png");}
+            }
+        }
+        >.service_artist_studio{width: 100%;height: 248px;background-image:  url("../img/sub/service/artist_studio.png");background-repeat: no-repeat;}
+        >.service_eyeborowbar{width: 870px;height:auto;padding:20px 45px;
+            >h3{width: 870px;height: 20px;margin: 0 auto;background-image: url("../img/sub/service/eyeborow_bar/eyebrow_bar_title.png");background-repeat: no-repeat;}
+            >.eyeborowbar_img{width: 100%;height: 215px;background-image: url("../img/sub/service/eyeborow_bar/eyebrow_bar_img.png");background-repeat: no-repeat;margin-top: 1vw;}
+            >#eyeborowbar_menu{width: 100%;height: auto;
+                >dl{
+                    >dt{width: 174px;height: 54px;float: left;
+                        >a{width: 100%;height: 100%;display: block;}
                     }
-                }
-                >.protip_acc1{
-                    >dl{background-image: url(../img/sub/pro_tip/protip_acc/color_finder.png);background-repeat: no-repeat;
-                    }
-                }
-                >.protip_acc2{
-                    >dl{background-image: url(../img/sub/pro_tip/protip_acc/foundation_finder.png);background-repeat: no-repeat;
-                    }
-                }
-                >.protip_acc3{
-                    >dl{background-image: url(../img/sub/pro_tip/protip_acc/brush_finder.png);background-repeat: no-repeat;
-                    }
+                    >dd{width: 100%;clear: both;}
                 }
             }
         }
-        >.protip_etc{width:900px;height:325px;padding: 0 30px;padding-top: 30px;
-            .protip_video{width: 560px;height: 325px;float: left;margin-right: 14px;
-                >a{width: 100%;height: 100%;display: block; background-image: url("../img/sub/pro_tip/promakeup_video.png");background-repeat: no-repeat;
-                    >span{width: 0;height: 0;display: block;overflow: hidden;}
-                }
-            }
-            .protip_qna{width: 320px;height: 325px;float: left;
-                >a{width: 100%;height: 100%;display: block; background-image:  url("../img/sub/pro_tip/promakeup_qna.png");background-repeat: no-repeat;
-                    >span{width: 0;height: 0;display: block;overflow: hidden;}
-                }
-            }
-        }
-        >.protip_everyday{width: 875px;height:380px;padding: 0 45px;padding-top: 22px;
-            >h3{width: 875px;height: 18px;margin: 0 auto;background-image: url("../img/sub/pro_tip/everyday/everyday_makeup_title.png");background-repeat: no-repeat;}
-            >ul{margin-top: 25px;
-                >li{width: 207px;height: 284px;float: left;margin-left: 14px;}
-                >.everyday_makeup1{margin-left: 0; 
-                    >a{background-image: url("../img/sub/pro_tip/everyday/everyday_1.png");background-repeat: no-repeat;
-                    }
-                }
-                >.everyday_makeup2{
-                    >a{background-image: url("../img/sub/pro_tip/everyday/everyday_2.png");background-repeat: no-repeat;
-                    }
-                }
-                >.everyday_makeup3{
-                    >a{background-image: url("../img/sub/pro_tip/everyday/everyday_3.png");background-repeat: no-repeat;
-                    }
-                }
-                >.everyday_makeup4{
-                    >a{background-image: url("../img/sub/pro_tip/everyday/everyday_4.png");background-repeat: no-repeat;
-                    }
-                }
-            }
-        } 
-    }//.protipContent
-}//#protipContentBox
-    
+        
+         
+    }//.shopContent
+}//#shopContentBox
+
 /* FootWrap */
 #FootWrap{width: 100%;height: 90px; background-color: $sub2;
     >#Foot{width: 876px;height: calc(100% - 20px);margin: 0 auto;padding: 10px 42px;
-       >.top_btn{display: none; width: 13vw;height: 5.5vw;margin-left:40%; background-color: transparent;background-image: url(../img/footer/top_btn.png);background-repeat: no-repeat;background-size: 100%;}
+        >.top_btn{display: none;}
         >ul{
             >li{width: 100%;}
             >.addBox1{width: 100%;height: 20px;margin-bottom: 10px;
