@@ -8,10 +8,10 @@
 #indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:$sub !important; width: 1rem !important;}
 
 .menu_btnBox{
-    >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    
+    >.menubar1{transform: rotate(50deg) translate(15px,0);transition: 0.5s ease-in;}    
     >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        
     >.menubar3{display: none; }                                        
-    >.menu_nav{width:100vw;height: auto;display: block;background-color: $main;position: absolute;top:6rem !important;right: -10vw !important; z-index: 900;box-shadow: 1px 1px 1px $sub2;
+    >.menu_nav{width:100vw;height: auto;display: block;background-color: $main;position: absolute;top:6rem !important;right: -5vw !important; z-index: 900;box-shadow: 1px 1px 1px $sub2;
              >dt{width: 100%;height: 8vw;
                 >a{width: 100%;height: 100%;display: block;text-decoration: none;border-top: 1px solid #fff;transition:  all 0.3s;cursor: pointer;
                     >span{width: 100%;height: 100%; text-align: center;line-height:8vw;font-size: 1rem;font-weight: bold;color: $sub2;
@@ -53,8 +53,8 @@
                 }
             }
         } /*.site_map */      
-        >.menu_btn{width: 8vw;height: 8vw;position: absolute;top: 14%;right: 5%;background-color: transparent;
-            >div{width: 2.4rem;height: 0.525rem; margin-top: 1vw;background-color:  $main;border-radius: 15%;}
+        >.menu_btn{width: 8.2vw;height:9vw;position: absolute;top: 15%;right: 5%;background-color: transparent;
+            >div{width: 8.2vw;height: 1.7vw; margin-top: 1.2vw;background-color:  $main;border-radius: 15%;}
         }
         >#gnb{width: 100%;height: 38px;background-color: $main;margin-top: 8px;display: none;
             >ul{width: 89.583vw;height: 22px; padding: 8px 50px;margin: 0 auto;
