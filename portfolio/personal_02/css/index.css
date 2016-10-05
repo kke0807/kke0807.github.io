@@ -714,7 +714,7 @@
   #HeadWrap > #Headbox > .site_map > ul > .site_login > a { background-image: url(../img/header/menu_login.png); background-repeat: no-repeat; }
   #HeadWrap > #Headbox > .site_map > ul > .site_join { width: 30px; height: 16px; margin-right: 0; margin-top: 7px; display: none; }
   #HeadWrap > #Headbox > .site_map > ul > .site_join > a { background-image: url(../img/header/menu_join.png); background-repeat: no-repeat; }
-  #HeadWrap > #Headbox > .menu_btn { width: 4vw; height: 4vw; position: absolute; top: 14%; right: 10%; background-color: transparent; }
+  #HeadWrap > #Headbox > .menu_btn { width: 8vw; height: 8vw; position: absolute; top: 14%; right: 5%; background-color: transparent; }
   #HeadWrap > #Headbox > .menu_btn > div { width: 2.4rem; height: 0.525rem; margin-top: 1vw; background-color: #2b2b2b; border-radius: 15%; }
   #HeadWrap > #Headbox > #gnb { width: 100%; height: 38px; background-color: #2b2b2b; margin-top: 8px; display: none; }
   #HeadWrap > #Headbox > #gnb > ul { width: 89.583vw; height: 22px; padding: 8px 50px; margin: 0 auto; }
@@ -740,10 +740,10 @@
   /* indexBanner */
   #indexBannerWrap { width: 100%; height: 62vw; background-color: #010101; }
   #indexBanner { width: 100vw; height: 100%; overflow: hidden; background-color: #f1f1f1; position: relative; margin: 0 auto; }
-  #indexBanner > button { width: 82px; height: 50px; background-color: transparent; position: absolute; left: 46%; }
-  #indexBanner > .btn_01 { background-image: url("../img/banner/banner_upbtn.png"); background-repeat: no-repeat; float: left; cursor: pointer; top: 0; }
+  #indexBanner > button { width: 12vw; height: 8vw; background-color: transparent; position: absolute; left: 46%; }
+  #indexBanner > .btn_01 { background-image: url("../img/banner/banner_upbtn.png"); background-repeat: no-repeat; float: left; cursor: pointer; top: 0; background-size: 100% 100%; }
   #indexBanner > .btn_01:hover { background-image: url(../img/banner/banner_upbtnOn.png); transition: .6s ease-in; }
-  #indexBanner > .btn_02 { background-image: url("../img/banner/banner_downbtn.png"); background-repeat: no-repeat; float: left; cursor: pointer; bottom: 0; }
+  #indexBanner > .btn_02 { background-image: url("../img/banner/banner_downbtn.png"); background-repeat: no-repeat; float: left; cursor: pointer; bottom: 0; background-size: 100% 100%; }
   #indexBanner > .btn_02:hover { background-image: url(../img/banner/banner_downbtnOn.png); transition: .6s ease-in; }
   #indexBanner > ol { width: 10rem; height: 1.25rem; position: absolute; bottom: 1.875vw; left: 3.5%; z-index: 20; float: left; }
   #indexBanner > ol > li { width: 2.3vw; height: 2.3vw; float: left; margin-right: 10px; }
