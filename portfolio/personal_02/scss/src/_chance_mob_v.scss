@@ -9,7 +9,7 @@
  
 .menu_btnBox{
     >.menubar1{transform: rotate(50deg) translate(15px,0);transition: 0.5s ease-in;}    
-    >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        
+   >.menubar2{transform: rotate(-50deg) translate(6px,5px); transition: 0.5s ease-in;}      
     >.menubar3{display: none; }                                        
     >.menu_nav{width:100vw;height: auto;display: block;background-color: $main;position: absolute;top:6rem !important;right: -5vw !important; z-index: 900;box-shadow: 1px 1px 1px $sub2;
              >dt{width: 100%;height: 8vw;
