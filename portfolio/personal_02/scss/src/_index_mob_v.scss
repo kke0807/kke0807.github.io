@@ -53,7 +53,7 @@
                 }
             }
         } /*.site_map */      
-        >.menu_btn{width: 4vw;height: 4vw;position: absolute;top: 14%;right: 10%;background-color: transparent;
+        >.menu_btn{width: 8vw;height: 8vw;position: absolute;top: 14%;right: 5%;background-color: transparent;
             >div{width: 2.4rem;height: 0.525rem; margin-top: 1vw;background-color:  $main;border-radius: 15%;}
         }
         >#gnb{width: 100%;height: 38px;background-color: $main;margin-top: 8px;display: none;
@@ -85,11 +85,11 @@
 /* indexBanner */
 #indexBannerWrap{width: 100%;height: 62vw; background-color: #010101;}
 #indexBanner{width: 100vw;height: 100%; overflow: hidden;background-color: $sub2;position: relative;margin: 0 auto; 
-    >button{width: 82px;height:50px;background-color:transparent; position: absolute;left: 46%;}
-    >.btn_01{background-image:  url("../img/banner/banner_upbtn.png");background-repeat: no-repeat;float: left;cursor: pointer;top: 0;
+    >button{width: 12vw;height:8vw;background-color:transparent; position: absolute;left: 46%;}
+    >.btn_01{background-image:  url("../img/banner/banner_upbtn.png");background-repeat: no-repeat;float: left;cursor: pointer;top: 0;background-size: 100% 100%;
         &:hover{background-image: url(../img/banner/banner_upbtnOn.png);transition: .6s ease-in;}
     }
-    >.btn_02{background-image:  url("../img/banner/banner_downbtn.png");background-repeat: no-repeat;float: left;cursor: pointer;bottom: 0;
+    >.btn_02{background-image:  url("../img/banner/banner_downbtn.png");background-repeat: no-repeat;float: left;cursor: pointer;bottom: 0;background-size: 100% 100%;
         &:hover{background-image: url(../img/banner/banner_downbtnOn.png);transition: .6s ease-in;}
     }
                
