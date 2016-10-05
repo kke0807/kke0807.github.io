@@ -684,10 +684,10 @@
 @media screen and (max-width: 480px) { * { margin: 0; padding: 0; border: 0; font-family: sans-serif; }
   #container { background-color: #2b2b2b; overflow: hidden; position: relative; }
   #indicator_box .indWidth { box-shadow: 2px 2px 2px #515151; background-color: #ef4025 !important; width: 1rem !important; }
-  .menu_btnBox > .menubar1 { transform: rotate(52deg) translate(15px, 0); transition: 0.5s ease-in; }
+  .menu_btnBox > .menubar1 { transform: rotate(50deg) translate(15px, 0); transition: 0.5s ease-in; }
   .menu_btnBox > .menubar2 { transform: rotate(-50deg) translate(8px, 5px); transition: 0.5s ease-in; }
   .menu_btnBox > .menubar3 { display: none; }
-  .menu_btnBox > .menu_nav { width: 100vw; height: auto; display: block; background-color: #2b2b2b; position: absolute; top: 6rem !important; right: -10vw !important; z-index: 900; box-shadow: 1px 1px 1px #f1f1f1; }
+  .menu_btnBox > .menu_nav { width: 100vw; height: auto; display: block; background-color: #2b2b2b; position: absolute; top: 6rem !important; right: -8vw !important; z-index: 900; box-shadow: 1px 1px 1px #f1f1f1; }
   .menu_btnBox > .menu_nav > dt { width: 100%; height: 8vw; }
   .menu_btnBox > .menu_nav > dt > a { width: 100%; height: 100%; display: block; text-decoration: none; border-top: 1px solid #fff; transition: all 0.3s; cursor: pointer; }
   .menu_btnBox > .menu_nav > dt > a > span { width: 100%; height: 100%; text-align: center; line-height: 8vw; font-size: 1rem; font-weight: bold; color: #f1f1f1; }
