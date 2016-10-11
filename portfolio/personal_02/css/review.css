@@ -460,7 +460,7 @@
   #reviewContentBox > .reviewContent > .review > #review_formbox > form > fieldset > ul > .search_btn > button { width: 100%; height: 22px; background-color: transparent; background-image: url("../img/sub/review/review/rsearch_btn.png"); background-repeat: no-repeat; background-position: center; }
   #reviewContentBox > .reviewContent > .review > .photoreview { width: 86vw; height: 35vw; margin-top: 3.2vw; }
   #reviewContentBox > .reviewContent > .review > .photoreview > h5 { width: 70px; height: 12px; background-image: url("../img/sub/review/review/photoreview_title.png"); background-repeat: no-repeat; }
-  #reviewContentBox > .reviewContent > .review > .photoreview > .btn_box { width: 188px; height: 16px; float: right; margin-bottom: 8px; }
+  #reviewContentBox > .reviewContent > .review > .photoreview > .btn_box { width: 190px; height: 16px; float: right; margin-bottom: 8px; }
   #reviewContentBox > .reviewContent > .review > .photoreview > .btn_box > .more_btn { width: 90px; height: 16px; background-color: transparent; background-image: url("../img/sub/review/review/more_btn.png"); background-repeat: no-repeat; margin-right: 4px; float: left; }
   #reviewContentBox > .reviewContent > .review > .photoreview > .btn_box > .write_btn { width: 90px; height: 16px; background-color: transparent; background-image: url("../img/sub/review/review/write_btn.png"); background-repeat: no-repeat; float: left; }
   #reviewContentBox > .reviewContent > .review > .photoreview > ul { clear: both; }
@@ -473,7 +473,7 @@
   #reviewContentBox > .reviewContent > .review > .photoreview > ul > .photoreview_4 > a { background-image: url("../img/sub/review/review/photoreview_4.png"); }
   #reviewContentBox > .reviewContent > .review > .review1 { width: 86vw; height: 35vw; margin-top: 2.5vw; }
   #reviewContentBox > .reviewContent > .review > .review1 > h5 { width: 70px; height: 12px; background-image: url("../img/sub/review/review/review2_title.png"); background-repeat: no-repeat; }
-  #reviewContentBox > .reviewContent > .review > .review1 > .btn_box { width: 188px; height: 16px; float: right; margin-bottom: 8px; }
+  #reviewContentBox > .reviewContent > .review > .review1 > .btn_box { width: 190px; height: 16px; float: right; margin-bottom: 8px; }
   #reviewContentBox > .reviewContent > .review > .review1 > .btn_box > .more_btn { width: 90px; height: 16px; background-color: transparent; background-image: url("../img/sub/review/review/more_btn.png"); background-repeat: no-repeat; margin-right: 4px; float: left; }
   #reviewContentBox > .reviewContent > .review > .review1 > .btn_box > .write_btn { width: 90px; height: 16px; background-color: transparent; background-image: url("../img/sub/review/review/write_btn.png"); background-repeat: no-repeat; float: left; }
   #reviewContentBox > .reviewContent > .review > .review1 > ul { clear: both; }
@@ -734,9 +734,9 @@
   #reviewContentBox > .reviewContent > .review > #review_formbox > form > fieldset > ul > .search_btn > button { width: 100%; height: 22px; background-color: transparent; background-image: url("../img/sub/review/review/rsearch_btn_m.png"); background-repeat: no-repeat; background-position: center; background-size: 100%; }
   #reviewContentBox > .reviewContent > .review > .photoreview { width: 86vw; height: 134vw; margin-top: 5vw; }
   #reviewContentBox > .reviewContent > .review > .photoreview > h5 { width: 70px; height: 12px; background-image: url("../img/sub/review/review/photoreview_title.png"); background-repeat: no-repeat; }
-  #reviewContentBox > .reviewContent > .review > .photoreview > .btn_box { width: 32vw; height: 16px; float: right; margin-bottom: 8px; }
-  #reviewContentBox > .reviewContent > .review > .photoreview > .btn_box > .more_btn { width: 15vw; height: 16px; background-color: transparent; background-image: url("../img/sub/review/review/more_btn.png"); background-repeat: no-repeat; margin-right: 4px; background-size: 100%; }
-  #reviewContentBox > .reviewContent > .review > .photoreview > .btn_box > .write_btn { width: 15vw; height: 16px; background-color: transparent; background-image: url("../img/sub/review/review/write_btn.png"); background-repeat: no-repeat; background-size: 100%; }
+  #reviewContentBox > .reviewContent > .review > .photoreview > .btn_box { width: 33vw; height: 16px; float: right; margin-bottom: 8px; }
+  #reviewContentBox > .reviewContent > .review > .photoreview > .btn_box > .more_btn { width: 15vw; height: 16px; background-color: transparent; background-image: url("../img/sub/review/review/more_btn.png"); background-repeat: no-repeat; margin-right: 4px; background-size: 100%; float: left; }
+  #reviewContentBox > .reviewContent > .review > .photoreview > .btn_box > .write_btn { width: 15vw; height: 16px; background-color: transparent; background-image: url("../img/sub/review/review/write_btn.png"); background-repeat: no-repeat; background-size: 100%; float: left; }
   #reviewContentBox > .reviewContent > .review > .photoreview > ul { clear: both; }
   #reviewContentBox > .reviewContent > .review > .photoreview > ul > li { width: 38vw; height: 60vw; float: left; margin-left: 9.6vw; }
   #reviewContentBox > .reviewContent > .review > .photoreview > ul > li > a { width: 100%; height: 100%; display: block; background-repeat: no-repeat; background-size: 100%; }
@@ -749,9 +749,9 @@
   #reviewContentBox > .reviewContent > .review > .photoreview > ul > .photoreview_4 > a { background-image: url("../img/sub/review/review/photoreview_4.png"); }
   #reviewContentBox > .reviewContent > .review > .review1 { width: 86vw; height: 134vw; }
   #reviewContentBox > .reviewContent > .review > .review1 > h5 { width: 70px; height: 12px; background-image: url("../img/sub/review/review/review2_title.png"); background-repeat: no-repeat; }
-  #reviewContentBox > .reviewContent > .review > .review1 > .btn_box { width: 32vw; height: 16px; float: right; margin-bottom: 8px; }
-  #reviewContentBox > .reviewContent > .review > .review1 > .btn_box > .more_btn { width: 15vw; height: 16px; background-color: transparent; background-image: url("../img/sub/review/review/more_btn.png"); background-repeat: no-repeat; margin-right: 4px; background-size: 100%; }
-  #reviewContentBox > .reviewContent > .review > .review1 > .btn_box > .write_btn { width: 15vw; height: 16px; background-color: transparent; background-image: url("../img/sub/review/review/write_btn.png"); background-repeat: no-repeat; background-size: 100%; }
+  #reviewContentBox > .reviewContent > .review > .review1 > .btn_box { width: 33vw; height: 16px; float: right; margin-bottom: 8px; }
+  #reviewContentBox > .reviewContent > .review > .review1 > .btn_box > .more_btn { width: 15vw; height: 16px; background-color: transparent; background-image: url("../img/sub/review/review/more_btn.png"); background-repeat: no-repeat; margin-right: 4px; background-size: 100%; float: left; }
+  #reviewContentBox > .reviewContent > .review > .review1 > .btn_box > .write_btn { width: 15vw; height: 16px; background-color: transparent; background-image: url("../img/sub/review/review/write_btn.png"); background-repeat: no-repeat; background-size: 100%; float: left; }
   #reviewContentBox > .reviewContent > .review > .review1 > ul { clear: both; }
   #reviewContentBox > .reviewContent > .review > .review1 > ul > li { width: 38vw; height: 60vw; float: left; margin-left: 9.6vw; }
   #reviewContentBox > .reviewContent > .review > .review1 > ul > li > a { width: 100%; height: 100%; display: block; background-repeat: no-repeat; background-size: 100%; }
