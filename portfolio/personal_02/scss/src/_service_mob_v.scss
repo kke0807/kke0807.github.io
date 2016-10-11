@@ -53,14 +53,15 @@
 .eyeborowbar_menu4{height: 302vw;background-image: url("../img/sub/service/eyeborow_bar/location_img.png");background-repeat: no-repeat;background-size: 100%;background-position:center;}
 .eyeborowbar_menu5{height: 186vw;background-image: url("../img/sub/service/eyeborow_bar/makeup_img.png");background-repeat: no-repeat;background-size: 100%;background-position:center;}
     
+
 #HeadWrap{width: 100%;height: auto;background-color: #fff;position: relative;
     >#Headbox{width: 100%;height: 110px;padding-top: 8px;
-        >h1{width: 150px;height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png);background-repeat: no-repeat;
+        >h1{width: 30vw;height: 68px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png);background-repeat: no-repeat;background-size: contain;background-position: center;
             >a{width: 100%;height: 100%;display: block;}
         }
          >.site_map{width: 100%;height: 40px;position: absolute;left: 0;top:initial;background-color: $main;margin-top: 2px;
             >ul{width: 100%;height: 40px;
-                >.site_search{width: 60vw;height: 20px;padding: 0.52vw; background-color:$sub2;border-radius: 2%;margin-left: 19%;margin-top:6px;
+                >.site_search{width: 60vw;height: 20px;padding: 0.52vw; background-color:$sub2;border-radius: 2%;margin-left: 19%;margin-top:2.4vw/*6px*/;
                     >form>fieldset>input{width: 49vw;height: 20px;float: left;text-indent: 2px;}
                     >form>fieldset>button{width: 28px;height: 20px;background-image: url(../img/header/search_btn.png);background-repeat: no-repeat;float: left;margin-left: 5px;}
                 }
@@ -71,7 +72,7 @@
                 }
             }
         } /*.site_map */      
-        >.menu_btn{width: 8.2vw;height:9vw;position: absolute;top: 15%;right: 5%;background-color: transparent;
+        >.menu_btn{width: 8.2vw;height:9vw;position: absolute;top: 16.8%;right: 5%;background-color: transparent;
             >div{width: 8.2vw;height: 1.7vw; margin-top: 1.2vw;background-color:  $main;border-radius: 15%;}
         }
         >#gnb{width: 100%;height: 38px;background-color: $main;margin-top: 8px;display: none;
@@ -161,7 +162,7 @@
 }//#shopContentBox
 
 /* FootWrap */
-#FootWrap{width: 100%;height: 16vw; background-color: $sub2;
+#FootWrap{width: 100%;height: 16vw; background-color: $sub2;overflow: hidden;
     >#Foot{width: 91.25vw;height: calc(100% - 20px);margin: 0 auto;padding: 10px 4.375vw;
         >.top_btn{width: 13vw;height: 5.5vw;margin-left:40%; background-color: transparent;background-image: url(../img/footer/top_btn.png);background-repeat: no-repeat;background-size: 100%;}
         >ul{

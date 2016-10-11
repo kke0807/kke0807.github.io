@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0;border: 0; font-family: sans-serif;}
 //*:focus{outline: 2px solid $sub2;}
 #container{/*background-color: $main;*/}
-
+     
 .menu_btnBox{
     >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    
     >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        
@@ -29,23 +29,7 @@
         }
 }/* .menu_btnBox(mob_toggleClass) */
 
-.eyeborowbar_1off{background-image: url("../img/sub/service/eyeborow_bar/eyeborow_bar_off.png");background-repeat: no-repeat;}
-.eyeborowbar_1on{background-image: url("../img/sub/service/eyeborow_bar/eyeborow_bar_on.png");background-repeat: no-repeat;}
-.eyeborowbar_2off{background-image: url("../img/sub/service/eyeborow_bar/service_off.png");background-repeat: no-repeat;}
-.eyeborowbar_2on{background-image: url("../img/sub/service/eyeborow_bar/service_on.png");background-repeat: no-repeat;}
-.eyeborowbar_3off{background-image: url("../img/sub/service/eyeborow_bar/qna_off.png");background-repeat: no-repeat;}
-.eyeborowbar_3on{background-image: url("../img/sub/service/eyeborow_bar/qna_on.png");background-repeat: no-repeat;}
-.eyeborowbar_4off{background-image: url("../img/sub/service/eyeborow_bar/location_off.png");background-repeat: no-repeat;}
-.eyeborowbar_4on{background-image: url("../img/sub/service/eyeborow_bar/location_on.png");background-repeat: no-repeat;}        
-.eyeborowbar_5off{background-image: url("../img/sub/service/eyeborow_bar/makeup_off.png");background-repeat: no-repeat;}
-.eyeborowbar_5on{background-image: url("../img/sub/service/eyeborow_bar/makeup_on.png");background-repeat: no-repeat;}
 
-
-.eyeborowbar_menu1{height:1100px;  background-image: url("../img/sub/service/eyeborow_bar/eyeborowbar_img.png");background-repeat: no-repeat;}
-.eyeborowbar_menu2{height: 2030px;background-image: url("../img/sub/service/eyeborow_bar/service_img.png");background-repeat: no-repeat;}
-.eyeborowbar_menu3{height: 882px;background-image: url("../img/sub/service/eyeborow_bar/qna_img.png");background-repeat: no-repeat;}
-.eyeborowbar_menu4{height: 2964px;background-image: url("../img/sub/service/eyeborow_bar/location_img.png");background-repeat: no-repeat;}
-.eyeborowbar_menu5{height: 1835px;background-image: url("../img/sub/service/eyeborow_bar/makeup_img.png");background-repeat: no-repeat;}
 /* HeadWrap */
 #HeadWrap{width: 100%;height: auto;background-color: #fff;position: relative;
     >#Headbox{width: 100%;height: calc(100% - 8px);padding-top: 8px;overflow: hidden;
@@ -97,65 +81,89 @@
     }//#Headbox
 }//#HeadWrap
 
-/* serviceWrap */
-#serviceWrap{width: 960px;height: 350px;background-image:  url("../img/sub/service/service_img.png");background-repeat: no-repeat;position: relative;margin: 0 auto; }//#serviceWrap
+/* reviewbannerWrap */
+#reviewbannerWrap{width: 960px;height: 350px;background-image:  url("../img/sub/review/review_img.png");background-repeat: no-repeat;position: relative;margin: 0 auto; 
+    >.view_btn{width: 340px;height:86px;background-color:transparent; position: absolute;cursor: pointer;bottom: 10%;right: 4%; background-image:  url("../img/sub/review/review_off.png");background-repeat: no-repeat;
+        &:hover{background-image: url("../img/sub/review/review_on.png");transition: .6s ease-in;}
+    }
+}//#reviewbannerWrap
 
-/* #serviceContentBox */
-#serviceContentBox{width: 100%;height: auto;
-    >.serviceContent{width: 960px;height: auto;margin: 0 auto;border-left: $line;border-right: $line;
+/* #reviewContentBox */
+#reviewContentBox{width: 100%;height: auto;
+    >.reviewContent{width: 960px;height: auto;margin: 0 auto;border-left: $line;border-right: $line;
         >h2{width: 896px;height: 20px;background-color: #fff;padding: 15px 32px;box-shadow: 1px 2px 3px #ccc;
-            >span{width: 145px;height: 22px;display: block; background-image:  url("../img/sub/service/sub_service_title.png");background-repeat: no-repeat;background-size: 88%;}
+            >span{width: 164px;height: 22px;display: block; background-image:  url("../img/sub/review/sub_review_title.png");background-repeat: no-repeat;background-size: 88%;}
+            }
+        >.best_review{width:870x;height:416px;padding: 0 45px;padding-top: 30px;
+            >h3{width: 869px;height: 18px;margin: 0 auto;background-image: url("../img/sub/review/bestreview/bestreview_title.png");background-repeat: no-repeat;}
+            >ul{margin-top: 26px;
+                >li{width: 280px;height: 342px;float: left;margin-left: 15px;
+                    >a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;background-position: bottom;transition: .8s;
+                        &:hover{background-position: top;}
+                    }
+                }
+                >.best_review1{margin-left: 0;
+                    >a{background-image: url("../img/sub/review/bestreview/bestreview_1.png");}
+                }
+                >.best_review2>a{background-image: url("../img/sub/review/bestreview/bestreview_2.png");}
+                >.best_review3>a{background-image: url("../img/sub/review/bestreview/bestreview_3.png");}
+            }
         }
-        >.service_lesson{width: 100%;height: 576px;background-image:  url("../img/sub/service/lesson/lesson_img.png");background-repeat: no-repeat;position: relative;
-            >.lesson_box{width: 296px;height: 156px;background-image:  url("../img/sub/service/lesson/lesson_box.png");background-repeat: no-repeat;position: absolute;bottom: 10%;right: 12%;
-                >ul{margin-top: 3.5vw;
-                    >li{height: 72px;float: left;margin-left: 2vw;
-                        >a{width: 100%;height: 100%;display: block;transition: .8s;}
+        >.review{width:870x;height:830px;padding: 0 45px;padding-top: 30px;
+            >h3{width: 869px;height: 18px;margin: 0 auto;background-image: url("../img/sub/review/review/review_title.png");background-repeat: no-repeat;}
+            >#review_formbox{width: 100%;height: 35px;background-color: #000;margin-top: 26px;
+                >form>fieldset>ul{width: 660px;height: 22px;margin: 0 auto;margin-top: 0.288vw;
+                    >.search_review{float: left;margin-right: 10px;
+                        >select{width: 135px;}
                     }
-                    .lesson_store{width: 52px;margin-left: 1.8vw;
-                        >a{background-image:  url("../img/sub/service/lesson/store_off.png");background-repeat: no-repeat;
-                            &:hover{background-image:  url("../img/sub/service/lesson/store_on.png");}
-                        }
+                    >.search_txt{float: left;margin-right: 25px;
+                        >input{width: 365px;}
                     }
-                    .lesson_apply{width: 46px;
-                        >a{background-image:  url("../img/sub/service/lesson/apply_off.png");background-repeat: no-repeat;
-                            &:hover{background-image:  url("../img/sub/service/lesson/apply_on.png");}
-                        }
-                    }
-                    .lesson_story{width: 60px;
-                        >a{background-image:  url("../img/sub/service/lesson/story_off.png");background-repeat: no-repeat;
-                            &:hover{background-image:  url("../img/sub/service/lesson/story_on.png");}
-                        }
+                    >.search_btn{float: left;width: 120px;height: 22px;
+                        >button{width: 120px;height: 22px;background-color: transparent;background-image: url("../img/sub/review/review/rsearch_btn.png");background-repeat: no-repeat;}
                     }
                 }
             }
-            
-        }
-        >.service_membership{width: 100%;height: 246px;
-            >.vvip_lounge{width: 50%;height: 100%;float: left;background-image:  url("../img/sub/service/membership/vvip_off.png");background-repeat: no-repeat;transition: .8s ease-in;
-                &:hover{background-image:  url("../img/sub/service/membership/vvip_on.png");}
-            }
-            >.membership{width: 50%;height: 100%;float: left;background-image:  url("../img/sub/service/membership/membership_off.png");background-repeat: no-repeat;transition: .8s ease-in;
-                &:hover{background-image:  url("../img/sub/service/membership/membership_on.png");}
-            }
-        }
-        >.service_artist_studio{width: 100%;height: 248px;background-image:  url("../img/sub/service/artist_studio.png");background-repeat: no-repeat;}
-        >.service_eyeborowbar{width: 870px;height:auto;padding:20px 45px;
-            >h3{width: 870px;height: 20px;margin: 0 auto;background-image: url("../img/sub/service/eyeborow_bar/eyebrow_bar_title.png");background-repeat: no-repeat;}
-            >.eyeborowbar_img{width: 100%;height: 215px;background-image: url("../img/sub/service/eyeborow_bar/eyebrow_bar_img.png");background-repeat: no-repeat;margin-top: 1vw;}
-            >#eyeborowbar_menu{width: 100%;height: auto;
-                >dl{
-                    >dt{width: 174px;height: 54px;float: left;
-                        >a{width: 100%;height: 100%;display: block;}
+            >.photoreview{width: 100%;height: 330px;margin-top: 24px;
+                >h5{width: 70px;height: 12px;background-image: url("../img/sub/review/review/photoreview_title.png");background-repeat: no-repeat;}
+                >.btn_box{width: 188px;height: 16px;float: right;margin-bottom: 8px;
+                    >.more_btn{width: 90px;height: 16px;background-color:transparent;background-image: url("../img/sub/review/review/more_btn.png");background-repeat: no-repeat;margin-right: 4px;}
+                    >.write_btn{width: 90px;height: 16px;background-color:transparent;background-image: url("../img/sub/review/review/write_btn.png");background-repeat: no-repeat;}
+                }
+                >ul{clear: both;
+                    >li{width: 190px;height: 300px;float: left;margin-left: 36px;
+                        >a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;}
                     }
-                    >dd{width: 100%;clear: both;}
+                    >.photoreview_1{margin-left: 0;
+                        >a{background-image: url("../img/sub/review/review/photoreview_1.png");}
+                    }
+                    >.photoreview_2>a{background-image: url("../img/sub/review/review/photoreview_2.png");}
+                    >.photoreview_3>a{background-image: url("../img/sub/review/review/photoreview_3.png");}
+                    >.photoreview_4>a{background-image: url("../img/sub/review/review/photoreview_4.png");}
+                }
+            }
+            >.review1{width: 100%;height: 330px;margin-top: 24px;
+                >h5{width: 70px;height: 12px;background-image: url("../img/sub/review/review/review2_title.png");background-repeat: no-repeat;}
+                >.btn_box{width: 188px;height: 16px;float: right;margin-bottom: 8px;
+                    >.more_btn{width: 90px;height: 16px;background-color:transparent;background-image: url("../img/sub/review/review/more_btn.png");background-repeat: no-repeat;margin-right: 4px;}
+                    >.write_btn{width: 90px;height: 16px;background-color:transparent;background-image: url("../img/sub/review/review/write_btn.png");background-repeat: no-repeat;}
+                }
+                >ul{clear: both;
+                    >li{width: 190px;height: 300px;float: left;margin-left: 36px;
+                        >a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;}
+                    }
+                    >.review_1{margin-left: 0;
+                        >a{background-image: url("../img/sub/review/review/review_1.png");}
+                    }
+                    >.review_2>a{background-image: url("../img/sub/review/review/review_2.png");}
+                    >.review_3>a{background-image: url("../img/sub/review/review/review_3.png");}
+                    >.review_4>a{background-image: url("../img/sub/review/review/review_4.png");}
                 }
             }
         }
         
-         
-    }//.shopContent
-}//#shopContentBox
+    }//.reviewContent
+}//#reviewContentBox
 
 /* FootWrap */
 #FootWrap{width: 100%;height: 90px; background-color: $sub2;overflow: hidden;

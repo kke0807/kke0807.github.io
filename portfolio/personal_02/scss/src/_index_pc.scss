@@ -159,7 +159,7 @@
 }//#indexContentBox
 
 /* FootWrap */
-#FootWrap{width: 100%;height: 90px; background-color: $sub2;
+#FootWrap{width: 100%;height: 90px; background-color: $sub2;overflow: hidden;
     >#Foot{width: 876px;height: calc(100% - 20px);margin: 0 auto;padding: 10px 42px;
         >.top_btn{display: none;}
         >ul{

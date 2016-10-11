@@ -2,10 +2,7 @@
 @media screen and (min-width:481px) and (max-width:640px){ 
 *{margin: 0;padding: 0;border: 0; font-family: sans-serif;}
 //*:focus{outline: 2px solid $sub2;}
-#container{overflow: hidden;}
-#indicator_box .indWidth{box-shadow:2px 2px 2px #515151;background-color:$sub !important; width: 1.3rem !important;}
-.accodion_width>div>dl>dd.widthView{width: 35vw !important;}    
-      
+
 .menu_btnBox{
     >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    
     >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        
@@ -33,14 +30,13 @@
     }
 }/* .menu_btnBox(mob_toggleClass) */
 
-    
 /* HeadWrap */
 #HeadWrap{width: 100%;height: auto;background-color: #fff;
     >#Headbox{width: 100%;height: 112px;padding-top: 8px;
         >h1{width: 150px;height: 70px; margin: 0 auto; background-image: url(../img/header/espoir_logo.png);background-repeat: no-repeat;
             >a{width: 100%;height: 100%;display: block;}
         }
-       >.site_map{width: 100%;height: 40px;position: absolute;left: 0;top:initial;background-color: $main;margin-top: 2px;
+        >.site_map{width: 100%;height: 40px;position: absolute;left: 0;top:initial;background-color: $main;margin-top: 2px;
             >ul{width: 100%;height: 40px;
                 >.site_search{width: 60vw;height: 3.1vw;padding: 0.52vw; background-color:$sub2;border-radius: 2%;margin-left: 19%;margin-top:6px;
                     >form>fieldset>input{width: 54vw;height: 3vw;float: left;text-indent: 2px;}
@@ -52,7 +48,7 @@
                 >a{background-image: url(../img/header/menu_join.png);background-repeat: no-repeat;}
                 }
             }
-        }//.site_map                                                                                                       
+        }//.site_map                                                                                                         
         >.menu_btn{width: 45px;height: 40px;position: absolute;top: 2.2vw;right: 3vw;background-color: transparent;
             >div{width: 45px;height: 8px; margin-top: 1vw;background-color:  $main;border-radius: 15%;}
         }
@@ -85,80 +81,99 @@
     }//#Headbox
 }//#HeadWrap
 
-
-/* protipbannerWrap */
-#protipbannerWrap{width: 100%;height: 34vw;background-image:  url("../img/sub/pro_tip/gentleaura/protip_gentle_aura.png");background-repeat: no-repeat;position: relative;background-position: center;overflow: hidden;background-size: 100%;
-    >.view_btn{width: 18.75vw;height:5vw;background-color:transparent; position: absolute;cursor: pointer;bottom: 10%;right:12.5%; background-image:  url("../img/sub/pro_tip/gentleaura/gentle_btn_off.png");background-repeat: no-repeat;background-size: 100%;
-        &:hover{background-image: url("../img/sub/pro_tip/gentleaura/gentle_btn_on.png");transition: .6s ease-in;}
+/* reviewbannerWrap */
+#reviewbannerWrap{width: 100%;height: 34vw;background-image:  url("../img/sub/review/review_img.png");background-repeat: no-repeat;position: relative;background-size: 100%;background-position: center; 
+    >.view_btn{width: 38vw;height:10vw;background-color:transparent; position: absolute;cursor: pointer;bottom: 7.5%;right: 1.5%; background-image:  url("../img/sub/review/review_off.png");background-repeat: no-repeat;background-size: 100%;background-position: center;
+        &:hover{background-image: url("../img/sub/review/review_on.png");transition: .6s ease-in;}
     }
-}//#protipbannerWrap
+}//#reviewbannerWrap
 
-/* #protipContentBox */
-#protipContentBox{width: 100%;height: auto;
-    >.protipContent{width: 94vw;height: auto;margin: 0 auto;border-left: $line;border-right: $line;overflow: hidden;
+/* #reviewContentBox */
+#reviewContentBox{width: 100%;height: auto;
+    >.reviewContent{width:95vw;height: auto;margin: 0 auto;border-left: $line;border-right: $line;overflow: hidden;
         >h2{width: 93.3333vw;height: 20px;background-color: #fff;padding: 15px 32px;box-shadow: 1px 2px 3px #ccc;
-            >span{width: 162px;height: 22px;display: block; background-image:  url("../img/sub/pro_tip/sub_protip_title.png");background-repeat: no-repeat;background-size: 88%;}
+            >span{width: 164px;height: 22px;display: block; background-image:  url("../img/sub/review/sub_review_title.png");background-repeat: no-repeat;background-size: 88%;}
             }
-        >.protip_acc{width:93.75vw;height:40vw;padding: 0 3.125vw;padding-top: 3.125vw;
-            >.accodion_width{width:100%;height: 40vw;margin-top: 50px; margin: 0 auto;
-                >div{width: auto;height: 100%;float: left;
-                    >dl{width: 100%;height: 100%;overflow: hidden;
-                        >dt{width: 17.5vw;height: 100%;float:left;}
-                        >dd{width: 0;height: 100%;float:left;transition: all 0.3s;}
+        >.best_review{width:90.625vw;height:39.4vw;padding: 0 4.6875vw;padding-top: 3.125vw;
+            >h3{width: 86vw;height: 2.7vw;display: block;overflow: hidden;margin: auto 0; background-image: url("../img/sub/review/bestreview/bestreview_title.png");background-repeat: no-repeat;background-position: center;background-size: 100% 92%; }
+            >ul{margin-top: 2.708333vw;
+                >li{width: 27.5vw;height: 33.8vw;float: left;margin-left: 1.5625vw;
+                    >a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;background-position: bottom;transition: .8s;background-size: 100%;
+                        &:hover{background-position: top;}
                     }
                 }
-                >.protip_acc1{
-                    >dl{background-image: url(../img/sub/pro_tip/protip_acc/color_finder.png);background-repeat: no-repeat;background-size: 55vw;
+                >.best_review1{margin-left: 0;
+                    >a{background-image: url("../img/sub/review/bestreview/bestreview_1.png");}
+                }
+                >.best_review2>a{background-image: url("../img/sub/review/bestreview/bestreview_2.png");}
+                >.best_review3>a{background-image: url("../img/sub/review/bestreview/bestreview_3.png");}
+            }
+        }
+        >.review{width:90.625vw;height:296vw;padding: 0 4.6875vw;padding-top: 3.125vw;
+            >h3{width: 86vw;height: 2.7vw;display: block;overflow: hidden;margin: auto 0; background-image: url("../img/sub/review/review/review_title.png");background-repeat: no-repeat;background-position: center;background-size: 100% 92%; }
+            >#review_formbox{width: 86vw;height: 35px;background-color: #000;margin-top: 2.70833vw;
+                >form>fieldset>ul{width: 75vw;height: 22px;margin: 0 auto;margin-top: 1.2vw;
+                    >.search_review{float: left;margin-right: 1.2vw;
+                        >select{width: 16vw;font-size: 0.825rem;}
+                    }
+                    >.search_txt{float: left;margin-right: 2.6041vw;
+                        >input{width: 38.0283vw;}
+                    }
+                    >.search_btn{width: 17vw;height: 22px;float: left;
+                        >button{width:100%;height: 22px;background-color: transparent;background-image: url("../img/sub/review/review/rsearch_btn.png");background-repeat: no-repeat;background-position: center;}
                     }
                 }
-                >.protip_acc2{
-                    >dl{background-image: url(../img/sub/pro_tip/protip_acc/foundation_finder.png);background-repeat: no-repeat;background-size: 55vw;
+            }
+            >.photoreview{width: 86vw;height: 134vw;margin-top: 5vw;
+                >h5{width: 70px;height: 12px;background-image: url("../img/sub/review/review/photoreview_title.png");background-repeat: no-repeat;}
+                >.btn_box{width: 188px;height: 16px;float: right;margin-bottom: 8px;
+                    >.more_btn{width: 90px;height: 16px;background-color:transparent;background-image: url("../img/sub/review/review/more_btn.png");background-repeat: no-repeat;margin-right: 4px;}
+                    >.write_btn{width: 90px;height: 16px;background-color:transparent;background-image: url("../img/sub/review/review/write_btn.png");background-repeat: no-repeat;}
+                }
+                >ul{clear: both;
+                    >li{width: 38vw;height: 60vw;float: left;margin-left: 9.6vw;
+                        >a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;background-size: 100%;}
+                    }
+                    >.photoreview_1{margin-left: 0;
+                        >a{background-image: url("../img/sub/review/review/photoreview_1.png");}
+                    }
+                    >.photoreview_2>a{background-image: url("../img/sub/review/review/photoreview_2.png");}
+                    >.photoreview_3{margin-left: 0;margin-top: 6vw;
+                        >a{margin-left: 0;background-image: url("../img/sub/review/review/photoreview_3.png");}
+                    }
+                    >.photoreview_4{margin-top: 6vw;
+                        >a{ background-image: url("../img/sub/review/review/photoreview_4.png");}
                     }
                 }
-                >.protip_acc3{
-                    >dl{background-image: url(../img/sub/pro_tip/protip_acc/brush_finder.png);background-repeat: no-repeat;background-size: 55vw;
+            }
+            >.review1{width: 86vw;height: 134vw;
+                >h5{width: 70px;height: 12px;background-image: url("../img/sub/review/review/review2_title.png");background-repeat: no-repeat;}
+                >.btn_box{width: 188px;height: 16px;float: right;margin-bottom: 8px;
+                    >.more_btn{width: 90px;height: 16px;background-color:transparent;background-image: url("../img/sub/review/review/more_btn.png");background-repeat: no-repeat;margin-right: 4px;}
+                    >.write_btn{width: 90px;height: 16px;background-color:transparent;background-image: url("../img/sub/review/review/write_btn.png");background-repeat: no-repeat;}
+                }
+                >ul{clear: both;
+                    >li{width: 38vw;height: 60vw;float: left;margin-left: 9.6vw;
+                        >a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;background-size: 100%;}
+                    }
+                    >.review_1{margin-left: 0;
+                        >a{background-image: url("../img/sub/review/review/review_1.png");}
+                    }
+                    >.review_2>a{background-image: url("../img/sub/review/review/review_2.png");}
+                    >.review_3{margin-left: 0;margin-top: 6vw;
+                        >a{margin-left: 0;background-image: url("../img/sub/review/review/review_3.png");}
+                    }
+                    >.review_4{margin-top: 6vw;
+                        >a{background-image: url("../img/sub/review/review/review_4.png");}
                     }
                 }
             }
         }
-        >.protip_etc{width:93.75vw;height:33vw;padding:  0 3.125vw;padding-top: 3.125vw;
-            .protip_video{width: 54vw;height: 33vw;float: left;/*margin-right:1.666vw;*/
-                >a{width: 100%;height: 100%;display: block; background-image: url("../img/sub/pro_tip/promakeup_video.png");background-repeat: no-repeat;background-size: 100% 100%;
-                    >span{width: 0;height: 0;display: block;overflow: hidden;}
-                }
-            }
-            .protip_qna{width: 33vw;height: 33vw;float: left;
-                >a{width: 100%;height: 100%;display: block; background-image:  url("../img/sub/pro_tip/promakeup_qna.png");background-repeat: no-repeat;background-size: 95% 100%;
-                    >span{width: 0;height: 0;display: block;overflow: hidden;}
-                }
-            }
-        }
-        >.protip_everyday{width: 90.625vw;height:39vw;padding:  0 4vw;padding-top: 3vw;margin: 0 auto;
-            >h3{width:86vw;height: 2.7vw;display: block;overflow: hidden;margin: auto 0; background-position: center; background-image: url("../img/sub/pro_tip/everyday/everyday_makeup_title.png");background-repeat: no-repeat;background-size: 100% 92%;}
-            >ul{margin-top: 2.6vw;
-                >li{width: 20.5vw;height: 29.583vw;float: left;margin-left: 1.25vw;}
-                >.everyday_makeup1{margin-left: 0; 
-                    >a{background-image: url("../img/sub/pro_tip/everyday/everyday_1.png");background-repeat: no-repeat;background-size: 100%;
-                    }
-                }
-                >.everyday_makeup2{
-                    >a{background-image: url("../img/sub/pro_tip/everyday/everyday_2.png");background-repeat: no-repeat;background-size: 100%;
-                    }
-                }
-                >.everyday_makeup3{
-                    >a{background-image: url("../img/sub/pro_tip/everyday/everyday_3.png");background-repeat: no-repeat;background-size: 100%;
-                    }
-                }
-                >.everyday_makeup4{
-                    >a{background-image: url("../img/sub/pro_tip/everyday/everyday_4.png");background-repeat: no-repeat;background-size: 100%;
-                    }
-                }
-            }
-        } 
-    }//.protipContent
-}//#protipContentBox
-
-
+        
+    }//.reviewContent
+}//#reviewContentBox
+    
+    
 /* FootWrap */
 #FootWrap{width: 100%;height: 12vw; background-color: $sub2;overflow: hidden;
     >#Foot{width: 91.25vw;height: calc(100% - 20px);margin: 0 auto;padding: 10px 4.375vw;
