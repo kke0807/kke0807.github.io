@@ -1,6 +1,6 @@
 //shop_movie.js
  function shop_movie(){
-     var shopmovieWrap=$('#shopmovieWrap'),
+    var shopmovieWrap=$('#shopmovieWrap'),
          play_btn = $('.play_btn');
     play_btn.on('click',function(){
     var $this = $(this);
