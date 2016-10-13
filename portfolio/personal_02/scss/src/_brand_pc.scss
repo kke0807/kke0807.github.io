@@ -1,7 +1,8 @@
+//pc
+@media screen and (min-width:1025px){
 *{margin: 0;padding: 0;border: 0; font-family: sans-serif;}
 //*:focus{outline: 2px solid $sub2;}
-#container{/*background-color: $main;*/}
-     
+  
 .menu_btnBox{
     >.menubar1{transform: rotate(52deg) translate(15px,0);transition: 0.5s ease-in;}    
     >.menubar2{transform: rotate(-50deg) translate(8px,5px); transition: 0.5s ease-in;}        
@@ -14,7 +15,7 @@
                     }
                 }
             }
-            >dt:nth-child(7){width: 50%;height: 8vw;float: left;
+            >dt:nth-child(8){width: 50%;height: 8vw;float: left;
                 >a{width: 100%;height: 100%;display: block;border-top: 1px solid #fff;transition:  all 0.3s;cursor: pointer;background-image: url(../img/header/login_off.png);background-repeat: no-repeat;background-size:contain;background-position: center;
                     &:hover{background-color: $sub2;background-image: url(../img/header/login_on.png);background-repeat: no-repeat;}
                     >span{width: 0;height: 0;display: block;overflow: hidden;}
@@ -29,7 +30,7 @@
         }
 }/* .menu_btnBox(mob_toggleClass) */
 
-
+ 
 /* HeadWrap */
 #HeadWrap{width: 100%;height: auto;background-color: #fff;position: relative;
     >#Headbox{width: 100%;height: calc(100% - 8px);padding-top: 8px;overflow: hidden;
@@ -50,7 +51,7 @@
                 }
             }
         }//.site_map
-        >.menu_btn{width: 45px;height: 40px;position: absolute;top: 2.2vw;right: 3vw;background-color: transparent;
+        >.menu_btn{display: none;width: 45px;height: 40px;position: absolute;top: 2.2vw;right: 3vw;background-color: transparent;
             >div{width: 45px;height: 8px; margin-top: 1vw;background-color:  $main;border-radius: 15%;}
         }
         
@@ -81,94 +82,120 @@
     }//#Headbox
 }//#HeadWrap
 
-/* reviewbannerWrap */
-#reviewbannerWrap{width: 960px;height: 350px;background-image:  url("../img/sub/review/review_img.png");background-repeat: no-repeat;position: relative;margin: 0 auto; 
-    >.view_btn{width: 340px;height:86px;background-color:transparent; position: absolute;cursor: pointer;bottom: 10%;right: 4%; background-image:  url("../img/sub/review/review_off.png");background-repeat: no-repeat;
-        &:hover{background-image: url("../img/sub/review/review_on.png");transition: .6s ease-in;}
-    }
-}//#reviewbannerWrap
 
-/* #reviewContentBox */
-#reviewContentBox{width: 100%;height: auto;
-    >.reviewContent{width: 960px;height: auto;margin: 0 auto;border-left: $line;border-right: $line;
+
+/* brandWrap */
+#brandWrap{width: 960px;height: 350px;background-image:  url("../img/sub/brand/brand_img.png");background-repeat: no-repeat;position: relative;margin: 0 auto; 
+    >.view_btn{width: 150px;height:30px;background-color:transparent; position: absolute;cursor: pointer;bottom: 15%;right: 41%; background-image:  url("../img/sub/brand/brand_btn.png");background-repeat: no-repeat;}
+}//#brandWrap
+
+/* #brandContentBox */
+#brandContentBox{width: 100%;height: auto;
+    >.brandContent{width: 960px;height: auto;margin: 0 auto;border-left: $line;border-right: $line;
         >h2{width: 896px;height: 20px;background-color: #fff;padding: 15px 32px;box-shadow: 1px 2px 3px #ccc;
-            >span{width: 164px;height: 22px;display: block; background-image:  url("../img/sub/review/sub_review_title.png");background-repeat: no-repeat;background-size: 88%;}
+            >span{width: 145px;height: 22px;display: block; background-image:  url("../img/sub/brand/sub_brand_title.png");background-repeat: no-repeat;background-size: 88%;}
             }
-        >.best_review{width:870x;height:416px;padding: 0 45px;padding-top: 30px;
-            >h3{width: 869px;height: 18px;margin: 0 auto;background-image: url("../img/sub/review/bestreview/bestreview_title.png");background-repeat: no-repeat;}
-            >ul{margin-top: 26px;
-                >li{width: 280px;height: 342px;float: left;margin-left: 15px;
-                    >a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;background-position: bottom;transition: .8s;
-                        &:hover{background-position: top;}
-                    }
-                }
-                >.best_review1{margin-left: 0;
-                    >a{background-image: url("../img/sub/review/bestreview/bestreview_1.png");}
-                }
-                >.best_review2>a{background-image: url("../img/sub/review/bestreview/bestreview_2.png");}
-                >.best_review3>a{background-image: url("../img/sub/review/bestreview/bestreview_3.png");}
-            }
+        >.brand_movie{width:960px;height:564px; background-image:  url("../img/sub/brand/brand_movie.png");background-repeat: no-repeat;cursor: pointer;
+            >iframe{width: 100%;height: 100%;}
         }
-        >.review{width:870px;height:830px;padding: 0 45px;padding-top: 30px;
-            >h3{width: 869px;height: 18px;margin: 0 auto;background-image: url("../img/sub/review/review/review_title.png");background-repeat: no-repeat;}
-            >#review_formbox{width: 100%;height: 35px;background-color: #000;margin-top: 26px;
-                >form>fieldset>ul{width: 660px;height: 22px;margin: 0 auto;margin-top: 0.288vw;
-                    >.search_review{float: left;margin-right: 10px;
-                        >select{width: 135px;}
+        >.brnad_etc{width:960px;height:auto;
+            >.btn_box{width: 95px;height: 464px;position:fixed;z-index: 800 !important;right: 18%; bottom: 10%;float: right;
+                >ul{margin-top: 74px;
+                    >li{width: 95px;height: 95px;margin-bottom: 28px;
+                        >a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;transition: .8s ease-in;}
                     }
-                    >.search_txt{float: left;margin-right: 25px;
-                        >input{width: 365px;}
+                    .brand_story>a{background-image:  url("../img/sub/brand/brand/story_off.png");
+                        &:hover{background-image:  url("../img/sub/brand/brand/story_on.png");}
                     }
-                    >.search_btn{float: left;width: 120px;height: 22px;
-                        >button{width: 120px;height: 22px;background-color: transparent;background-image: url("../img/sub/review/review/rsearch_btn.png");background-repeat: no-repeat;}
+                    .espoir_news>a{background-image:  url("../img/sub/brand/brand/news_off.png");
+                        &:hover{background-image:  url("../img/sub/brand/brand/news_on.png");}
+                    }
+                    .artist_studio>a{background-image:  url("../img/sub/brand/brand/studio_off.png");
+                        &:hover{background-image:  url("../img/sub/brand/brand/studio_on.png");}
+                    }
+                    .espoir_ads{margin-bottom: 0;
+                        >a{background-image:  url("../img/sub/brand/brand/ad_off.png");
+                            &:hover{background-image:  url("../img/sub/brand/brand/ad_on.png");}
+                        }
                     }
                 }
-            }
-            >.photoreview{width: 100%;height: 330px;margin-top: 24px;
-                >h5{width: 70px;height: 12px;background-image: url("../img/sub/review/review/photoreview_title.png");background-repeat: no-repeat;}
-                >.btn_box{width: 188px;height: 16px;float: right;margin-bottom: 8px;
-                    >.more_btn{width: 90px;height: 16px;background-color:transparent;background-image: url("../img/sub/review/review/more_btn.png");background-repeat: no-repeat;margin-right: 4px;float:left;}
-                    >.write_btn{width: 90px;height: 16px;background-color:transparent;background-image: url("../img/sub/review/review/write_btn.png");background-repeat: no-repeat;float:left;}
+            }//.btn_box
+            
+            >.brnad_content{width:870px;height:auto;padding: 0 45px;padding-top: 30px;
+                >#story{width: 100%;height: 3222px;
+                    >h4{width: 869px;height: 18px;margin: 0 auto;margin-bottom: 26px; background-image: url("../img/sub/brand/brand/story_title.png");background-repeat: no-repeat;}
+                    >div{width: 100%;height:3160px; background-image: url("../img/sub/brand/brand/story.png");background-repeat: no-repeat;}
                 }
-                >ul{clear: both;
-                    >li{width: 190px;height: 300px;float: left;margin-left: 36px;
-                        >a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;}
+                >#news{width: 100%;height: 1340px;
+                    >h4{width: 869px;height: 18px;margin: 0 auto;margin-bottom: 26px; background-image: url("../img/sub/brand/brand/news/news_title.png");background-repeat: no-repeat;}
+                    >div{width: 100%;height:1280px;
+                       >ul{
+                            >li{width: 870px;height: 228px;margin-bottom: 36px;
+                                >a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;}
+                            }
+                           .news_1>a{background-image: url("../img/sub/brand/brand/news/news_1.png");}
+                           .news_2>a{background-image: url("../img/sub/brand/brand/news/news_2.png");}
+                           .news_3>a{background-image: url("../img/sub/brand/brand/news/news_3.png");}
+                           .news_4>a{background-image: url("../img/sub/brand/brand/news/news_4.png");}
+                           .news_5{margin-bottom: 0;
+                               >a{background-image: url("../img/sub/brand/brand/news/news_5.png");}
+                           }
+                        }
                     }
-                    >.photoreview_1{margin-left: 0;
-                        >a{background-image: url("../img/sub/review/review/photoreview_1.png");}
-                    }
-                    >.photoreview_2>a{background-image: url("../img/sub/review/review/photoreview_2.png");}
-                    >.photoreview_3>a{background-image: url("../img/sub/review/review/photoreview_3.png");}
-                    >.photoreview_4>a{background-image: url("../img/sub/review/review/photoreview_4.png");}
                 }
-            }
-            >.review1{width: 100%;height: 330px;margin-top: 24px;
-                >h5{width: 70px;height: 12px;background-image: url("../img/sub/review/review/review2_title.png");background-repeat: no-repeat;}
-                >.btn_box{width: 188px;height: 16px;float: right;margin-bottom: 8px;
-                    >.more_btn{width: 90px;height: 16px;background-color:transparent;background-image: url("../img/sub/review/review/more_btn.png");background-repeat: no-repeat;margin-right: 4px;float:left;}
-                    >.write_btn{width: 90px;height: 16px;background-color:transparent;background-image: url("../img/sub/review/review/write_btn.png");background-repeat: no-repeat;float:left;}
+                >#artist{width: 100%;height: 4292px;
+                    >h4{width: 869px;height: 18px;margin: 0 auto;margin-bottom: 26px; background-image: url("../img/sub/brand/brand/artist_title.png");background-repeat: no-repeat;}
+                    >div{width: 100%;height:4230px; background-image: url("../img/sub/brand/brand/artist_studio.png");background-repeat: no-repeat;}
                 }
-                >ul{clear: both;
-                    >li{width: 190px;height: 300px;float: left;margin-left: 36px;
-                        >a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;}
+                >#ads{width: 100%;height: 1120px;
+                    >h4{width: 869px;height: 18px;margin: 0 auto;margin-bottom: 26px; background-image: url("../img/sub/brand/brand/ad/ads_title.png");background-repeat: no-repeat;}
+                    >.ad_box{width: 100%;height: 492px;
+                        >iframe{width: 100%;height: 100%;}
                     }
-                    >.review_1{margin-left: 0;
-                        >a{background-image: url("../img/sub/review/review/review_1.png");}
+                    >ul{margin-top: 36px;
+                        >li{width: 281px;height: 160px;margin-left: 12px;margin-bottom: 10px;float: left;
+                             >a{width: 100%;height: 100%;display: block;background-repeat: no-repeat;}
+                        }
+                        .ad_content1{margin-left: 0;
+                            >a{background-image: url("../img/sub/brand/brand/ad/ad_1.png");}
+                        }
+                        .ad_content2{
+                            >a{background-image: url("../img/sub/brand/brand/ad/ad_2.png");}
+                        }
+                        .ad_content3{
+                            >a{background-image: url("../img/sub/brand/brand/ad/ad_3.png");}
+                        }
+                        .ad_content4{margin-left: 0;
+                            >a{background-image: url("../img/sub/brand/brand/ad/ad_4.png");}
+                        }
+                        .ad_content5{
+                            >a{background-image: url("../img/sub/brand/brand/ad/ad_5.png");}
+                        }
+                        .ad_content6{
+                            >a{background-image: url("../img/sub/brand/brand/ad/ad_6.png");}
+                        }
+                        .ad_content7{margin-left: 0;margin-bottom: 0;
+                            >a{background-image: url("../img/sub/brand/brand/ad/ad_7.png");}
+                        }
+                        .ad_content8{margin-bottom: 0;
+                            >a{background-image: url("../img/sub/brand/brand/ad/ad_8.png");}
+                        }
+                        .ad_content9{margin-bottom: 0;
+                            >a{background-image: url("../img/sub/brand/brand/ad/ad_9.png");}
+                        }
                     }
-                    >.review_2>a{background-image: url("../img/sub/review/review/review_2.png");}
-                    >.review_3>a{background-image: url("../img/sub/review/review/review_3.png");}
-                    >.review_4>a{background-image: url("../img/sub/review/review/review_4.png");}
+                    
                 }
             }
         }
         
-    }//.reviewContent
-}//#reviewContentBox
-
+    }//.brandContent
+}//#brandContentBox
+ 
 /* FootWrap */
 #FootWrap{width: 100%;height: 90px; background-color: $sub2;overflow: hidden;
     >#Foot{width: 876px;height: calc(100% - 20px);margin: 0 auto;padding: 10px 42px;
-       >.top_btn{width: 13vw;height: 5.5vw;margin-left:40%; background-color: transparent;background-image: url(../img/footer/top_btn.png);background-repeat: no-repeat;background-size: 100%;}
+       >.top_btn{display: none; width: 13vw;height: 5.5vw;margin-left:40%; background-color: transparent;background-image: url(../img/footer/top_btn.png);background-repeat: no-repeat;background-size: 100%;}
         >ul{
             >li{width: 100%;}
             >.addBox1{width: 100%;height: 20px;margin-bottom: 10px;
@@ -202,4 +229,5 @@
             }
         }
     }
+}
 }
