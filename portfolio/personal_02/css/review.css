@@ -79,7 +79,7 @@
 #reviewContentBox > .reviewContent > .best_review > ul > .best_review1 > a { background-image: url("../img/sub/review/bestreview/bestreview_1.png"); }
 #reviewContentBox > .reviewContent > .best_review > ul > .best_review2 > a { background-image: url("../img/sub/review/bestreview/bestreview_2.png"); }
 #reviewContentBox > .reviewContent > .best_review > ul > .best_review3 > a { background-image: url("../img/sub/review/bestreview/bestreview_3.png"); }
-#reviewContentBox > .reviewContent > .review { width: 870x; height: 830px; padding: 0 45px; padding-top: 30px; }
+#reviewContentBox > .reviewContent > .review { width: 870px; height: 830px; padding: 0 45px; padding-top: 30px; }
 #reviewContentBox > .reviewContent > .review > h3 { width: 869px; height: 18px; margin: 0 auto; background-image: url("../img/sub/review/review/review_title.png"); background-repeat: no-repeat; }
 #reviewContentBox > .reviewContent > .review > #review_formbox { width: 100%; height: 35px; background-color: #000; margin-top: 26px; }
 #reviewContentBox > .reviewContent > .review > #review_formbox > form > fieldset > ul { width: 660px; height: 22px; margin: 0 auto; margin-top: 0.288vw; }
