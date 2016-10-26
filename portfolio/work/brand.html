@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon/favicon.png" />
+    <link rel="apple-touch-icon" href="./favicon/favicon.png" /> <!--애플용-->
+	<link rel="stylesheet" href="./css/lib/normalize.css" />
+    <link rel="stylesheet" href="./css/brand.css">
+	<script src="./js/jquery/jquery-1.12.3.min.js"></script>
+	<script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+	<script src="./js/jquery/jquery-ui.min.js"></script>
+    <script src="./js/top_btn.js"></script>
+    <script src="./js/menu_btn.js"></script>
+    <script src="./js/brand_movie.js"></script>
+	<title>영업킬러.한국</title>
+	<style>
+
+    </style>
+	<script>
+    $(function(){
+       top_btn();
+       menu_btn();
+       brnad_movie();
+       
+    var brand_movie = $('.brand_movie');
+    brand_movie.on('click',function(){
+    var $this = $(this);
+    $this.html('<iframe src="https://www.youtube.com/embed/s1KAI3VWyuQ?&autoplay=1" frameborder="0" allowfullscreen>');  
+
+        });
+    });
+	</script>
+</head>
+<body>
+<div id="container">
+       <div id="HeadWrap">
+             <header id="Headbox">
+                 <h1 id="headH1"><a href="index.html"><span>한국의 유산</span></a></h1>
+                 <div class="site_map">
+                     <h3>회원정보내용 및 검색</h3>
+                     <ul class="me_link">
+                         <li class="site_search">
+                             <form action="" method="get" role="search">
+                             <fieldset>
+                                 <legend>한국의 유산 웹 검색</legend>
+                                 <input type="search" name="searchBox" id="searchBox" value="" />
+                                 <label for="searchBox" class="me_hidden">웹페이지에서 필요한 항목을 검색하세요.</label>
+                                 <button type="button"><span class="me_hidden">검색</span></button>
+                             </fieldset>
+                             </form> 
+                         </li>
+                         <li class="site_login"><a href="#"><span>Log In</span></a></li>
+                         <li class="site_join"><a href="#"><span>Join</span></a></li>
+                     </ul>
+                 </div><!--//.site_map-->
+                
+                <button type="button" class="menu_btn">
+                    <div class="menubar1"><!--menu--></div>
+                    <div class="menubar2"><!--menu--></div>
+                    <div class="menubar3"><!--menu--></div>
+                    <dl class="menu_nav">
+                       <dt><a href="./espoir_shop.html"><span>Shop</span></a></dt>
+	                   <dt><a href="./espoir_protip.html"><span>Pro Tip</span></a></dt>
+	                   <dt><a href="./espoir_chance.html"><span>Chance</span></a></dt>
+	                   <dt><a href="./espoir_service.html"><span>Service</span></a></dt> 
+	                   <dt><a href="./espoir_review.html"><span>Review</span></a></dt>
+                       <dt><a href="./brand.html"><span>Brand</span></a></dt>
+	                   <dt><a href="#"><span>Log in</span></a></dt>
+                       <dt><a href="#"><span>Join</span></a></dt>
+	                </dl>
+                </button>
+                 <nav id="gnb" role="navigation">
+                    <h2>menu</h2>
+                     <ul role="menubar" class="me_link">
+                         <li class="gnb_1"><a href="./espoir_shop.html"><span>shop</span></a></li>
+                         <li class="gnb_2"><a href="./espoir_protip.html"><span>protip</span></a></li>
+                         <li class="gnb_3"><a href="./espoir_chance.html"><span>chance</span></a></li>
+                         <li class="gnb_4"><a href="./espoir_service.html"><span>service</span></a></li>
+                         <li class="gnb_5"><a href="./espoir_review.html"><span>review</span></a></li>
+                         <li class="gnb_6"><a href="./brand.html"><span>brand</span></a></li>
+                     </ul>
+                 </nav>
+             </header>
+        </div><!--//#HeadWrap-->
+        <article id="brandWrap" role="movieWrap">
+            <h2>영업킬러 이미지</h2>
+            <button class="view_btn"><span class="me_hidden">view_btn</span></button>
+        </article>
+        <article id="brandContentBox" role="sub_brand">
+            <h2>brand content</h2>
+            <section class="brandContent">
+               <h2><span><!--타이틀 이미지영역--></span></h2>
+                <article class="brand_movie">
+                   <h3>브랜드 동영상</h3>
+                </article>
+                <article class="brnad_etc">
+                   <h3>브랜드</h3>
+                    <div class="btn_box">
+                    <h4>브랜드 버튼</h4>
+                        <ul class="me_link">
+                            <li class="brand_story"><a href="#story"><span>brand_story</span></a></li>
+                            <li class="espoir_news"><a href="#news"><span>espoir_news</span></a></li>
+                            <li class="artist_studio"><a href="#artist"><span>artist_studio</span></a></li>
+                            <li class="espoir_ads"><a href="#ads"><span>espoir_ads</span></a></li>
+                        </ul>   
+                    </div>
+                    <section class="brnad_content">
+                        <article id="story">
+                        <h4><span><!--타이틀 이미지영역--></span></h4>
+                        <h5>brand_story coontent</h5>
+                        <div><h6>brand_story_img</h6></div>
+                        </article>
+                        <article id="staff">
+                        <h4><span><!--타이틀 이미지영역--></span></h4>
+                        <h5>staff coontent</h5>
+                        <div>
+                            <ul class="me_link">
+                                <li class="staff_1"><a href="#"><span>staff_1</span></a></li>
+                                <li class="staff_2"><a href="#"><span>staff_2</span></a></li>
+                                <li class="staff_3"><a href="#"><span>staff_3</span></a></li>
+                                <li class="staff_4"><a href="#"><span>staff_4</span></a></li>
+                                <li class="staff_5"><a href="#"><span>staff_5</span></a></li>
+                            </ul>   
+                        </div>  
+                        </article>
+                        <article id="artist">
+                        <h4><span><!--타이틀 이미지영역--></span></h4>
+                        <h5>artist_studio coontent</h5> 
+                        <div><h6>artist_studio_img</h6></div>   
+                        </article>
+                        
+                        <article id="ads">
+                        <h4><span><!--타이틀 이미지영역--></span></h4>
+                        <h5>ads coontent</h5>  
+                            <div class="ad_box">
+                                <iframe title="ad_movie" src="https://www.youtube.com/embed/OY7WUGThICY" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <ul class="me_link">
+                                <li class="ad_content1"><a href="#"><span>ad_content1</span></a></li>
+                                <li class="ad_content2"><a href="#"><span>ad_content2</span></a></li>
+                                <li class="ad_content3"><a href="#"><span>ad_content3</span></a></li>
+                                <li class="ad_content4"><a href="#"><span>ad_content4</span></a></li>
+                                <li class="ad_content5"><a href="#"><span>ad_content2</span></a></li>
+                                <li class="ad_content6"><a href="#"><span>ad_content6</span></a></li>
+                                <li class="ad_content7"><a href="#"><span>ad_content7</span></a></li>
+                                <li class="ad_content8"><a href="#"><span>ad_content8</span></a></li>
+                                <li class="ad_content9"><a href="#"><span>ad_content9</span></a></li>
+                            </ul>
+                        </article> 
+                    </section>
+                </article>
+            </section>
+        </article>
+        <div id="FootWrap">
+            <footer id="Foot" role="contentinfo">
+              <h2>footer</h2>
+                <button class="top_btn"><span class="me_hidden">top_button</span></button>
+                <ul class="me_link">
+                    <li class="addBox1">
+                      <ul class="me_link">
+                          <li class="foo_menu1"><a href="#"><span>이용약관</span></a></li>
+                          <li class="foo_menu2"><a href="#"><span>개인정보취급방침</span></a></li>
+                          <li class="foo_menu3"><a href="#"><span>영상정보처리기기운영.관리방침</span></a></li>
+                          <li class="foo_menu4"><a href="#"><span>이메일 무단 수집거부</span></a></li>
+                          <li class="foo_menu5"><a href="#"><span>전자공고</span></a></li>
+                      </ul>  
+                    </li>
+                    <li class="addBox2">
+                        <h3>footer_address</h3>
+                        <address>
+                            <p><strong>대표이사 :</strong> 이지연 | <strong>사업자번호 : </strong>104-86-58598 | <strong>통신판매업자 신고번호 : </strong>제2015-서울중구-0159 호 | <strong>이메일 :</strong> espoirmail@espoir.com | <strong>개인정보관리 책임자 :</strong> 최봉철</p>
+                            <p class="address_txt">COPYRIGHT 2012 eSooir.ALL RIGHTS RESERVED.</p>
+                        </address>
+                    </li>
+                </ul>
+            </footer>
+        </div><!--//#minaFootWrap-->
+    </div><!--//#container-->
+</body>
+</html>

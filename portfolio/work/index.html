@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon/favicon.png" />
+    <link rel="apple-touch-icon" href="./favicon/favicon.png" /> <!--애플용-->
+	<link rel="stylesheet" href="./css/lib/normalize.css" />
+    <link rel="stylesheet" href="./css/index.css">
+	<script src="./js/jquery/jquery-1.12.3.min.js"></script>
+	<script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+	<script src="./js/jquery/jquery-ui.min.js"></script>
+	<script src="./js/index_banner.js"></script>
+    <script src="./js/top_btn.js"></script>
+    <script src="./js/menu_btn.js"></script>
+	<title>영업킬러.한국</title>
+	<style>
+ 
+        
+    </style>
+	<script>
+    $(function(){
+       indexbanner();
+       top_btn();
+       menu_btn();
+    });
+	</script>
+</head>
+<body>
+<div id="container">
+       <div id="HeadWrap">
+             <header id="Headbox">
+                 <h1 id="headH1"><a href="index.html"><span>한국의 유산</span></a></h1>
+                 <div class="site_map">
+                     <h3>회원정보내용 및 검색</h3>
+                     <ul class="me_link">
+                         <li class="site_search">
+                             <form action="" method="get" role="search">
+                             <fieldset>
+                                 <legend>한국의 유산 웹 검색</legend>
+                                 <input type="search" name="searchBox" id="searchBox" value="" />
+                                 <label for="searchBox" class="me_hidden">웹페이지에서 필요한 항목을 검색하세요.</label>
+                                 <button type="button"><span class="me_hidden">검색</span></button>
+                             </fieldset>
+                             </form> 
+                         </li>
+                         <li class="site_login"><a href="#"><span>Log In</span></a></li>
+                         <li class="site_join"><a href="#"><span>Join</span></a></li>
+                     </ul>
+                 </div><!--//.site_map-->
+                
+                <button type="button" class="menu_btn">
+                    <div class="menubar1"><!--menu--></div>
+                    <div class="menubar2"><!--menu--></div>
+                    <div class="menubar3"><!--menu--></div>
+                    <dl class="menu_nav">
+                       <dt><a href="./espoir_shop.html"><span>Shop</span></a></dt>
+	                   <dt><a href="./espoir_protip.html"><span>Pro Tip</span></a></dt>
+	                   <dt><a href="./espoir_chance.html"><span>Chance</span></a></dt>
+	                   <dt><a href="./espoir_service.html"><span>Service</span></a></dt> 
+	                   <dt><a href="./espoir_review.html"><span>Review</span></a></dt>
+                       <dt><a href="./brand.html"><span>Brand</span></a></dt>
+	                   <dt><a href="#"><span>Log in</span></a></dt>
+                       <dt><a href="#"><span>Join</span></a></dt>
+	                </dl>
+                </button>
+
+                 <nav id="gnb" role="navigation">
+                    <h2>espoir_menu</h2>
+                     <ul role="menubar" class="me_link">
+                         <li class="gnb_1"><a href="./espoir_shop.html"><span>shop</span></a></li>
+                         <li class="gnb_2"><a href="./espoir_protip.html"><span>protip</span></a></li>
+                         <li class="gnb_3"><a href="./espoir_chance.html"><span>chance</span></a></li>
+                         <li class="gnb_4"><a href="./espoir_service.html"><span>service</span></a></li>
+                         <li class="gnb_5"><a href="./espoir_review.html"><span>review</span></a></li>
+                         <li class="gnb_6"><a href="./brand.html"><span>brand</span></a></li>
+                     </ul>
+                 </nav>
+             </header>
+        </div><!--//#HeadWrap-->
+        <article id="indexBannerWrap" role="bannerWrap">
+        <section id="indexBanner" aria-atomic="false">
+            <h2>한국의 유산 banner</h2>
+          <button class="btn_01"><span class="me_hidden">up_btn</span></button>
+            <button class="btn_02"><span class="me_hidden">down_btn</span></button>
+            <ol id="indicator_box">
+                <li class="indicator_1"></li>
+                <li class="indicator_2"></li>
+                <li class="indicator_3"></li>
+                <li class="indicator_4"></li>
+            </ol><!--#indicator_box-->
+            <ul class="banner_box_page">
+                <li class="banner_01 page"><img src="./img/banner/banner1.png" alt="첫번째 배너입니다" /></li>
+                <li class="banner_02 page"><img src="./img/banner/banner2.png" alt="두번째 배너입니다" /></li>
+                <li class="banner_03 page"><img src="./img/banner/banner3.png" alt="세번째 배너입니다" /></li>
+                <li class="banner_04 page"><img src="./img/banner/banner4.png" alt="네번째 배너입니다" /></li>
+            </ul><!--//.banner_box_page-->
+        </section>
+        </article>
+        <article id="indexContentBox" role="main">
+            <h2>한국의 유산 content</h2>
+            <section class="indexContent">
+               <h2>본문영역의content</h2>
+                <article class="in_product">
+                   <h3>한국의 유산 신상품</h3>
+                    <ul class="me_link">
+                        <li class="in_product1"><a href="./espoir_shop.html"><span>신상품 1</span></a></li>
+                        <li class="in_product2"><a href="./espoir_shop.html"><span>신상품 2</span></a></li>
+                    </ul>
+                </article>
+                <article class="in_brand">
+                   <h3>한국의 유산 브랜드스토리</h3>
+                    <ul class="me_link">
+                        <li class="in_brand1"><a href="#"><span>in_brand1</span></a></li>
+                        <li class="in_brand2"><a href="#"><span>in_brand2</span></a></li>
+                        <li class="in_brand3"><a href="#"><span>in_brand3</span></a></li>
+                    </ul>
+                </article>
+                <article class="in_etc">
+                   <h3>한국의 유산 etc</h3>
+                    <ul class="me_link">
+                        <li class="in_etc1"><a href="#"><span>color finder</span></a></li>
+                        <li class="in_etc2"><a href="#"><span>pro makeup video</span></a></li>
+                        <li class="in_etc3"><a href="#"><span>everyday makeup</span></a></li>
+                    </ul>
+                </article>
+                <article class="in_movie">
+                   <h3>한국의 유산 동영상</h3>
+          <!--     <video id="video-intro" class="video-heading" mp4_url="http://inhiout.kr/html/video/hiinout0129.mp4" placeholder_url="http://inhiout.kr/wordpress/wp-content/uploads/2015/02/001_5.jpg" subtitle="" title="2012-2018『한국의유산』
+발굴ㆍ조사사업" loop="true" />-->
+               
+               <video width="100%" height="100%" controls autoplay preload="none">
+                    <source src="http://inhiout.kr/html/video/hiinout0129.mp4" type="video/mp4"/>
+               </video>
+                </article>
+                <article class="in_contact">
+                   <h3>espoir contact us</h3>
+                    <ul class="me_link">
+                        <li class="in_contact_title"><span>contact us</span></li>
+                        <li class="in_contact_txt"><span>서울시 중구 청계천로 100 시그니쳐타워 7층
+쇼핑몰 고객상담 080-619-8888   /   에스쁘아 고객상담 080-619-8888
+( 상담시간 월 ~ 금 09:00-18:00 )</span></li>
+                        <li class="in_contact_sns">
+                           <ul class="me_link">
+                                <li class="sns_icon1"><a href="#"><span>sns_icon1</span></a></li>
+                                <li class="sns_icon2"><a href="#"><span>sns_icon2</span></a></li>
+                                <li class="sns_icon3"><a href="#"><span>sns_icon3</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="espoir_map">
+                       <h4>한국의 유산 지도</h4>
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12649.894507057903!2d126.9881614!3d37.5674635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x31c430dda5d056fa!2z7Iuc6re464uI7LOQ7YOA7JuM!5e0!3m2!1sko!2skr!4v1470913121502" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe> 
+                    </div>
+                </article>
+            </section>
+        </article>
+        <div id="FootWrap">
+            <footer id="Foot" role="contentinfo">
+              <h2>footer</h2>
+                <button class="top_btn"><span class="me_hidden">top_button</span></button>
+                <ul class="me_link">
+                    <li class="addBox1">
+                      <ul class="me_link">
+                          <li class="foo_menu1"><a href="#"><span>이용약관</span></a></li>
+                          <li class="foo_menu2"><a href="#"><span>개인정보취급방침</span></a></li>
+                          <li class="foo_menu3"><a href="#"><span>영상정보처리기기운영.관리방침</span></a></li>
+                          <li class="foo_menu4"><a href="#"><span>이메일 무단 수집거부</span></a></li>
+                          <li class="foo_menu5"><a href="#"><span>전자공고</span></a></li>
+                      </ul>  
+                    </li>
+                    <li class="addBox2">
+                        <h3>footer_address</h3>
+                        <address>
+                            <p><strong>대표이사 :</strong> 이지연 | <strong>사업자번호 : </strong>104-86-58598 | <strong>통신판매업자 신고번호 : </strong>제2015-서울중구-0159 호 | <strong>이메일 :</strong> espoirmail@espoir.com | <strong>개인정보관리 책임자 :</strong> 최봉철</p>
+                            <p class="address_txt">COPYRIGHT 2012 eSooir.ALL RIGHTS RESERVED.</p>
+                        </address>
+                    </li>
+                </ul>
+            </footer>
+        </div><!--//#minaFootWrap-->
+    </div><!--//#container-->
+</body>
+</html>
