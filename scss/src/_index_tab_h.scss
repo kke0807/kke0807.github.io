@@ -5,37 +5,39 @@
 
 #container{overflow: hidden;}
 
-   
+ 
+/*----------------------Head----------------*/
+#Head{width: 100%;height: 69.7916vw;min-width: 960px; position: relative; margin: 0 auto;background-image: url(../img/main2/main_img.png);background-repeat: no-repeat;background-size: 100%;}
+
 /* HeadWrap */
-#HeadWrap{width: 100%;height: 107px;background-color: #fff;position: relative;
-    >#menu{width: 100%;height: calc(100% - 8px);padding-top: 8px;background-color: $main;
-        >#gnb{width: 960px;height: 38px;margin: 0 auto;
-            >h1{width: 106px;height: 100px;float: left; background-image: url(../img/main2/logo.png);background-repeat: no-repeat;margin-left: 2vw;
+#HeadWrap{width: 100%;height: 107px;
+    >#menu{width: 100%;height: calc(100% - 8px);padding-top: 8px; 
+        >#gnb{width: 100%;height: 38px;margin: 0 auto;margin-left: 5%;
+            >h1{width: 106px;height: 100px;float: left; background-image: url(../img/main2/logo.png);background-repeat: no-repeat;margin-top: 8%;
             >a{width: 100%;height: 100%;display: block;}
-        }
-            >ul{width: 900px;height: 82px; padding: 8px 50px;margin: 0 auto;
-                >li{float: left;height: 82px;margin-right: 14%;margin-top: 30px;}
-                >.gnb_1{width: 76px;margin-left: 8%;
-                    >a{background-image: url(../img/main2/menu_about.png);background-repeat: no-repeat;
+            }
+            >ul{width: 15.625vw;height: 8.54vw;position: absolute;bottom: 48%;
+                >li{height: 100%;margin: 0 auto;margin-top: 16% !important;}
+                >.gnb_1{
+                    >a{background-image: url(../img/main2/menu_about.png);background-repeat: no-repeat;background-size: 100%;
                         &:hover{background-image: url(../img/main2/menu_about_on.png);transition: .2s ease-in;}}}
-                >.gnb_2{width: 102px;
-                    >a{background-image: url(../img/main2/menu_portfolio.png);background-repeat: no-repeat;
+                >.gnb_2{
+                    >a{background-image: url(../img/main2/menu_portfolio.png);background-repeat: no-repeat;background-size: 100%;
                         &:hover{background-image: url(../img/main2/menu_portfolio_on.png);transition: .2s ease-in;}}}
-                >.gnb_3{width: 140px;
-                    >a{background-image: url(../img/main2/menu_work.png);background-repeat: no-repeat;
+                >.gnb_3{
+                    >a{background-image: url(../img/main2/menu_work.png);background-repeat: no-repeat;background-size: 100%;
                         &:hover{background-image: url(../img/main2/menu_work_on.png);transition: .2s ease-in;}}}  
                 
             }//ul
         }//#gnb
     }//#Headbox
-}//#HeadWrap
+}//#HeadWrap 
 
 /*----------------------main_page----------------*/
-#main_page{width: 100%;height: 540px; background-color: rgba(#fff300,.6);box-shadow: 10px 2px 1px #ccc;
-    >div{width: 960px;height: 540px; margin: 0 auto;background-image: url(../img/main2/main_img.png);background-repeat: no-repeat;
+#main_page{width: 42.9166vw;height: 38.75vw;margin: 0 auto;
+    >div{width:100%;height: 100%; background-image: url(../img/main2/box.png);background-repeat: no-repeat;background-size: 100%;margin-top: 10vw;
   } 
 }//#main_page
-
 /*----------------------section2----------------*/
 #section2{width: 100%;height: 350px; background-color: #fff;margin-top: 40px;
     >h2{width: 96.77vw;height: 34px;margin: 0 auto; background-image: url(../img/main2/web_portfolio_tiitle.png);background-repeat: no-repeat;background-size: 100%;}

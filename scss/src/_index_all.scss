@@ -2,23 +2,25 @@
 
 #container{overflow: hidden;}
 
-   
+/*----------------------Head----------------*/
+#Head{width: 100%;height: 670px;min-width: 960px; position: relative; margin: 0 auto;background-image: url(../img/main2/main_img.png);background-repeat: no-repeat;background-size: 100%;}
+
 /* HeadWrap */
-#HeadWrap{width: 100%;height: 107px;background-color: #fff;position: relative;
-    >#menu{width: 100%;height: calc(100% - 8px);padding-top: 8px;background-color: $main;
+#HeadWrap{width: 100%;height: 107px;
+    >#menu{width: 100%;height: calc(100% - 8px);padding-top: 8px; 
         >#gnb{width: 960px;height: 38px;margin: 0 auto;
-            >h1{width: 106px;height: 100px;float: left; background-image: url(../img/main2/logo.png);background-repeat: no-repeat;
+            >h1{width: 106px;height: 100px;float: left; background-image: url(../img/main2/logo.png);background-repeat: no-repeat;margin-top: 8%;
             >a{width: 100%;height: 100%;display: block;}
-        }
-            >ul{width: 900px;height: 82px; padding: 8px 50px;margin: 0 auto;
-                >li{float: left;height: 82px;margin-right: 15%;margin-top: 30px;}
-                >.gnb_1{width: 76px;margin-left: 10%;
+            }
+            >ul{width: 150px;height: 82px;position: absolute;bottom: 48%;
+                >li{height: 100%;margin: 0 auto;margin-top: 16% !important;}
+                >.gnb_1{
                     >a{background-image: url(../img/main2/menu_about.png);background-repeat: no-repeat;
                         &:hover{background-image: url(../img/main2/menu_about_on.png);transition: .2s ease-in;}}}
-                >.gnb_2{width: 102px;
+                >.gnb_2{
                     >a{background-image: url(../img/main2/menu_portfolio.png);background-repeat: no-repeat;
                         &:hover{background-image: url(../img/main2/menu_portfolio_on.png);transition: .2s ease-in;}}}
-                >.gnb_3{width: 140px;
+                >.gnb_3{
                     >a{background-image: url(../img/main2/menu_work.png);background-repeat: no-repeat;
                         &:hover{background-image: url(../img/main2/menu_work_on.png);transition: .2s ease-in;}}}  
                 
@@ -28,8 +30,8 @@
 }//#HeadWrap
 
 /*----------------------main_page----------------*/
-#main_page{width: 100%;height: 540px; background-color: rgba(#fff300,.6);box-shadow: 10px 2px 1px #ccc;
-    >div{width: 960px;height: 540px; margin: 0 auto;background-image: url(../img/main2/main_img.png);background-repeat: no-repeat;
+#main_page{width: 412px;height: 372px;margin: 0 auto;
+    >div{width:100%;height: 100%; background-image: url(../img/main2/box.png);background-repeat: no-repeat;background-size: 100%;margin-top: 6.5vw;
   } 
 }//#main_page
 
