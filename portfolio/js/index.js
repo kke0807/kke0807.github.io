@@ -21,7 +21,7 @@
      }); // menu.hash
    }); //scroll
      /*--------scroll_mousewheel-----------*/
-     var article_H = $('.window_h').height()+450,
+    /* var article_H = $('.window_h').height()+450,
         timed=1000;
      
       function amouse(){
@@ -51,5 +51,5 @@
               console.log("마우스 휠을 올렸습니다.");
          };      
      
-      });
+      });*/
 });
