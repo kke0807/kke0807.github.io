@@ -6,10 +6,13 @@
 
 
 /* topAdd */
-#topAdd { width: 60vw; height: 5rem; background-color: #999; padding: 1rem 20vw; position: relative; }
-#topAdd > p { width: 80%; height: 1.5rem; line-height: 1.6rem; color: #fff; font-size: 1.3rem; float: left; }
-#topAdd > .addbox { width: 80%; height: 1.5rem; float: left;color: #faa;font-size: 1rem;margin-top: 5px;}
-#topAdd > button { width: 60px; height: 60px; float: right; position: absolute; top: 1vw; right: 26vw;background-image: url(../img/images/header2/topadd_btn.png);background-repeat: no-repeat;background-size: 100%;background-position: center;background-color: transparent;}
+
+#topAdd { width: 100%; height: 112px; background-color: #999; padding: 1rem 20vw; position: relative; }
+#topAdd > .addbox{ width: 547px; height: 112px;float: left;background-image: url(../img/images/header2/topadd.png);background-repeat: no-repeat;background-size: 100%;background-position: center; }
+#topAdd > button { width: 50px; height: 50px;  position: absolute; top: 1vw; margin-left: 5vw; background-image: url(../img/images/header2/topadd_btn.png);background-repeat: no-repeat;background-size: 100%;background-position: center;background-color: transparent;}
+
+
+
 /*---------------------------------------------#header---------------------------------------------*/
 
 #header{width: 100%;height: 138px;margin: 0 auto;}
