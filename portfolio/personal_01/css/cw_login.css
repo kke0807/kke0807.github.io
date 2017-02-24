@@ -36,7 +36,6 @@
 .login_btn{width: 100px;height: 86px;background-image: url(../img/images/login/login_btn.png);background-repeat: no-repeat;background-size: 100%;float: right;margin-top: -65px;transition: all .5s;cursor: pointer;}
 .login_btn:hover{background-image: url(../img/images/login/login_btn_on.png);background-repeat: no-repeat;background-size: 100%;}
 
-
 #login_id_check{margin: 5px 20px 20px 190px;}
 label{font-size: 0.875rem;}
 
