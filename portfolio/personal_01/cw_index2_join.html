@@ -113,6 +113,9 @@
                              <ul>
                                  <li class="join_img"><!--img삽입--></li>
                                  <li>CW 이용 약관 동의(필수)</li>
+                                  <li class="join_yes">
+                                  <input type="checkbox" id="join_yes" name="join_yes"  required/><label for="join_yes">동의합니다.</label>
+                         </li>
                              </ul>
 
                              <textarea name="" id="textarea1" readonly="redonly" style="resize: none;">
@@ -259,11 +262,16 @@
 ②"회사"와 "회원"간 발생한 분쟁에 관한 소송은 제소 당시의 "회원"의 주소에 의하고, 주소가 없는 경우 거소를 관할하는 지방법원의 전속관할로 합니다. 단, 제소 당시 "회원"의 주소 또는 거소가 명확하지 아니한 경우의 관할법원은 민사소송법에 따라 정합니다.
 ③해외에 주소나 거소가 있는 '회원' 의 경우 '회사'와 '회원'간 발생한 분쟁에 관한 소송은 전항에도 불구하고 대한민국 서울중앙지방법원을 관할 법원으로 합니다.
 </textarea>
+
 </li>
+                       
                         <li>
                              <ul>
                                  <li class="join_img"><!--img삽입--></li>
                                  <li>개인정보 수집 및 이용에 관한 안내(필수)</li>
+                                  <li class="join_yes">
+                                  <input type="checkbox" id="join_yes1" name="join_yes1"  required/><label for="join_yes1">동의합니다.</label>
+                         </li>
                              </ul>
 
                              <textarea name="" id="textarea2" readonly="redonly" style="resize: none;">
@@ -352,111 +360,104 @@
 3.대검찰청 인터넷범죄수사센터 (http://icic.sppo.go.kr/02-3480-3600)
 4.경찰청 사이버테러대응센터 (www.ctrc.go.kr/02-392-0330)
 
-</textarea></li>
+</textarea>
+                       </li>
                         </ul>
-                          
-                              
-                        
                           </fieldset>
-                          
-                             
                      <fieldset class="question_form">
-                      <legend><span class="me_hidden">고객문의 입력 양식</span></legend>
+                      <legend><span class="me_hidden">회원정보 입력 양식</span></legend>
                        <ol class="infoBox">
                        <h4>회원정보 입력</h4>
-                   <li class="box_1"><label for="question_01" class="me_hidden">이름</label></li>
-                   <li class="box_2"><label for="question_02" class="me_hidden">아이디</label></li>
-                   <li class="box_3"><label for="question_03" class="me_hidden">비밀번호</label></li>
-                   <li class="box_4"><label for="question_04" class="me_hidden">비밀번호 확인</label></li>
-                   <li class="box_5"><label for="question_05" class="me_hidden">생일/성별</label></li>
-                   <li class="box_6"><label for="question_06" class="me_hidden">우편번호</label></li>
-                   <li class="box_7"><label for="question_07" class="me_hidden">집주소</label></li>
-                   <li class="box_8"><label for="question_08" class="me_hidden">연락처</label></li>
-                   <li class="box_9"><label for="question_09" class="me_hidden">이메일</label></li>
-               </ol>
-               <ul class="inputBox">
-                   <li>
-                   <input type="text" id="question_01" name="" value="" required placeholder="성명" />
-                  </li>
-                    <li><input type="text" id="question_02" name="" value="" required placeholder="아이디" />
-                   <button type="button" name="" id="idCheck"></button>
-                   <label for="idCheck" class="me_hidden">중복확인</label>
-                   </li>
-                   <li><input type="password" id="question_03" name="" value="" required placeholder="비밀번호" />
-                   <label for="password"><span class="me_hidden">비밀번호</span>
-                   <span class="me_hidden">5~15자리 사이의 비밀번호를 입력하세요.</span>
-                   </label></li>
-                   <li><input type="password" id="question_04" name="" value="" required placeholder="비밀번호 확인" />
-                     <label for="password_confirm"><span class="me_hidden">패스워드확인</span>
-                      <span class="me_hidden">다시 한번 패스워드를 입력하세요.(비밀번호 확인용입니다)</span>
-                   </label></li>
-                    <li>
-                  <select name="" id="question_05">
-                      <option value="select">선택하세요</option>
-
-                  </select>
-                    <label for="year">년</label>
-                <select name="" id="question_05_1">
-                      <option value="select">선택하세요</option>
-                      <option value="01">01</option>
-                      <option value="02">02</option>
-                      <option value="03">03</option>
-                      <option value="04">04</option>
-                      <option value="05">05</option>
-                      <option value="06">06</option>
-                      <option value="07">07</option>
-                      <option value="08">08</option>
-                      <option value="09">09</option>
-                      <option value="10">10</option>
-                      <option value="11">11</option>
-                      <option value="12">12</option>
-                  </select>
-                    <label for="month">월</label>
-                <select name="" id="question_05_2">
-                      <option value="select">선택하세요</option>
-                  </select>
-                    <label for="day">일</label>
-                   </li> 
-                    <li>
-                    <input type="text" name="" id="question_06" value=""/>
-                   <span><!--bar--></span>
-                   <input type="text" name="" id="question_06_1" value=""/>
-                   <label for="question_06_1"></label>
-                    <button type="button" name="" id="idCheck_question_06"></button>
-                   <label for="idCheck_question_06" class="me_hidden"></label>
-                   </li>
-                   
-                   <li>
-                   <input type="text" id="question_07" name="" value="" required placeholder="주소" />
-                   </li>
-                   <li>
-                      <select name="" id="question_08">
-                      <option value="010">010</option>
-                      <option value="011">011</option>
-                      <option value="012">012</option>
-                      <option value="013">013</option>
-                      <option value="016">016</option>
-                      <option value="017">017</option>
-                      <option value="018">018</option>
-                      <option value="019">019</option>
-                      <option value="0505">0505</option>
-                  </select>
-                  <span><!--bar--></span>
-                   <input type="text" name="" id="tel_02" value="" equired placeholder="3~4자리 번호"/>
-                   <span><!--bar--></span>
-                   <input type="text" name="" id="tel_03" value="" equired placeholder="4자리 번호"/>
-                   <label for="tel_02" class="me_hidden">휴대폰번호 가운데 셋 또는 네자리를 입력하세요</label>
-                   <label for="tel_03" class="me_hidden">휴대폰번호 마지막 네자리를 입력하세요</label>
-                   <p>( * 상담을 원하시는 고객님께서는 연락처를 반드시 기재해 주시기 바랍니다.)</p>
-                   </li>
-
-                <li><input type="email" id="question_09" name="" value="" equired placeholder="이메일" />
-                   <span>@</span>
-                   <input type="email" id="question_09_2" name="" value="" equired  placeholder="이메일 나머지 주소"/>
-                   </li>
-               </ul>
+                           <li class="box_1"><label for="question_01" class="me_hidden">이름</label></li>
+                           <li class="box_2"><label for="question_02" class="me_hidden">아이디</label></li>
+                           <li class="box_3"><label for="question_03" class="me_hidden">비밀번호</label></li>
+                           <li class="box_4"><label for="question_04" class="me_hidden">비밀번호 확인</label></li>
+                           <li class="box_5"><label for="question_05" class="me_hidden">생일/성별</label></li>
+                           <li class="box_6"><label for="question_06" class="me_hidden">우편번호</label></li>
+                           <li class="box_7"><label for="question_07" class="me_hidden">집주소</label></li>
+                           <li class="box_8"><label for="question_08" class="me_hidden">연락처</label></li>
+                           <li class="box_9"><label for="question_09" class="me_hidden">이메일</label></li>
+                        </ol>
+                        <ul class="inputBox">
+                            <li>
+                            <input type="text" id="question_01" name="" value="" required placeholder="성명" />
+                           </li>
+                             <li><input type="text" id="question_02" name="" value="" required placeholder="아이디" />
+                            <button type="button" name="" id="idCheck"></button>
+                            <label for="idCheck" class="me_hidden">중복확인</label>
+                            </li>
+                            <li><input type="password" id="question_03" name="" value="" required placeholder="비밀번호" />
+                            <label for="password"><span class="me_hidden">비밀번호</span>
+                            <span class="me_hidden">5~15자리 사이의 비밀번호를 입력하세요.</span>
+                            </label></li>
+                            <li><input type="password" id="question_04" name="" value="" required placeholder="비밀번호 확인" />
+                              <label for="password_confirm"><span class="me_hidden">패스워드확인</span>
+                               <span class="me_hidden">다시 한번 패스워드를 입력하세요.(비밀번호 확인용입니다)</span>
+                            </label></li>
+                            <li>
+                                <select name="" id="question_05">
+                                   <option value="select">선택하세요</option>
+                                </select>
+                                <label for="year">년</label>
+                                <select name="" id="question_05_1">
+                                  <option value="select">선택하세요</option>
+                                  <option value="01">01</option>
+                                  <option value="02">02</option>
+                                  <option value="03">03</option>
+                                  <option value="04">04</option>
+                                  <option value="05">05</option>
+                                  <option value="06">06</option>
+                                  <option value="07">07</option>
+                                  <option value="08">08</option>
+                                  <option value="09">09</option>
+                                  <option value="10">10</option>
+                                  <option value="11">11</option>
+                                  <option value="12">12</option>
+                                </select>
+                                <label for="month">월</label>
+                                <select name="" id="question_05_2">
+                                  <option value="select">선택하세요</option>
+                                </select>
+                                <label for="day">일</label>
+                            </li> 
+                            <li>
+                                <input type="text" name="" id="question_06" value=""/>
+                                <span><!--bar--></span>
+                                <input type="text" name="" id="question_06_1" value=""/>
+                                <label for="question_06_1"></label>
+                                <button type="button" name="" id="idCheck_question_06"></button>
+                                <label for="idCheck_question_06" class="me_hidden"></label>
+                            </li>
+                            <li>
+                                <input type="text" id="question_07" name="" value="" required placeholder="주소" />
+                            </li>
+                            <li>
+                               <select name="" id="question_08">
+                               <option value="010">010</option>
+                               <option value="011">011</option>
+                               <option value="012">012</option>
+                               <option value="013">013</option>
+                               <option value="016">016</option>
+                               <option value="017">017</option>
+                               <option value="018">018</option>
+                               <option value="019">019</option>
+                               <option value="0505">0505</option>
+                               </select>
+                               <span><!--bar--></span>
+                               <input type="text" name="" id="tel_02" value="" equired placeholder="3~4자리 번호"/>
+                               <span><!--bar--></span>
+                               <input type="text" name="" id="tel_03" value="" equired placeholder="4자리 번호"/>
+                               <label for="tel_02" class="me_hidden">휴대폰번호 가운데 셋 또는 네자리를 입력하세요</label>
+                               <label for="tel_03" class="me_hidden">휴대폰번호 마지막 네자리를 입력하세요</label>
+                               <p>( * 상담을 원하시는 고객님께서는 연락처를 반드시 기재해 주시기 바랍니다.)</p>
+                            </li>
+                            <li>
+                                <input type="email" id="question_09" name="" value="" equired placeholder="이메일" />
+                                <span>@</span>
+                                <input type="email" id="question_09_2" name="" value="" equired  placeholder="이메일 나머지 주소"/>
+                            </li>
+                        </ul>
                         </fieldset> 
-           
                         <div class="form_join_btn">
                             <button type="button"><span class="me_hidden">가입완료</span></button>     
                             <button type="reset"><span class="me_hidden">초기화</span></button> 
